@@ -1,0 +1,9 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - heading "WaiverFlow" [level=1] [ref=e7]
+    - paragraph [ref=e8]: State-accurate lien waivers in 60 seconds. Built for subcontractors on QuickBooks — no Procore, no $400/month platform, no lawyer on retainer.
+  - generic [ref=e9]:
+    - generic [ref=e10]: Step 1 · Your state
+    - generic [ref=e11]:
+      - button "California" [ref=e12] [cursor=pointer]
+      - button "Texas" [ref=e13] [cursor=pointer]

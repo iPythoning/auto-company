@@ -1,0 +1,16 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - heading "WaiverFlow" [level=1] [ref=e7]
+    - paragraph [ref=e8]: Lien waivers in 60 seconds — the statutory form for your state, filled in and ready to sign. Built for subcontractors who run on QuickBooks, not a $400/month platform like Procore.
+  - generic [ref=e9]:
+    - generic [ref=e10]: Step 1 · Your state
+    - generic [ref=e11]:
+      - button "California" [ref=e12] [cursor=pointer]
+      - button "Texas" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e15]: Need another state?
+    - paragraph [ref=e16]: California & Texas are live. Tell us where you work and we’ll notify you the day your state’s statutory waivers ship — and what’s slowing you down on waivers today.
+    - generic [ref=e17]:
+      - textbox "Your email" [ref=e18]:
+        - /placeholder: you@yourcompany.com
+      - button "Notify me" [disabled] [ref=e19]

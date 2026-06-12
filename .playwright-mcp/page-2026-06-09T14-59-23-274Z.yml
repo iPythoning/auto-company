@@ -1,0 +1,139 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - heading "WaiverFlow" [level=1] [ref=e7]
+    - paragraph [ref=e8]: Lien waivers in 60 seconds — the statutory form for your state, filled in and ready to sign. Built for subcontractors who run on QuickBooks, not a $400/month platform like Procore.
+  - region "Why WaiverFlow" [ref=e9]:
+    - generic [ref=e10]: Why WaiverFlow
+    - paragraph [ref=e11]: Lien-waiver tools are usually bolted onto a paid construction-payment platform — an account, a company profile, your documents on their servers. WaiverFlow does one thing, free, in your browser.
+    - table [ref=e12]:
+      - row "WaiverFlow Typical paid platform" [ref=e13]:
+        - columnheader [ref=e14]
+        - columnheader "WaiverFlow" [ref=e15]
+        - columnheader "Typical paid platform" [ref=e16]
+      - row "Price Free — every form, every time Paid plans to manage waivers" [ref=e17]:
+        - rowheader "Price" [ref=e18]
+        - cell "Free — every form, every time" [ref=e19]:
+          - generic [ref=e20]: ✓
+          - text: Free — every form, every time
+        - cell "Paid plans to manage waivers" [ref=e21]:
+          - generic [ref=e22]: ·
+          - text: Paid plans to manage waivers
+      - row "Sign-up None — start typing now Account & company profile required" [ref=e23]:
+        - rowheader "Sign-up" [ref=e24]
+        - cell "None — start typing now" [ref=e25]:
+          - generic [ref=e26]: ✓
+          - text: None — start typing now
+        - cell "Account & company profile required" [ref=e27]:
+          - generic [ref=e28]: ·
+          - text: Account & company profile required
+      - row "Your data Stays in your browser, never uploaded Stored on their servers" [ref=e29]:
+        - rowheader "Your data" [ref=e30]
+        - cell "Stays in your browser, never uploaded" [ref=e31]:
+          - generic [ref=e32]: ✓
+          - text: Stays in your browser, never uploaded
+        - cell "Stored on their servers" [ref=e33]:
+          - generic [ref=e34]: ·
+          - text: Stored on their servers
+      - row "Turnaround ~60 seconds to a signed-ready PDF Onboarding, then per-document flow" [ref=e35]:
+        - rowheader "Turnaround" [ref=e36]
+        - cell "~60 seconds to a signed-ready PDF" [ref=e37]:
+          - generic [ref=e38]: ✓
+          - text: ~60 seconds to a signed-ready PDF
+        - cell "Onboarding, then per-document flow" [ref=e39]:
+          - generic [ref=e40]: ·
+          - text: Onboarding, then per-document flow
+      - row "The form Statutory text reproduced verbatim Platform template" [ref=e41]:
+        - rowheader "The form" [ref=e42]
+        - cell "Statutory text reproduced verbatim" [ref=e43]:
+          - generic [ref=e44]: ✓
+          - text: Statutory text reproduced verbatim
+        - cell "Platform template" [ref=e45]:
+          - generic [ref=e46]: ·
+          - text: Platform template
+    - paragraph [ref=e47]: Comparison describes the typical paid platform model (e.g. Levelset, Procore); confirm current features with each vendor. WaiverFlow renders a document format only — not legal advice.
+  - generic [ref=e48]:
+    - generic [ref=e49]: Step 1 · Your state
+    - generic [ref=e50]:
+      - button "California" [pressed] [ref=e51] [cursor=pointer]
+      - button "Texas" [ref=e52] [cursor=pointer]
+      - button "Florida" [ref=e53] [cursor=pointer]
+  - generic [ref=e67]:
+    - generic [ref=e68]: Step 2 · Waiver type
+    - generic [ref=e69]:
+      - button "Conditional Waiver and Release Upon Progress Payment California Civil Code § 8132" [pressed] [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: Conditional Waiver and Release Upon Progress Payment
+        - generic [ref=e72]: California Civil Code § 8132
+      - button "Unconditional Waiver and Release Upon Progress Payment California Civil Code § 8134" [ref=e73] [cursor=pointer]:
+        - generic [ref=e74]: Unconditional Waiver and Release Upon Progress Payment
+        - generic [ref=e75]: California Civil Code § 8134
+      - button "Conditional Waiver and Release Upon Final Payment California Civil Code § 8136" [ref=e76] [cursor=pointer]:
+        - generic [ref=e77]: Conditional Waiver and Release Upon Final Payment
+        - generic [ref=e78]: California Civil Code § 8136
+      - button "Unconditional Waiver and Release Upon Final Payment California Civil Code § 8138" [ref=e79] [cursor=pointer]:
+        - generic [ref=e80]: Unconditional Waiver and Release Upon Final Payment
+        - generic [ref=e81]: California Civil Code § 8138
+  - generic [ref=e82]:
+    - generic [ref=e83]:
+      - text: Step 3 · Fill in the blanks
+      - generic [ref=e84]: DRAFT · pending attorney review
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]: Name of Claimant *
+        - textbox "Name of Claimant *" [ref=e88]: EDITED NAME
+      - generic [ref=e89]:
+        - generic [ref=e90]: Name of Customer *
+        - textbox "Name of Customer *" [ref=e91]: TEST customerName
+      - generic [ref=e92]:
+        - generic [ref=e93]: Job Location *
+        - textbox "Job Location *" [ref=e94]: TEST jobLocation
+      - generic [ref=e95]:
+        - generic [ref=e96]: Owner *
+        - textbox "Owner *" [ref=e97]: TEST owner
+      - generic [ref=e98]:
+        - generic [ref=e99]: Through Date *
+        - textbox "Through Date *" [ref=e100]: 2026-06-15
+      - generic [ref=e101]:
+        - generic [ref=e102]: Maker of Check *
+        - textbox "Maker of Check *" [ref=e103]: TEST makerOfCheck
+      - generic [ref=e104]:
+        - generic [ref=e105]: Amount of Check *
+        - textbox "Amount of Check *" [ref=e106]: TEST amountOfCheck
+      - generic [ref=e107]:
+        - generic [ref=e108]: Check Payable to *
+        - textbox "Check Payable to *" [ref=e109]: TEST checkPayableTo
+      - generic [ref=e110]:
+        - generic [ref=e111]: Claimant's Title *
+        - textbox "Claimant's Title *" [ref=e112]: TEST claimantTitle
+      - generic [ref=e113]:
+        - generic [ref=e114]: Date of Signature *
+        - textbox "Date of Signature *" [ref=e115]: 2026-06-15
+    - generic [ref=e116]:
+      - checkbox "I understand WaiverFlow renders a document format only — it does not provide legal advice, verify my legal rights, or guarantee compliance. I am responsible for choosing the correct waiver and confirming it against current California Civil Code § 8132." [checked] [ref=e117]
+      - generic [ref=e118]: I understand WaiverFlow renders a document format only — it does not provide legal advice, verify my legal rights, or guarantee compliance. I am responsible for choosing the correct waiver and confirming it against current California Civil Code § 8132.
+    - button "Refresh preview" [ref=e128] [cursor=pointer]
+    - paragraph [ref=e120]: Generated entirely in your browser. Nothing is uploaded. California Civil Code § 8132 reproduced verbatim.
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]: Preview — this is exactly what downloads
+        - button "↓ Download PDF" [ref=e132] [cursor=pointer]
+      - iframe [ref=e133]:
+        
+  - generic [ref=e54]:
+    - generic [ref=e55]: Need another state?
+    - paragraph [ref=e56]: California, Texas & Florida are live. Tell us where you work and we’ll notify you the day your state’s statutory waivers ship — and what’s slowing you down on waivers today.
+    - generic [ref=e57]:
+      - textbox "Your email" [ref=e58]:
+        - /placeholder: you@yourcompany.com
+      - button "Notify me" [disabled] [ref=e59]
+  - generic [ref=e60]:
+    - generic [ref=e61]: Learn
+    - link "How to fill out a California lien waiver — step by step →" [ref=e62] [cursor=pointer]:
+      - /url: /waiverflow/guide/how-to-fill-out-california-lien-waiver/
+    - link "Conditional vs. unconditional lien waiver — which to sign, and when →" [ref=e63] [cursor=pointer]:
+      - /url: /waiverflow/guide/conditional-vs-unconditional-lien-waiver/
+    - link "Texas lien waiver form (Property Code §53.284) — all four forms, how to fill them out →" [ref=e64] [cursor=pointer]:
+      - /url: /waiverflow/guide/texas-lien-waiver-form-53-284/
+    - link "Florida lien waiver form (§713.20) — why both forms are unconditional →" [ref=e65] [cursor=pointer]:
+      - /url: /waiverflow/guide/florida-lien-waiver-713-20/
+    - link "Do I need a lien waiver to get paid? — why payment is tied to waivers →" [ref=e66] [cursor=pointer]:
+      - /url: /waiverflow/guide/do-i-need-a-lien-waiver-to-get-paid/

@@ -1,0 +1,64 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - heading "WaiverFlow" [level=1] [ref=e7]
+    - paragraph [ref=e8]: State-accurate lien waivers in 60 seconds. Built for subcontractors on QuickBooks — no Procore, no $400/month platform, no lawyer on retainer.
+  - generic [ref=e9]:
+    - generic [ref=e10]: Step 1 · Your state
+    - generic [ref=e11]:
+      - button "California" [pressed] [ref=e12] [cursor=pointer]
+      - button "Texas" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e15]: Step 2 · Waiver type
+    - generic [ref=e16]:
+      - button "Conditional Waiver and Release Upon Progress Payment California Civil Code § 8132" [active] [pressed] [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: Conditional Waiver and Release Upon Progress Payment
+        - generic [ref=e19]: California Civil Code § 8132
+      - button "Unconditional Waiver and Release Upon Progress Payment California Civil Code § 8134" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: Unconditional Waiver and Release Upon Progress Payment
+        - generic [ref=e22]: California Civil Code § 8134
+      - button "Conditional Waiver and Release Upon Final Payment California Civil Code § 8136" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: Conditional Waiver and Release Upon Final Payment
+        - generic [ref=e25]: California Civil Code § 8136
+      - button "Unconditional Waiver and Release Upon Final Payment California Civil Code § 8138" [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]: Unconditional Waiver and Release Upon Final Payment
+        - generic [ref=e28]: California Civil Code § 8138
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - text: Step 3 · Fill in the blanks
+      - generic [ref=e31]: DRAFT · pending attorney review
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: Name of Claimant *
+        - textbox "Name of Claimant *" [ref=e35]
+      - generic [ref=e36]:
+        - generic [ref=e37]: Name of Customer *
+        - textbox "Name of Customer *" [ref=e38]
+      - generic [ref=e39]:
+        - generic [ref=e40]: Job Location *
+        - textbox "Job Location *" [ref=e41]
+      - generic [ref=e42]:
+        - generic [ref=e43]: Owner *
+        - textbox "Owner *" [ref=e44]
+      - generic [ref=e45]:
+        - generic [ref=e46]: Through Date *
+        - textbox "Through Date *" [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]: Maker of Check *
+        - textbox "Maker of Check *" [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]: Amount of Check *
+        - textbox "Amount of Check *" [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e55]: Check Payable to *
+        - textbox "Check Payable to *" [ref=e56]
+      - generic [ref=e57]:
+        - generic [ref=e58]: Claimant's Title *
+        - textbox "Claimant's Title *" [ref=e59]
+      - generic [ref=e60]:
+        - generic [ref=e61]: Date of Signature *
+        - textbox "Date of Signature *" [ref=e62]
+    - generic [ref=e63]:
+      - checkbox "I understand WaiverFlow renders a document format only — it does not provide legal advice, verify my legal rights, or guarantee compliance. I am responsible for choosing the correct waiver and confirming it against current California Civil Code § 8132." [ref=e64]
+      - generic [ref=e65]: I understand WaiverFlow renders a document format only — it does not provide legal advice, verify my legal rights, or guarantee compliance. I am responsible for choosing the correct waiver and confirming it against current California Civil Code § 8132.
+    - button "Generate & download PDF" [disabled] [ref=e66]
+    - paragraph [ref=e67]: Generated entirely in your browser. Nothing is uploaded. California Civil Code § 8132 reproduced verbatim.

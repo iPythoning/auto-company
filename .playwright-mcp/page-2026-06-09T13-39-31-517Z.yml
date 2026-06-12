@@ -1,0 +1,76 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - heading "WaiverFlow" [level=1] [ref=e7]
+    - paragraph [ref=e8]: Lien waivers in 60 seconds — the statutory form for your state, filled in and ready to sign. Built for subcontractors who run on QuickBooks, not a $400/month platform like Procore.
+  - region "Why WaiverFlow" [ref=e9]:
+    - generic [ref=e10]: Why WaiverFlow
+    - paragraph [ref=e11]: Lien-waiver tools are usually bolted onto a paid construction-payment platform — an account, a company profile, your documents on their servers. WaiverFlow does one thing, free, in your browser.
+    - table [ref=e12]:
+      - row "WaiverFlow Typical paid platform" [ref=e13]:
+        - columnheader [ref=e14]
+        - columnheader "WaiverFlow" [ref=e15]
+        - columnheader "Typical paid platform" [ref=e16]
+      - row "Price Free — every form, every time Paid plans to manage waivers" [ref=e17]:
+        - rowheader "Price" [ref=e18]
+        - cell "Free — every form, every time" [ref=e19]:
+          - generic [ref=e20]: ✓
+          - text: Free — every form, every time
+        - cell "Paid plans to manage waivers" [ref=e21]:
+          - generic [ref=e22]: ·
+          - text: Paid plans to manage waivers
+      - row "Sign-up None — start typing now Account & company profile required" [ref=e23]:
+        - rowheader "Sign-up" [ref=e24]
+        - cell "None — start typing now" [ref=e25]:
+          - generic [ref=e26]: ✓
+          - text: None — start typing now
+        - cell "Account & company profile required" [ref=e27]:
+          - generic [ref=e28]: ·
+          - text: Account & company profile required
+      - row "Your data Stays in your browser, never uploaded Stored on their servers" [ref=e29]:
+        - rowheader "Your data" [ref=e30]
+        - cell "Stays in your browser, never uploaded" [ref=e31]:
+          - generic [ref=e32]: ✓
+          - text: Stays in your browser, never uploaded
+        - cell "Stored on their servers" [ref=e33]:
+          - generic [ref=e34]: ·
+          - text: Stored on their servers
+      - row "Turnaround ~60 seconds to a signed-ready PDF Onboarding, then per-document flow" [ref=e35]:
+        - rowheader "Turnaround" [ref=e36]
+        - cell "~60 seconds to a signed-ready PDF" [ref=e37]:
+          - generic [ref=e38]: ✓
+          - text: ~60 seconds to a signed-ready PDF
+        - cell "Onboarding, then per-document flow" [ref=e39]:
+          - generic [ref=e40]: ·
+          - text: Onboarding, then per-document flow
+      - row "The form Statutory text reproduced verbatim Platform template" [ref=e41]:
+        - rowheader "The form" [ref=e42]
+        - cell "Statutory text reproduced verbatim" [ref=e43]:
+          - generic [ref=e44]: ✓
+          - text: Statutory text reproduced verbatim
+        - cell "Platform template" [ref=e45]:
+          - generic [ref=e46]: ·
+          - text: Platform template
+    - paragraph [ref=e47]: Comparison describes the typical paid platform model (e.g. Levelset, Procore); confirm current features with each vendor. WaiverFlow renders a document format only — not legal advice.
+  - generic [ref=e48]:
+    - generic [ref=e49]: Step 1 · Your state
+    - generic [ref=e50]:
+      - button "California" [ref=e51] [cursor=pointer]
+      - button "Texas" [ref=e52] [cursor=pointer]
+      - button "Florida" [ref=e53] [cursor=pointer]
+  - generic [ref=e54]:
+    - generic [ref=e55]: Need another state?
+    - paragraph [ref=e56]: California, Texas & Florida are live. Tell us where you work and we’ll notify you the day your state’s statutory waivers ship — and what’s slowing you down on waivers today.
+    - generic [ref=e57]:
+      - textbox "Your email" [ref=e58]:
+        - /placeholder: you@yourcompany.com
+      - button "Notify me" [disabled] [ref=e59]
+  - generic [ref=e60]:
+    - generic [ref=e61]: Learn
+    - link "How to fill out a California lien waiver — step by step →" [ref=e62] [cursor=pointer]:
+      - /url: /waiverflow/guide/how-to-fill-out-california-lien-waiver/
+    - link "Conditional vs. unconditional lien waiver — which to sign, and when →" [ref=e63] [cursor=pointer]:
+      - /url: /waiverflow/guide/conditional-vs-unconditional-lien-waiver/
+    - link "Texas lien waiver form (Property Code §53.284) — how to fill it out →" [ref=e64] [cursor=pointer]:
+      - /url: /waiverflow/guide/texas-lien-waiver-form-53-284/
+    - link "Do I need a lien waiver to get paid? — why payment is tied to waivers →" [ref=e65] [cursor=pointer]:
+      - /url: /waiverflow/guide/do-i-need-a-lien-waiver-to-get-paid/

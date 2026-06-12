@@ -1,0 +1,298 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - text: ⚖️
+    - strong [ref=e3]: Informational reference only — not legal advice.
+    - text: Deadlines depend on your facts; always confirm with a licensed attorney.
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: LIEN DEADLINES
+      - heading "Mechanics lien deadlines, by state and by role." [level=1] [ref=e8]
+      - paragraph [ref=e9]: Statute-cited preliminary-notice, recording, and foreclosure deadlines for the states we cover — plus a calculator that turns your project dates into the dates that matter. Free, open data, no signup.
+      - generic [ref=e10]:
+        - generic [ref=e11]: CA · California
+        - generic [ref=e12]: TX · Texas
+        - generic [ref=e13]: FL · Florida
+        - generic [ref=e14]: More states in progress
+  - navigation [ref=e15]:
+    - generic [ref=e16]:
+      - link "Calculator" [ref=e17] [cursor=pointer]:
+        - /url: "#calculator"
+      - link "State Reference" [ref=e18] [cursor=pointer]:
+        - /url: "#reference"
+      - link "Open Data" [ref=e19] [cursor=pointer]:
+        - /url: "#data"
+      - link "Disclaimer" [ref=e20] [cursor=pointer]:
+        - /url: "#disclaimer"
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: Deadline Calculator
+      - heading "Enter your project dates." [level=2] [ref=e24]
+      - paragraph [ref=e25]:
+        - text: Pick your state, your role, and the project type, then enter the trigger date. The calculator applies the standard statutory period — it does
+        - strong [ref=e26]: not
+        - text: account for weekends/holidays, notices recorded by others, tolling, or your specific contract. Treat every result as a date to verify, not a date to rely on.
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: State
+              - combobox "State" [ref=e32]:
+                - option "California" [selected]
+                - option "Texas"
+                - option "Florida"
+            - generic [ref=e33]:
+              - generic [ref=e34]: Your role
+              - combobox "Your role" [ref=e35]:
+                - option "Direct (prime) contractor" [selected]
+                - option "Subcontractor / supplier"
+            - generic [ref=e36]:
+              - generic [ref=e37]: Project type (affects Texas only)
+              - generic [ref=e38]:
+                - button "Commercial" [pressed] [ref=e39] [cursor=pointer]
+                - button "Residential" [ref=e40] [cursor=pointer]
+            - generic [ref=e41]:
+              - generic [ref=e42]: First furnished labor/materials
+              - textbox "First furnished labor/materials" [ref=e43]
+            - generic [ref=e44]:
+              - generic [ref=e45]: Last furnished / completion date
+              - textbox "Last furnished / completion date" [ref=e46]
+          - paragraph [ref=e48]: Enter your dates to see deadlines.
+        - generic [ref=e49]: Calendar math only. "15th day of the Nth month" rules (Texas) are computed from the month of the trigger date. Verify every date against the current statute and a licensed attorney before acting.
+    - generic [ref=e50]:
+      - generic [ref=e51]: State Reference
+      - heading "The deadlines, with citations." [level=2] [ref=e52]
+      - paragraph [ref=e53]: Every period below is tied to the statute that creates it. These are the load-bearing dates in a private-works mechanics lien; missing one usually forfeits the remedy.
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: CA
+            - heading "California" [level=3] [ref=e58]
+            - generic [ref=e59]: California Civil Code §8000 et seq. (private works)
+          - table "Direct (prime) contractor" [ref=e60]:
+            - caption [ref=e61]: Direct (prime) contractor
+            - rowgroup [ref=e62]:
+              - row "Deadline Period Statute Trigger & notes" [ref=e63]:
+                - columnheader "Deadline" [ref=e64]
+                - columnheader "Period" [ref=e65]
+                - columnheader "Statute" [ref=e66]
+                - columnheader "Trigger & notes" [ref=e67]
+            - rowgroup [ref=e68]:
+              - row "Preliminary Notice 20 days Civil Code §8200 first furnishing labor or materials A late notice only reaches back 20 days from when it is served." [ref=e69]:
+                - cell "Preliminary Notice" [ref=e70]:
+                  - strong [ref=e71]: Preliminary Notice
+                - cell "20 days" [ref=e72]
+                - cell "Civil Code §8200" [ref=e73]
+                - cell "first furnishing labor or materials A late notice only reaches back 20 days from when it is served." [ref=e74]:
+                  - text: first furnishing labor or materials
+                  - generic [ref=e75]: A late notice only reaches back 20 days from when it is served.
+              - row "Record Claim of Lien 60–90 days Civil Code §8412, §8414 completion of the work of improvement 90 days after completion. If the owner records a Notice of Completion or Cessation, a direct contractor has only 60 days." [ref=e76]:
+                - cell "Record Claim of Lien" [ref=e77]:
+                  - strong [ref=e78]: Record Claim of Lien
+                - cell "60–90 days" [ref=e79]
+                - cell "Civil Code §8412, §8414" [ref=e80]
+                - cell "completion of the work of improvement 90 days after completion. If the owner records a Notice of Completion or Cessation, a direct contractor has only 60 days." [ref=e81]:
+                  - text: completion of the work of improvement
+                  - generic [ref=e82]: 90 days after completion. If the owner records a Notice of Completion or Cessation, a direct contractor has only 60 days.
+              - row "Foreclosure Lawsuit 90 days Civil Code §8460 recording the claim of lien This period cannot be tolled or extended." [ref=e83]:
+                - cell "Foreclosure Lawsuit" [ref=e84]:
+                  - strong [ref=e85]: Foreclosure Lawsuit
+                - cell "90 days" [ref=e86]
+                - cell "Civil Code §8460" [ref=e87]
+                - cell "recording the claim of lien This period cannot be tolled or extended." [ref=e88]:
+                  - text: recording the claim of lien
+                  - generic [ref=e89]: This period cannot be tolled or extended.
+          - table "Subcontractor / supplier" [ref=e90]:
+            - caption [ref=e91]: Subcontractor / supplier
+            - rowgroup [ref=e92]:
+              - row "Deadline Period Statute Trigger & notes" [ref=e93]:
+                - columnheader "Deadline" [ref=e94]
+                - columnheader "Period" [ref=e95]
+                - columnheader "Statute" [ref=e96]
+                - columnheader "Trigger & notes" [ref=e97]
+            - rowgroup [ref=e98]:
+              - row "Preliminary Notice 20 days Civil Code §8200, §8204 first furnishing labor or materials A late notice only reaches back 20 days from when it is served." [ref=e99]:
+                - cell "Preliminary Notice" [ref=e100]:
+                  - strong [ref=e101]: Preliminary Notice
+                - cell "20 days" [ref=e102]
+                - cell "Civil Code §8200, §8204" [ref=e103]
+                - cell "first furnishing labor or materials A late notice only reaches back 20 days from when it is served." [ref=e104]:
+                  - text: first furnishing labor or materials
+                  - generic [ref=e105]: A late notice only reaches back 20 days from when it is served.
+              - row "Record Claim of Lien 30–90 days Civil Code §8412, §8414 completion of the work of improvement 90 days after completion. If the owner records a Notice of Completion or Cessation, a subcontractor has only 30 days." [ref=e106]:
+                - cell "Record Claim of Lien" [ref=e107]:
+                  - strong [ref=e108]: Record Claim of Lien
+                - cell "30–90 days" [ref=e109]
+                - cell "Civil Code §8412, §8414" [ref=e110]
+                - cell "completion of the work of improvement 90 days after completion. If the owner records a Notice of Completion or Cessation, a subcontractor has only 30 days." [ref=e111]:
+                  - text: completion of the work of improvement
+                  - generic [ref=e112]: 90 days after completion. If the owner records a Notice of Completion or Cessation, a subcontractor has only 30 days.
+              - row "Foreclosure Lawsuit 90 days Civil Code §8460 recording the claim of lien This period cannot be tolled or extended." [ref=e113]:
+                - cell "Foreclosure Lawsuit" [ref=e114]:
+                  - strong [ref=e115]: Foreclosure Lawsuit
+                - cell "90 days" [ref=e116]
+                - cell "Civil Code §8460" [ref=e117]
+                - cell "recording the claim of lien This period cannot be tolled or extended." [ref=e118]:
+                  - text: recording the claim of lien
+                  - generic [ref=e119]: This period cannot be tolled or extended.
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: TX
+            - heading "Texas" [level=3] [ref=e123]
+            - generic [ref=e124]: Texas Property Code Chapter 53
+          - paragraph [ref=e125]: Deadlines below reflect the rules for prime contracts entered into on or after January 1, 2022.
+          - table "Original (prime) contractor" [ref=e126]:
+            - caption [ref=e127]: Original (prime) contractor
+            - rowgroup [ref=e128]:
+              - row "Deadline Period Statute Trigger & notes" [ref=e129]:
+                - columnheader "Deadline" [ref=e130]
+                - columnheader "Period" [ref=e131]
+                - columnheader "Statute" [ref=e132]
+                - columnheader "Trigger & notes" [ref=e133]
+            - rowgroup [ref=e134]:
+              - row "File Lien Affidavit 15th day of the 4th month (commercial) / 3rd month (residential) Property Code §53.052 month of last labor or materials furnished Original contractors are not required to send monthly pre-lien notices; the affidavit must still be recorded by this deadline." [ref=e135]:
+                - cell "File Lien Affidavit" [ref=e136]:
+                  - strong [ref=e137]: File Lien Affidavit
+                - cell "15th day of the 4th month (commercial) / 3rd month (residential)" [ref=e138]
+                - cell "Property Code §53.052" [ref=e139]
+                - cell "month of last labor or materials furnished Original contractors are not required to send monthly pre-lien notices; the affidavit must still be recorded by this deadline." [ref=e140]:
+                  - text: month of last labor or materials furnished
+                  - generic [ref=e141]: Original contractors are not required to send monthly pre-lien notices; the affidavit must still be recorded by this deadline.
+              - row "Foreclosure Lawsuit 1 year Property Code §53.158 last day a claimant could file the lien affidavit Reduced from 2 years to 1 year for projects on or after 2022-01-01. The period may be extended to 2 years only by written agreement with the current owner." [ref=e142]:
+                - cell "Foreclosure Lawsuit" [ref=e143]:
+                  - strong [ref=e144]: Foreclosure Lawsuit
+                - cell "1 year" [ref=e145]
+                - cell "Property Code §53.158" [ref=e146]
+                - cell "last day a claimant could file the lien affidavit Reduced from 2 years to 1 year for projects on or after 2022-01-01. The period may be extended to 2 years only by written agreement with the current owner." [ref=e147]:
+                  - text: last day a claimant could file the lien affidavit
+                  - generic [ref=e148]: Reduced from 2 years to 1 year for projects on or after 2022-01-01. The period may be extended to 2 years only by written agreement with the current owner.
+          - table "Subcontractor / supplier" [ref=e149]:
+            - caption [ref=e150]: Subcontractor / supplier
+            - rowgroup [ref=e151]:
+              - row "Deadline Period Statute Trigger & notes" [ref=e152]:
+                - columnheader "Deadline" [ref=e153]
+                - columnheader "Period" [ref=e154]
+                - columnheader "Statute" [ref=e155]
+                - columnheader "Trigger & notes" [ref=e156]
+            - rowgroup [ref=e157]:
+              - row "Monthly Pre-Lien Notice (Fund-Trapping Notice) 15th day of the 3rd month Property Code §53.056 each month unpaid labor or materials furnished The statute contemplates a separate notice for each unpaid month; the notice allows the owner to trap funds otherwise owed to the general contractor." [ref=e158]:
+                - cell "Monthly Pre-Lien Notice (Fund-Trapping Notice)" [ref=e159]:
+                  - strong [ref=e160]: Monthly Pre-Lien Notice (Fund-Trapping Notice)
+                - cell "15th day of the 3rd month" [ref=e161]
+                - cell "Property Code §53.056" [ref=e162]
+                - cell "each month unpaid labor or materials furnished The statute contemplates a separate notice for each unpaid month; the notice allows the owner to trap funds otherwise owed to the general contractor." [ref=e163]:
+                  - text: each month unpaid labor or materials furnished
+                  - generic [ref=e164]: The statute contemplates a separate notice for each unpaid month; the notice allows the owner to trap funds otherwise owed to the general contractor.
+              - 'row "File Lien Affidavit 15th day of the 4th month (commercial) / 3rd month (residential) Property Code §53.052 month of last labor or materials furnished Commercial: 15th day of the 4th calendar month. Residential: 15th day of the 3rd calendar month." [ref=e165]':
+                - cell "File Lien Affidavit" [ref=e166]:
+                  - strong [ref=e167]: File Lien Affidavit
+                - cell "15th day of the 4th month (commercial) / 3rd month (residential)" [ref=e168]
+                - cell "Property Code §53.052" [ref=e169]
+                - 'cell "month of last labor or materials furnished Commercial: 15th day of the 4th calendar month. Residential: 15th day of the 3rd calendar month." [ref=e170]':
+                  - text: month of last labor or materials furnished
+                  - generic [ref=e171]: "Commercial: 15th day of the 4th calendar month. Residential: 15th day of the 3rd calendar month."
+              - row "Foreclosure Lawsuit 1 year Property Code §53.158 last day a claimant could file the lien affidavit Reduced from 2 years to 1 year for projects on or after 2022-01-01." [ref=e172]:
+                - cell "Foreclosure Lawsuit" [ref=e173]:
+                  - strong [ref=e174]: Foreclosure Lawsuit
+                - cell "1 year" [ref=e175]
+                - cell "Property Code §53.158" [ref=e176]
+                - cell "last day a claimant could file the lien affidavit Reduced from 2 years to 1 year for projects on or after 2022-01-01." [ref=e177]:
+                  - text: last day a claimant could file the lien affidavit
+                  - generic [ref=e178]: Reduced from 2 years to 1 year for projects on or after 2022-01-01.
+        - generic [ref=e179]:
+          - generic [ref=e180]:
+            - generic [ref=e181]: FL
+            - heading "Florida" [level=3] [ref=e182]
+            - generic [ref=e183]: Florida Statutes Chapter 713 (Construction Liens)
+          - table "Contractor in privity with owner" [ref=e184]:
+            - caption [ref=e185]: Contractor in privity with owner
+            - rowgroup [ref=e186]:
+              - row "Deadline Period Statute Trigger & notes" [ref=e187]:
+                - columnheader "Deadline" [ref=e188]
+                - columnheader "Period" [ref=e189]
+                - columnheader "Statute" [ref=e190]
+                - columnheader "Trigger & notes" [ref=e191]
+            - rowgroup [ref=e192]:
+              - row "Record Claim of Lien 90 days Fla. Stat. §713.08 final furnishing of labor or materials Warranty, punch-list, or remedial work does NOT extend the 90-day clock." [ref=e193]:
+                - cell "Record Claim of Lien" [ref=e194]:
+                  - strong [ref=e195]: Record Claim of Lien
+                - cell "90 days" [ref=e196]
+                - cell "Fla. Stat. §713.08" [ref=e197]
+                - cell "final furnishing of labor or materials Warranty, punch-list, or remedial work does NOT extend the 90-day clock." [ref=e198]:
+                  - text: final furnishing of labor or materials
+                  - generic [ref=e199]: Warranty, punch-list, or remedial work does NOT extend the 90-day clock.
+              - row "Foreclosure Lawsuit 1 year Fla. Stat. §713.22 recording the claim of lien A Notice of Contest of Lien recorded by the owner can shorten this period to 60 days." [ref=e200]:
+                - cell "Foreclosure Lawsuit" [ref=e201]:
+                  - strong [ref=e202]: Foreclosure Lawsuit
+                - cell "1 year" [ref=e203]
+                - cell "Fla. Stat. §713.22" [ref=e204]
+                - cell "recording the claim of lien A Notice of Contest of Lien recorded by the owner can shorten this period to 60 days." [ref=e205]:
+                  - text: recording the claim of lien
+                  - generic [ref=e206]: A Notice of Contest of Lien recorded by the owner can shorten this period to 60 days.
+          - table "Subcontractor / supplier (not in privity)" [ref=e207]:
+            - caption [ref=e208]: Subcontractor / supplier (not in privity)
+            - rowgroup [ref=e209]:
+              - row "Deadline Period Statute Trigger & notes" [ref=e210]:
+                - columnheader "Deadline" [ref=e211]
+                - columnheader "Period" [ref=e212]
+                - columnheader "Statute" [ref=e213]
+                - columnheader "Trigger & notes" [ref=e214]
+            - rowgroup [ref=e215]:
+              - row "Notice to Owner (NTO) 45 days Fla. Stat. §713.06 first furnishing labor or materials Service is required within 45 days of first furnishing and before the owner makes final payment; failure to serve the NTO forfeits lien rights." [ref=e216]:
+                - cell "Notice to Owner (NTO)" [ref=e217]:
+                  - strong [ref=e218]: Notice to Owner (NTO)
+                - cell "45 days" [ref=e219]
+                - cell "Fla. Stat. §713.06" [ref=e220]
+                - cell "first furnishing labor or materials Service is required within 45 days of first furnishing and before the owner makes final payment; failure to serve the NTO forfeits lien rights." [ref=e221]:
+                  - text: first furnishing labor or materials
+                  - generic [ref=e222]: Service is required within 45 days of first furnishing and before the owner makes final payment; failure to serve the NTO forfeits lien rights.
+              - row "Record Claim of Lien 90 days Fla. Stat. §713.08 final furnishing of labor or materials Warranty, punch-list, or remedial work does NOT extend the 90-day clock." [ref=e223]:
+                - cell "Record Claim of Lien" [ref=e224]:
+                  - strong [ref=e225]: Record Claim of Lien
+                - cell "90 days" [ref=e226]
+                - cell "Fla. Stat. §713.08" [ref=e227]
+                - cell "final furnishing of labor or materials Warranty, punch-list, or remedial work does NOT extend the 90-day clock." [ref=e228]:
+                  - text: final furnishing of labor or materials
+                  - generic [ref=e229]: Warranty, punch-list, or remedial work does NOT extend the 90-day clock.
+              - row "Foreclosure Lawsuit 1 year Fla. Stat. §713.22 recording the claim of lien A Notice of Contest of Lien recorded by the owner can shorten this period to 60 days." [ref=e230]:
+                - cell "Foreclosure Lawsuit" [ref=e231]:
+                  - strong [ref=e232]: Foreclosure Lawsuit
+                - cell "1 year" [ref=e233]
+                - cell "Fla. Stat. §713.22" [ref=e234]
+                - cell "recording the claim of lien A Notice of Contest of Lien recorded by the owner can shorten this period to 60 days." [ref=e235]:
+                  - text: recording the claim of lien
+                  - generic [ref=e236]: A Notice of Contest of Lien recorded by the owner can shorten this period to 60 days.
+    - generic [ref=e237]:
+      - generic [ref=e238]: Open Data
+      - heading "Take the dataset." [level=2] [ref=e239]
+      - paragraph [ref=e240]: The same data behind this page, as structured files. CC BY 4.0 — use it in your own tools, just keep the attribution and the disclaimer.
+      - generic [ref=e241]:
+        - generic [ref=e242]:
+          - generic [ref=e243]: JSON
+          - heading "deadlines.json" [level=3] [ref=e244]
+          - paragraph [ref=e245]: Nested by state → role → deadline, with statute citations, trigger events, and notes. The canonical source.
+          - link "Download JSON" [ref=e246] [cursor=pointer]:
+            - /url: data/deadlines.json
+        - generic [ref=e247]:
+          - generic [ref=e248]: CSV
+          - heading "deadlines.csv" [level=3] [ref=e249]
+          - paragraph [ref=e250]: One row per state/role/deadline. Drop straight into a spreadsheet or BI tool.
+          - link "Download CSV" [ref=e251] [cursor=pointer]:
+            - /url: data/deadlines.csv
+    - generic [ref=e252]:
+      - generic [ref=e253]: Read This
+      - heading "Disclaimer." [level=2] [ref=e254]
+      - generic [ref=e255]:
+        - heading "This is not legal advice." [level=3] [ref=e256]
+        - paragraph [ref=e257]: This site and dataset are provided for general informational purposes only. Nothing here is legal advice, and using this site does not create an attorney-client relationship.
+        - paragraph [ref=e258]: "Mechanics lien deadlines turn on facts this tool cannot know: your exact tier in the contract chain, whether others have recorded notices, weekends and holidays, contract terms, tolling and exceptions, and statutory amendments. Statutes change. The calculator performs plain calendar arithmetic on the standard period — it does not judge which rule applies to your situation."
+        - paragraph [ref=e259]:
+          - text: Before you rely on any date, notice requirement, or strategy,
+          - strong [ref=e260]: verify it against the current statute and consult a licensed attorney
+          - text: in the relevant state. We make no warranty as to accuracy or completeness, and accept no liability for reliance on this information.
+        - paragraph [ref=e261]: "Last verified: 2026-06-10 · Sources: California Civil Code §8000 et seq.; Texas Property Code Ch. 53; Florida Statutes Ch. 713."
+  - contentinfo [ref=e262]:
+    - generic [ref=e263]:
+      - paragraph [ref=e264]:
+        - strong [ref=e265]: Lien Deadlines
+        - text: — a free, open construction-lien deadline reference. Informational only · not legal advice · no signup.
+      - paragraph [ref=e266]: Open data under CC BY 4.0. Found an error in a citation? That matters — corrections welcome.

@@ -1,0 +1,24 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - heading "WaiverFlow" [level=1] [ref=e7]
+    - paragraph [ref=e8]: State-accurate lien waivers in 60 seconds. Built for subcontractors on QuickBooks — no Procore, no $400/month platform, no lawyer on retainer.
+  - generic [ref=e9]:
+    - generic [ref=e10]: Step 1 · Your state
+    - generic [ref=e11]:
+      - button "California" [active] [pressed] [ref=e12] [cursor=pointer]
+      - button "Texas" [ref=e13] [cursor=pointer]
+  - generic [ref=e14]:
+    - generic [ref=e15]: Step 2 · Waiver type
+    - generic [ref=e16]:
+      - button "Conditional Waiver and Release Upon Progress Payment California Civil Code § 8132" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: Conditional Waiver and Release Upon Progress Payment
+        - generic [ref=e19]: California Civil Code § 8132
+      - button "Unconditional Waiver and Release Upon Progress Payment California Civil Code § 8134" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: Unconditional Waiver and Release Upon Progress Payment
+        - generic [ref=e22]: California Civil Code § 8134
+      - button "Conditional Waiver and Release Upon Final Payment California Civil Code § 8136" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: Conditional Waiver and Release Upon Final Payment
+        - generic [ref=e25]: California Civil Code § 8136
+      - button "Unconditional Waiver and Release Upon Final Payment California Civil Code § 8138" [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]: Unconditional Waiver and Release Upon Final Payment
+        - generic [ref=e28]: California Civil Code § 8138
