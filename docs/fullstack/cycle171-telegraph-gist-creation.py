@@ -2,12 +2,15 @@
 """Cycle 171: 创建 4 篇新 Telegraph 文章 + 所有对应 Gists"""
 
 import json
+import os
 import urllib.request
 import urllib.parse
 import subprocess
 import sys
 
-TOKEN = "1f22e6466950d7c1035d43a21ffa73fac50347b5d6af89d8aea9c45a1d24"
+TOKEN = os.environ.get("TELEGRAPH_ACCESS_TOKEN")
+if not TOKEN:
+    raise RuntimeError("TELEGRAPH_ACCESS_TOKEN environment variable not set")
 AUTHOR = "DNS Tools Team"
 DNS_TOOLS_URL = "https://ipythoning.github.io/dns-tools/"
 
