@@ -1,0 +1,1602 @@
+- generic:
+  - banner:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - generic:
+      - link:
+        - /url: /
+        - img
+        - generic: Glama
+      - generic:
+        - navigation:
+          - link:
+            - /url: /mcp/servers
+            - text: Servers
+          - link:
+            - /url: /mcp/connectors
+            - text: Connectors
+          - link:
+            - /url: /mcp/tools
+            - text: Tools
+          - link:
+            - /url: /mcp/clients
+            - text: Clients
+          - link:
+            - /url: /mcp/inspector
+            - text: Inspector
+          - link:
+            - /url: /pricing
+            - text: Pricing
+          - link:
+            - /url: /discord
+            - img
+        - button: Sign Up
+  - generic:
+    - main:
+      - navigation:
+        - generic:
+          - link:
+            - /url: /
+            - text: Glama
+          - img
+        - generic:
+          - link:
+            - /url: /mcp
+            - text: MCP
+          - img
+        - generic:
+          - link:
+            - /url: /mcp/servers
+            - text: Servers
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - text: 34,854 servers. Last updated
+              - time: 2026-06-12 13:33
+        - generic:
+          - generic:
+            - button:
+              - generic: Deep Search
+          - generic:
+            - generic:
+              - generic:
+                - combobox:
+                  - generic: Search Relevance ↓
+                  - img
+            - button:
+              - generic: Add Server
+      - generic:
+        - generic:
+          - img
+          - textbox:
+            - /placeholder: Search for MCP servers, tools, and more
+            - text: domain-monitor-mcp-server
+      - generic:
+        - complementary:
+          - list:
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=hosting%3Aremote-capable
+                - img
+                - text: Remote
+                - generic: 14,915
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=language%3Apython
+                - img
+                - text: Python
+                - generic: 14,568
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=language%3Atypescript
+                - img
+                - text: TypeScript
+                - generic: 11,546
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Adeveloper-tools
+                - img
+                - text: Developer Tools
+                - generic: 10,139
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=hosting%3Alocal-only
+                - img
+                - text: Local
+                - generic: 8,686
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=capability%3Atools
+                - img
+                - text: Tools
+                - generic: 7,369
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=hosting%3Ahybrid
+                - img
+                - text: Hybrid
+                - generic: 6,861
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=author%3Aclaimed
+                - img
+                - text: Claimed
+                - generic: 5,981
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Asearch
+                - img
+                - text: Search
+                - generic: 5,561
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aapp-automation
+                - img
+                - text: App Automation
+                - generic: 4,252
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=capability%3Aresources
+                - img
+                - text: Resources
+                - generic: 3,406
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=capability%3Aprompts
+                - img
+                - text: Prompts
+                - generic: 3,132
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Adatabases
+                - img
+                - text: Databases
+                - generic: 2,636
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aautonomous-agents
+                - img
+                - text: Autonomous Agents
+                - generic: 2,377
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Arag-systems
+                - img
+                - text: RAG Systems
+                - generic: 2,285
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=author%3Aofficial
+                - img
+                - text: Official
+                - generic: 2,158
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Afinance
+                - img
+                - text: Finance
+                - generic: 2,007
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aknowledge-and-memory
+                - img
+                - text: Knowledge & Memory
+                - generic: 1,705
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aresearch-and-data
+                - img
+                - text: Research & Data
+                - generic: 1,703
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aagent-orchestration
+                - img
+                - text: Agent Orchestration
+                - generic: 1,663
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Acloud-platforms
+                - img
+                - text: Cloud Platforms
+                - generic: 1,554
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aweb-scraping
+                - img
+                - text: Web Scraping
+                - generic: 1,551
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aai-and-machine-learning
+                - img
+                - text: AI & Machine Learning
+                - generic: 1,449
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Acode-execution
+                - img
+                - text: Code Execution
+                - generic: 1,409
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Acommunication
+                - img
+                - text: Communication
+                - generic: 1,358
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Adocumentation-access
+                - img
+                - text: Documentation Access
+                - generic: 1,354
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Aproject-management
+                - img
+                - text: Project Management
+                - generic: 1,343
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Abrowser-automation
+                - img
+                - text: Browser Automation
+                - generic: 1,340
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Asecurity-and-iam
+                - img
+                - text: Security
+                - generic: 1,334
+            - listitem:
+              - link:
+                - /url: /mcp/servers?attributes=category%3Acode-analysis
+                - img
+                - text: Code Analysis
+                - generic: 1,259
+          - link:
+            - /url: /mcp/attributes
+            - text: See all attributes
+        - generic:
+          - region:
+            - paragraph:
+              - text: Matching
+              - link:
+                - /url: /mcp/tools?query=domain-monitor-mcp-server
+                - text: MCP tools
+              - text: ":"
+            - list:
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/servers/oaslananka/mcp-health-monitor/tools/register_server
+                    - text: register_server
+                  - generic: A
+                - paragraph:
+                  - link:
+                    - /url: /mcp/servers/oaslananka/mcp-health-monitor/tools/register_server
+                    - text: MCP Health Monitor
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/servers/ackbarguppi-ai/thinkific-mcp/tools/get_performance_metrics
+                    - text: get_performance_metrics
+                  - generic: B
+                - paragraph:
+                  - link:
+                    - /url: /mcp/servers/ackbarguppi-ai/thinkific-mcp/tools/get_performance_metrics
+                    - text: Thinkific MCP Server
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/servers/chatmcp/mcp-server-collector/tools/submit-mcp-server
+                    - text: submit-mcp-server
+                  - generic: C
+                - paragraph:
+                  - link:
+                    - /url: /mcp/servers/chatmcp/mcp-server-collector/tools/submit-mcp-server
+                    - text: mcp-server-collector
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/servers/ricleedo/reddit-mcp/tools/get-mcp-docs
+                    - text: get-mcp-docs
+                  - generic: D
+                - paragraph:
+                  - link:
+                    - /url: /mcp/servers/ricleedo/reddit-mcp/tools/get-mcp-docs
+                    - text: MCP Server Boilerplate
+          - region:
+            - paragraph:
+              - text: Matching
+              - link:
+                - /url: /mcp/connectors?query=domain-monitor-mcp-server
+                - text: MCP Connectors
+              - text: ":"
+            - list:
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/connectors/io.github.pepabo/muumuu-domain-mcp
+                    - text: Muumuu Domain MCP Server
+                - paragraph:
+                  - generic: io.github.pepabo
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/connectors/com.thenextgennexus/domain-intelligence-mcp-server
+                    - text: domain-intelligence-mcp-server
+                - paragraph:
+                  - generic: com.thenextgennexus
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/connectors/io.github.lazymac2x/domain-intel
+                    - text: domain-intel
+                - paragraph:
+                  - generic: io.github.lazymac2x
+              - listitem:
+                - generic:
+                  - link:
+                    - /url: /mcp/connectors/io.github.lazymac2x/cron-monitor
+                    - text: cron-monitor
+                - paragraph:
+                  - generic: io.github.lazymac2x
+          - region:
+            - heading [level=1]: "\"domain-monitor-mcp-server\" matching MCP servers:"
+            - list:
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/OrtaMarco/domain-security-mcp-server
+                              - text: domain-security-mcp-server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/security-and-iam
+                              - img
+                              - generic: Security
+                            - link:
+                              - /url: /mcp/categories/networking-and-infrastructure
+                              - img
+                              - generic: Networking & Infrastructure
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3AOrtaMarco
+                            - text: OrtaMarco
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: Enables AI agents to audit email and domain security (SPF, DKIM, DMARC, etc.) for any domain without requiring API keys.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 4 days ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "19"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/deshabhishek007/domain-tools-mcp-server
+                              - text: Domain Tools MCP Server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/web-scraping
+                              - img
+                              - generic: Web Scraping
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Adeshabhishek007
+                            - text: deshabhishek007
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: "-"
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: A Model Context Protocol server that provides comprehensive domain analysis capabilities including WHOIS lookups, DNS record queries, and DNS health checking.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated a year ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "14"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/jasoncbraatz/domain-monitor-mcp
+                              - text: domain-monitor-mcp
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/monitoring
+                              - img
+                              - generic: Monitoring
+                            - link:
+                              - /url: /mcp/categories/networking-and-infrastructure
+                              - img
+                              - generic: Networking & Infrastructure
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Ajasoncbraatz
+                            - text: jasoncbraatz
+                    - generic:
+                      - generic:
+                        - generic: F
+                        - generic: license
+                      - generic:
+                        - generic: "-"
+                        - generic: quality
+                      - generic:
+                        - generic: B
+                        - generic: maintenance
+                    - generic: Enables AI assistants to query domain expiration data from domain-monitor.io, with tools for listing domains, checking expiry, and adding new domains.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 2 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "1"
+                  - generic:
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/mambalabsdev/mcp-domain-to-linkedin-url-resolver
+                              - text: mcp-domain-to-linkedin-url
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/crm
+                              - img
+                              - generic: CRM
+                            - link:
+                              - /url: /mcp/categories/customer-data-platforms
+                              - img
+                              - generic: Customer Data Platforms
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Amambalabsdev
+                            - text: mambalabsdev
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: A
+                        - generic: maintenance
+                    - generic: Resolves a company domain to its LinkedIn company page URL. Lightweight enrichment tool for sales and prospecting workflows.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 3 days ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "1"
+                        - text: "0"
+                        - generic:
+                          - img
+                          - text: "1"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/pepabo/muumuu-domain-mcp
+                              - text: muumuu-domain-mcp
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/app-automation
+                              - img
+                              - generic: App Automation
+                            - link:
+                              - /url: /mcp/categories/networking-and-infrastructure
+                              - img
+                              - generic: Networking & Infrastructure
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Apepabo
+                            - text: pepabo
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: B
+                        - generic: maintenance
+                    - generic: The official remote Model Context Protocol (MCP) server for Muumuu Domain — a domain registration service operated by GMO Pepabo, Inc. Search and register domains, manage owned domains and contracts, and configure DNS records — all through natural language conversations with AI assistants.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 7 days ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "11"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/drdanielbender/mcp-porkbun-domain-availability
+                              - text: Porkbun Domain Availability
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/search
+                              - img
+                              - generic: Search
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Adrdanielbender
+                            - text: drdanielbender
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: Enables checking domain name availability and pricing through the Porkbun API, supporting both single and bulk domain queries with detailed pricing information including renewals, transfers, and premium status.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 7 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "2"
+                        - generic:
+                          - img
+                          - text: "1"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/imprvhub/mcp-domain-availability
+                              - text: Domain Availability Checker
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/search
+                              - img
+                              - generic: Search
+                            - link:
+                              - /url: /mcp/categories/developer-tools
+                              - img
+                              - generic: Developer Tools
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Aimprvhub
+                            - text: imprvhub
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: B
+                        - generic: maintenance
+                    - generic: Domain Availability Checker MCP
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 7 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "1"
+                        - generic:
+                          - img
+                          - text: "50"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: Mozilla Public 2.0
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/sh-patterson/fec-mcp-server
+                              - text: fec-mcp-server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/government-data
+                              - img
+                              - generic: Government Data
+                            - link:
+                              - /url: /mcp/categories/open-data
+                              - img
+                              - generic: Open Data
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Ash-patterson
+                            - text: sh-patterson
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: B
+                        - generic: maintenance
+                    - generic: Query FEC campaign finance data — search candidates, track donations, analyze spending, and monitor Super PAC activity via the OpenFEC API.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 21 days ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "8"
+                        - generic:
+                          - img
+                          - text: "7"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/antonio-mello-ai/mcp-redis-monitor
+                              - text: mcp-redis-monitor
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/monitoring
+                              - img
+                              - generic: Monitoring
+                            - link:
+                              - /url: /mcp/categories/observability
+                              - img
+                              - generic: Observability
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Aantonio-mello-ai
+                            - text: antonio-mello-ai
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: FastMCP server with read-only tools to monitor Redis — queue depths, Celery queue status, connected clients, server/memory info, and per-database key counts
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 8 days ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "5"
+                        - generic:
+                          - img
+                          - text: "2"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: /mcp/servers?query=author%3AJungle-Grid
+                        - img
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/Jungle-Grid/mcp-server
+                              - text: jungle-grid-mcp-server
+                            - generic: official
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/ai-and-machine-learning
+                              - img
+                              - generic: AI & Machine Learning
+                            - link:
+                              - /url: /mcp/categories/cloud-platforms
+                              - img
+                              - generic: Cloud Platforms
+                            - link:
+                              - /url: /mcp/categories/code-execution
+                              - img
+                              - generic: Code Execution
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3AJungle-Grid
+                            - text: Jungle-Grid
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: B
+                        - generic: maintenance
+                    - generic: Jungle Grid MCP Server lets AI agents submit, estimate, monitor, and retrieve logs for GPU workloads through Jungle Grid. It enables agentic execution for inference, training, fine-tuning, and batch jobs without manually choosing GPU providers or infrastructure.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 4 days ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "8"
+                        - generic:
+                          - img
+                          - text: "30"
+                        - generic:
+                          - img
+                          - text: "1"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/oaslananka/mcp-health-monitor
+                              - text: MCP Health Monitor
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Aoaslananka
+                            - text: oaslananka
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: B
+                        - generic: maintenance
+                    - generic: Monitor MCP server health, uptime, response times, and Azure DevOps pipeline status
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated a month ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "14"
+                        - generic:
+                          - img
+                          - text: "12"
+                        - generic:
+                          - img
+                          - text: "1"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/zhigang1992/happy-server-mcp
+                              - text: Happy Server MCP
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/coding-agents
+                              - img
+                              - generic: Coding Agents
+                            - link:
+                              - /url: /mcp/categories/agent-orchestration
+                              - img
+                              - generic: Agent Orchestration
+                            - link:
+                              - /url: /mcp/categories/developer-tools
+                              - img
+                              - generic: Developer Tools
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Azhigang1992
+                            - text: zhigang1992
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: Enables programmatic interaction with Happy AI sessions, allowing users to list, create, monitor, send messages to, and manage AI coding sessions across multiple machines.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 5 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "15"
+                        - generic:
+                          - img
+                          - text: "17"
+                        - generic:
+                          - img
+                          - text: "1"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/3viky/mcp-domain-checker
+                              - text: Domain Checker MCP Server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/search
+                              - img
+                              - generic: Search
+                            - link:
+                              - /url: /mcp/categories/web-scraping
+                              - img
+                              - generic: Web Scraping
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3A3viky
+                            - text: 3viky
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: D
+                        - generic: maintenance
+                    - generic: Enables AI agents to check domain availability, perform batch domain lookups, and generate intelligent domain name suggestions across multiple TLDs using WHOIS integration.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 5 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "3"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/cfenzo/domain-mcp
+                              - text: domain-mcp
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/search
+                              - img
+                              - generic: Search
+                            - link:
+                              - /url: /mcp/categories/marketing
+                              - img
+                              - generic: Marketing
+                            - link:
+                              - /url: /mcp/categories/developer-tools
+                              - img
+                              - generic: Developer Tools
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Acfenzo
+                            - text: cfenzo
+                    - generic:
+                      - generic:
+                        - generic: F
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: D
+                        - generic: maintenance
+                    - generic: Enables domain name availability checking through DNS and WHOIS lookups with confidence scoring. It supports searching across alternative TLDs and generating domain name variations for branding purposes.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 4 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "4"
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/yoda-digital/mcp-cerebra-legal-server
+                              - text: Cerebra Legal MCP Server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/legal-and-compliance
+                              - img
+                              - generic: Legal & Compliance
+                            - link:
+                              - /url: /mcp/categories/developer-tools
+                              - img
+                              - generic: Developer Tools
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Ayoda-digital
+                            - text: yoda-digital
+                    - generic:
+                      - generic:
+                        - generic: F
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: D
+                        - generic: maintenance
+                    - generic: An enterprise-grade MCP server that provides specialized tools for legal reasoning and analysis, automatically detecting legal domains and offering domain-specific guidance, templates, and citation formatting.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated a year ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "3"
+                        - generic:
+                          - img
+                          - text: "32"
+                  - generic:
+                    - list:
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/yenyifu/mcp-domain-availability
+                              - text: MCP Domain Availability Server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/search
+                              - img
+                              - generic: Search
+                            - link:
+                              - /url: /mcp/categories/developer-tools
+                              - img
+                              - generic: Developer Tools
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Ayenyifu
+                            - text: yenyifu
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: Enables AI assistants to check domain name availability for single or multiple domains using DNS, RDAP, and WHOIS lookups. It provides detailed registration status including registrar information and expiration dates while supporting bulk checks of up to 50 domains.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 6 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "18"
+                        - generic:
+                          - img
+                          - text: "2"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/ofershap/mcp-server-dns
+                              - text: mcp-server-dns
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/search
+                              - img
+                              - generic: Search
+                            - link:
+                              - /url: /mcp/categories/developer-tools
+                              - img
+                              - generic: Developer Tools
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Aofershap
+                            - text: ofershap
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: D
+                        - generic: maintenance
+                    - generic: MCP server for DNS lookups, reverse DNS, WHOIS, and domain checks. Zero auth, zero config.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 3 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "5"
+                        - generic:
+                          - img
+                          - text: "29"
+                        - generic:
+                          - img
+                          - text: "2"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/SuxyEE/bt-panel-mcp-server
+                              - text: bt-panel-mcp-server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/observability
+                              - img
+                              - generic: Observability
+                            - link:
+                              - /url: /mcp/categories/file-systems
+                              - img
+                              - generic: File Systems
+                            - link:
+                              - /url: /mcp/categories/cloud-platforms
+                              - img
+                              - generic: Cloud Platforms
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3ASuxyEE
+                            - text: SuxyEE
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: This MCP server enables AI assistants to interact with a BT Panel server through natural language, allowing users to query logs, manage websites, and monitor system status without manual panel login.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated 3 months ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "9"
+                        - generic:
+                          - img
+                          - text: "14"
+                        - generic:
+                          - img
+                          - text: "4"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/allkindsxyz/railway-mcp-server
+                              - text: Railway MCP Server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/cloud-platforms
+                              - img
+                              - generic: Cloud Platforms
+                            - link:
+                              - /url: /mcp/categories/ci-cd
+                              - img
+                              - generic: CI/CD & DevOps
+                            - link:
+                              - /url: /mcp/categories/monitoring
+                              - img
+                              - generic: Monitoring
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Aallkindsxyz
+                            - text: allkindsxyz
+                    - generic:
+                      - generic:
+                        - generic: A
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: C
+                        - generic: maintenance
+                    - generic: Enables AI systems like Claude and Cursor to directly manage Railway projects, deployments, services, environment variables, and monitor logs through natural language commands.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated a year ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "9"
+                        - generic:
+                          - img
+                          - text: "6"
+                  - generic:
+                    - generic:
+                      - img
+                      - text: MIT
+                    - list:
+                      - listitem:
+                        - img
+                      - listitem:
+                        - img
+              - listitem:
+                - article:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]:
+                            - link:
+                              - /url: /mcp/servers/onemarc/github-actions-mcp-server
+                              - text: GitHub Actions MCP Server
+                          - navigation:
+                            - link:
+                              - /url: /mcp/categories/ci-cd
+                              - img
+                              - generic: CI/CD & DevOps
+                            - link:
+                              - /url: /mcp/categories/developer-tools
+                              - img
+                              - generic: Developer Tools
+                        - generic:
+                          - link:
+                            - /url: /mcp/servers?query=author%3Aonemarc
+                            - text: onemarc
+                    - generic:
+                      - generic:
+                        - generic: F
+                        - generic: license
+                      - generic:
+                        - generic: A
+                        - generic: quality
+                      - generic:
+                        - generic: D
+                        - generic: maintenance
+                    - generic: GitHub Actions Model Context Protocol Server that allows you to create, manage, monitor, and interact with workflows.
+                    - generic:
+                      - generic:
+                        - img
+                        - text: Last updated a year ago
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "10"
+    - contentinfo:
+      - region:
+        - generic: Was this helpful?
+        - generic:
+          - button: "Yes"
+          - button: "No"
+      - navigation:
+        - generic:
+          - generic: MCP
+          - list:
+            - listitem:
+              - link:
+                - /url: /mcp/servers
+                - text: MCP Servers
+            - listitem:
+              - link:
+                - /url: /mcp/connectors
+                - text: MCP Connectors
+            - listitem:
+              - link:
+                - /url: /mcp/gateway
+                - text: MCP Gateway
+            - listitem:
+              - link:
+                - /url: /mcp/hosting
+                - text: MCP Hosting
+            - listitem:
+              - link:
+                - /url: /mcp/inspector
+                - text: MCP Inspector
+            - listitem:
+              - link:
+                - /url: /mcp/clients
+                - text: MCP Clients
+            - listitem:
+              - link:
+                - /url: /mcp/tools
+                - text: MCP Tools
+        - generic:
+          - generic: AI
+          - list:
+            - listitem:
+              - link:
+                - /url: /chat
+                - text: Chat
+            - listitem:
+              - link:
+                - /url: /ai/gateway
+                - text: AI Gateway
+            - listitem:
+              - link:
+                - /url: /ai/models
+                - text: AI Models
+        - generic:
+          - generic: Policies
+          - list:
+            - listitem:
+              - link:
+                - /url: /policies/terms-of-service
+                - text: Terms of Service
+            - listitem:
+              - link:
+                - /url: /policies/privacy-policy
+                - text: Privacy Policy
+            - listitem:
+              - link:
+                - /url: /policies/vulnerability-disclosure
+                - text: VDP
+        - generic:
+          - generic: Resources
+          - list:
+            - listitem:
+              - link:
+                - /url: /release-notes
+                - text: Release Notes
+            - listitem:
+              - link:
+                - /url: /support
+                - text: Support
+            - listitem:
+              - link:
+                - /url: /pricing
+                - text: Pricing
+            - listitem:
+              - link:
+                - /url: /careers
+                - text: Careers
+            - listitem:
+              - link:
+                - /url: /blog
+                - text: Blog
+            - listitem:
+              - link:
+                - /url: /newsletter
+                - text: Newsletter
+      - region:
+        - generic:
+          - link:
+            - /url: /
+            - text: Glama
+          - text: – all-in-one AI workspace.
+        - generic:
+          - link:
+            - /url: /status
+            - generic: All systems online
+          - link:
+            - /url: /discord
+            - img
+          - link:
+            - /url: https://reddit.com/r/glama
+            - img
+          - link:
+            - /url: https://x.com/glama_ai
+            - img
+  - region "Notifications, top-end (alt+T)"
+  - dialog [ref=e2982]:
+    - generic [ref=e2983]:
+      - generic [ref=e2985]:
+        - generic [ref=e2986]:
+          - heading "All-in-one AI workspace" [level=2] [ref=e2987]
+          - list [ref=e2988]:
+            - listitem [ref=e2989]:
+              - img [ref=e2991]
+              - generic [ref=e2993]:
+                - text: A ChatGPT-like
+                - link "chat" [ref=e2994] [cursor=pointer]:
+                  - /url: /chat
+                - text: experience for talking with AI.
+            - listitem [ref=e2995]:
+              - img [ref=e2997]
+              - generic [ref=e2999]:
+                - text: Native
+                - link "MCP" [ref=e3000] [cursor=pointer]:
+                  - /url: /mcp
+                - text: support with access to 5,000+ servers.
+            - listitem [ref=e3001]:
+              - img [ref=e3003]
+              - generic [ref=e3005]:
+                - text: Fast, reliable
+                - link "AI gateway" [ref=e3006] [cursor=pointer]:
+                  - /url: /ai/gateway
+                - text: with 100+ AI models.
+            - listitem [ref=e3007]:
+              - img [ref=e3009]
+              - generic [ref=e3011]: Automate workflows using schedules or webhooks.
+            - listitem [ref=e3012]:
+              - img [ref=e3014]
+              - generic [ref=e3016]: Create specialized agents with custom prompts.
+        - generic [ref=e3017]:
+          - heading "Trusted by 50,000+ Businesses" [level=2] [ref=e3018]
+          - generic [ref=e3020]:
+            - generic "Databricks" [ref=e3021]:
+              - img "Databricks" [ref=e3022]
+            - generic "Accenture" [ref=e3024]:
+              - img "Accenture" [ref=e3025]
+            - generic "Shopify" [ref=e3027]:
+              - img "Shopify" [ref=e3028]
+            - generic "Cloudflare" [ref=e3030]:
+              - img "Cloudflare" [ref=e3031]
+            - generic "Duolingo" [ref=e3033]:
+              - img "Duolingo" [ref=e3034]
+            - generic "Zomato" [ref=e3036]:
+              - img "Zomato" [ref=e3037]
+            - generic "Zillow" [ref=e3039]:
+              - img "Zillow" [ref=e3040]
+            - generic "Square" [ref=e3042]:
+              - img "Square" [ref=e3043]
+            - generic "UiPath" [ref=e3045]:
+              - img "UiPath" [ref=e3046]
+            - generic "Neo4j" [ref=e3048]:
+              - img "Neo4j" [ref=e3049]
+            - generic "Databricks" [ref=e3051]:
+              - img "Databricks" [ref=e3052]
+            - generic "Accenture" [ref=e3054]:
+              - img "Accenture" [ref=e3055]
+            - generic "Shopify" [ref=e3057]:
+              - img "Shopify" [ref=e3058]
+            - generic "Cloudflare" [ref=e3060]:
+              - img "Cloudflare" [ref=e3061]
+            - generic "Duolingo" [ref=e3063]:
+              - img "Duolingo" [ref=e3064]
+            - generic "Zomato" [ref=e3066]:
+              - img "Zomato" [ref=e3067]
+            - generic "Zillow" [ref=e3069]:
+              - img "Zillow" [ref=e3070]
+            - generic "Square" [ref=e3072]:
+              - img "Square" [ref=e3073]
+            - generic "UiPath" [ref=e3075]:
+              - img "UiPath" [ref=e3076]
+            - generic "Neo4j" [ref=e3078]:
+              - img "Neo4j" [ref=e3079]
+      - generic [ref=e3082]:
+        - generic [ref=e3083]:
+          - button "Sign Up" [ref=e3085] [cursor=pointer]:
+            - img [ref=e3086]
+          - button "Sign Up" [ref=e3093] [cursor=pointer]:
+            - img [ref=e3094]
+          - button "Sign Up" [ref=e3097] [cursor=pointer]:
+            - img [ref=e3098]
+        - generic [ref=e3102]: or use email
+        - generic [ref=e3105]:
+          - generic [ref=e3107]:
+            - generic [ref=e3108]: Name
+            - textbox "Name" [active] [ref=e3109]:
+              - /placeholder: Frank Fiegel
+            - generic [ref=e3110]: Used for billing and display purposes.
+          - generic [ref=e3112]:
+            - generic [ref=e3113]: Email
+            - textbox "Email" [ref=e3114]:
+              - /placeholder: frank@glama.ai
+          - generic [ref=e3119]:
+            - generic [ref=e3120] [cursor=pointer]:
+              - checkbox "I'm not a robot" [ref=e3121]
+              - img [ref=e3122]
+            - generic [ref=e3124]: I'm not a robot
+          - paragraph [ref=e3126]:
+            - text: By signing up, you agree to the
+            - link "Terms of Service" [ref=e3127] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+            - text: and
+            - link "Privacy Policy" [ref=e3128] [cursor=pointer]:
+              - /url: /policies/privacy-policy
+          - button "Sign Up" [ref=e3130] [cursor=pointer]:
+            - generic [ref=e3131]: Sign Up
+          - link "Already have an account?" [ref=e3133] [cursor=pointer]:
+            - /url: /sign-in

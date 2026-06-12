@@ -1,0 +1,86 @@
+- generic [ref=e1]:
+  - link "跳到主要内容" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: 跳到主要内容
+  - generic [ref=e6]:
+    - generic:
+      - banner [ref=e7]:
+        - generic [ref=e8]:
+          - img [ref=e10]
+          - img [ref=e24]
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - tabpanel:
+                              - dialog "登录" [ref=e35]:
+                                - generic [ref=e39]:
+                                  - heading "登录" [level=1] [ref=e40]
+                                  - paragraph [ref=e41]:
+                                    - text: 继续操作，即表示你同意我们的
+                                    - link "用户协议" [active] [ref=e42] [cursor=pointer]:
+                                      - /url: https://www.redditinc.com/policies/user-agreement
+                                    - text: 并确认已了解
+                                    - link "隐私政策" [ref=e43] [cursor=pointer]:
+                                      - /url: https://www.redditinc.com/policies/privacy-policy
+                                    - text: 。
+                                  - generic [ref=e44]:
+                                    - link "通过电话号码继续" [ref=e46] [cursor=pointer]:
+                                      - /url: https://www.reddit.com/login/
+                                      - generic [ref=e49]:
+                                        - img [ref=e50]
+                                        - generic [ref=e53]: 通过电话号码继续
+                                    - generic [ref=e61] [cursor=pointer]:
+                                      - img [ref=e62]
+                                      - generic [ref=e64]: 通过 Apple 继续
+                                    - link "通过电子邮件向我发送一次性链接" [ref=e67] [cursor=pointer]:
+                                      - /url: https://www.reddit.com/login/
+                                      - generic [ref=e69]:
+                                        - img [ref=e70]
+                                        - generic [ref=e72]: 通过电子邮件向我发送一次性链接
+                                    - generic [ref=e73]:
+                                      - separator [ref=e74]
+                                      - generic [ref=e75]: 或
+                                      - separator [ref=e76]
+                                  - group [ref=e77]:
+                                    - generic [ref=e82]:
+                                      - generic:
+                                        - generic: 电子邮件地址或用户名
+                                        - text: "*"
+                                      - textbox "电子邮件地址或用户名" [ref=e83]
+                                  - group [ref=e88]:
+                                    - generic [ref=e92]:
+                                      - generic [ref=e93]:
+                                        - generic:
+                                          - generic: 密码
+                                          - text: "*"
+                                        - textbox "密码" [ref=e94]
+                                      - button "显示密码" [ref=e98] [cursor=pointer]:
+                                        - img [ref=e102]
+                                        - generic [ref=e105]:
+                                          - generic: 显示密码
+                                  - link "忘记了密码？" [ref=e112] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/password/
+                                    - generic [ref=e113]: 忘记了密码？
+                                  - generic [ref=e114]:
+                                    - text: 第一次使用 Reddit？
+                                    - link "注册" [ref=e116] [cursor=pointer]:
+                                      - /url: https://www.reddit.com/register/
+                                      - generic [ref=e117]: 注册
+                                - generic [ref=e121]:
+                                  - button "登录" [disabled]:
+                                    - generic:
+                                      - generic: 登录
+                            - generic:
+                              - generic:
+                                - generic: back
+                            - generic:
+                              - generic:
+                                - generic: back

@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - heading "Domain Monitor" [level=1] [ref=e4]
+      - paragraph [ref=e5]: 纯客户端域名 & SSL 证书过期监控 · 数据存本地 · 零后端
+    - generic [ref=e6]:
+      - textbox "输入域名，如 example.com" [ref=e7]
+      - button "添加监控" [ref=e8] [cursor=pointer]
+    - generic [ref=e9]:
+      - button "🔄 全部刷新" [ref=e10] [cursor=pointer]
+      - button "📥 导出" [ref=e11] [cursor=pointer]
+      - button "📤 导入" [ref=e12] [cursor=pointer]
+      - button "🧪 示例数据" [ref=e13] [cursor=pointer]
+      - button "🗑️ 清空" [ref=e14] [cursor=pointer]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: PRO Batch Domain Monitor
+          - generic [ref=e19]: 一次检查 100 个域名 · CSV 导出 · 排序筛选
+        - button "🔓 解锁 Pro ($5)" [ref=e20] [cursor=pointer]
+      - generic [ref=e21]:
+        - generic [ref=e23]:
+          - heading "🔒 Pro 功能" [level=3] [ref=e24]
+          - paragraph [ref=e25]:
+            - text: 批量域名监控支持一次粘贴 100 个域名
+            - text: CSV 导出 · 风险排序 · 快速筛选
+          - button "解锁 Pro — 一次性 $5" [ref=e26] [cursor=pointer]
+        - generic:
+          - heading "📋 批量域名检查" [level=3]
+          - textbox "每行一个域名，最多 100 个 例如： example.com github.com google.com" [disabled]:
+            - /placeholder: "每行一个域名，最多 100 个\n例如：\nexample.com\ngithub.com\ngoogle.com"
+          - generic:
+            - button "🚀 一键检查全部" [disabled]
+            - button "📥 导出 CSV" [disabled]
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: 还没有添加域名
+      - paragraph [ref=e30]: 在上方输入域名开始监控
+  - contentinfo [ref=e31]:
+    - text: "数据存储于浏览器 localStorage · API: RDAP + crt.sh ·"
+    - link "GitHub" [ref=e32] [cursor=pointer]:
+      - /url: https://github.com/iPythoning/domain-monitor-client
+    - text: "|"
+    - link "Lien Deadlines" [ref=e33] [cursor=pointer]:
+      - /url: https://ipythoning.github.io/lien-deadlines/
+    - text: "|"
+    - link "More Tools" [ref=e34] [cursor=pointer]:
+      - /url: https://github.com/iPythoning?tab=repositories

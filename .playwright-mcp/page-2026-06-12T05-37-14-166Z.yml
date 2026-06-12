@@ -1,0 +1,1636 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - link "Glama home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e8]: Glama
+      - generic [ref=e9]:
+        - navigation "Primary" [ref=e10]:
+          - link "Servers" [ref=e11] [cursor=pointer]:
+            - /url: /mcp/servers
+          - link "Connectors" [ref=e12] [cursor=pointer]:
+            - /url: /mcp/connectors
+          - link "Tools" [ref=e13] [cursor=pointer]:
+            - /url: /mcp/tools
+          - link "Clients" [ref=e14] [cursor=pointer]:
+            - /url: /mcp/clients
+          - link "Inspector" [ref=e15] [cursor=pointer]:
+            - /url: /mcp/inspector
+          - link "Pricing" [ref=e16] [cursor=pointer]:
+            - /url: /pricing
+          - link "Community" [ref=e17] [cursor=pointer]:
+            - /url: /discord
+            - img [ref=e18]
+        - button "Sign Up" [ref=e20] [cursor=pointer]
+  - generic [ref=e21]:
+    - main [ref=e22]:
+      - navigation [ref=e23]:
+        - generic [ref=e24]:
+          - link "Glama" [ref=e25] [cursor=pointer]:
+            - /url: /
+          - img
+        - generic [ref=e26]:
+          - link "MCP" [ref=e27] [cursor=pointer]:
+            - /url: /mcp
+          - img
+        - link "Servers" [ref=e29] [cursor=pointer]:
+          - /url: /mcp/servers
+      - generic [ref=e30]:
+        - generic [ref=e33]:
+          - text: 34,854 servers. Last updated
+          - time [ref=e34]: 2026-06-12 05:33
+        - generic [ref=e39]:
+          - button "Deep Search" [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]: Deep Search
+          - generic [ref=e43]:
+            - combobox "Sort by" [ref=e46] [cursor=pointer]:
+              - generic [ref=e47]: Search Relevance ↓
+              - img [ref=e48]
+            - button "Add Server" [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]: Add Server
+      - generic [ref=e53]:
+        - img [ref=e54]
+        - textbox "Search for MCP servers, tools, and more" [ref=e56]
+      - generic [ref=e57]:
+        - complementary "Filter by" [ref=e58]:
+          - list "Attributes" [ref=e59]:
+            - listitem [ref=e60]:
+              - link "Remote" [ref=e61] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=hosting%3Aremote-capable
+                - img [ref=e62]
+                - text: Remote
+                - generic [ref=e64]: 15,303
+            - listitem [ref=e65]:
+              - link "Python" [ref=e66] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=language%3Apython
+                - img [ref=e67]
+                - text: Python
+                - generic [ref=e69]: 15,219
+            - listitem [ref=e70]:
+              - link "TypeScript" [ref=e71] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=language%3Atypescript
+                - img [ref=e72]
+                - text: TypeScript
+                - generic [ref=e74]: 11,979
+            - listitem [ref=e75]:
+              - link "Developer Tools" [ref=e76] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Adeveloper-tools
+                - img [ref=e77]
+                - text: Developer Tools
+                - generic [ref=e79]: 10,577
+            - listitem [ref=e80]:
+              - link "Local" [ref=e81] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=hosting%3Alocal-only
+                - img [ref=e82]
+                - text: Local
+                - generic [ref=e84]: 9,215
+            - listitem [ref=e85]:
+              - link "Tools" [ref=e86] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=capability%3Atools
+                - img [ref=e87]
+                - text: Tools
+                - generic [ref=e89]: 7,703
+            - listitem [ref=e90]:
+              - link "Hybrid" [ref=e91] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=hosting%3Ahybrid
+                - img [ref=e92]
+                - text: Hybrid
+                - generic [ref=e94]: 7,207
+            - listitem [ref=e95]:
+              - link "Claimed" [ref=e96] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=author%3Aclaimed
+                - img [ref=e97]
+                - text: Claimed
+                - generic [ref=e99]: 6,460
+            - listitem [ref=e100]:
+              - link "Search" [ref=e101] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Asearch
+                - img [ref=e102]
+                - text: Search
+                - generic [ref=e104]: 5,773
+            - listitem [ref=e105]:
+              - link "App Automation" [ref=e106] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aapp-automation
+                - img [ref=e107]
+                - text: App Automation
+                - generic [ref=e109]: 4,376
+            - listitem [ref=e110]:
+              - link "Resources" [ref=e111] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=capability%3Aresources
+                - img [ref=e112]
+                - text: Resources
+                - generic [ref=e114]: 3,591
+            - listitem [ref=e115]:
+              - link "Prompts" [ref=e116] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=capability%3Aprompts
+                - img [ref=e117]
+                - text: Prompts
+                - generic [ref=e119]: 3,304
+            - listitem [ref=e120]:
+              - link "Databases" [ref=e121] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Adatabases
+                - img [ref=e122]
+                - text: Databases
+                - generic [ref=e124]: 2,707
+            - listitem [ref=e125]:
+              - link "Autonomous Agents" [ref=e126] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aautonomous-agents
+                - img [ref=e127]
+                - text: Autonomous Agents
+                - generic [ref=e129]: 2,600
+            - listitem [ref=e130]:
+              - link "RAG Systems" [ref=e131] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Arag-systems
+                - img [ref=e132]
+                - text: RAG Systems
+                - generic [ref=e134]: 2,461
+            - listitem [ref=e135]:
+              - link "Official" [ref=e136] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=author%3Aofficial
+                - img [ref=e137]
+                - text: Official
+                - generic [ref=e139]: 2,251
+            - listitem [ref=e140]:
+              - link "Finance" [ref=e141] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Afinance
+                - img [ref=e142]
+                - text: Finance
+                - generic [ref=e144]: 2,080
+            - listitem [ref=e145]:
+              - link "Knowledge & Memory" [ref=e146] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aknowledge-and-memory
+                - img [ref=e147]
+                - text: Knowledge & Memory
+                - generic [ref=e149]: 1,934
+            - listitem [ref=e150]:
+              - link "Research & Data" [ref=e151] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aresearch-and-data
+                - img [ref=e152]
+                - text: Research & Data
+                - generic [ref=e154]: 1,784
+            - listitem [ref=e155]:
+              - link "Agent Orchestration" [ref=e156] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aagent-orchestration
+                - img [ref=e157]
+                - text: Agent Orchestration
+                - generic [ref=e159]: 1,773
+            - listitem [ref=e160]:
+              - link "Web Scraping" [ref=e161] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aweb-scraping
+                - img [ref=e162]
+                - text: Web Scraping
+                - generic [ref=e164]: 1,625
+            - listitem [ref=e165]:
+              - link "Cloud Platforms" [ref=e166] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Acloud-platforms
+                - img [ref=e167]
+                - text: Cloud Platforms
+                - generic [ref=e169]: 1,584
+            - listitem [ref=e170]:
+              - link "AI & Machine Learning" [ref=e171] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aai-and-machine-learning
+                - img [ref=e172]
+                - text: AI & Machine Learning
+                - generic [ref=e174]: 1,570
+            - listitem [ref=e175]:
+              - link "Code Execution" [ref=e176] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Acode-execution
+                - img [ref=e177]
+                - text: Code Execution
+                - generic [ref=e179]: 1,451
+            - listitem [ref=e180]:
+              - link "Security" [ref=e181] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Asecurity-and-iam
+                - img [ref=e182]
+                - text: Security
+                - generic [ref=e184]: 1,426
+            - listitem [ref=e185]:
+              - link "Browser Automation" [ref=e186] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Abrowser-automation
+                - img [ref=e187]
+                - text: Browser Automation
+                - generic [ref=e189]: 1,413
+            - listitem [ref=e190]:
+              - link "Communication" [ref=e191] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Acommunication
+                - img [ref=e192]
+                - text: Communication
+                - generic [ref=e194]: 1,392
+            - listitem [ref=e195]:
+              - link "Documentation Access" [ref=e196] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Adocumentation-access
+                - img [ref=e197]
+                - text: Documentation Access
+                - generic [ref=e199]: 1,391
+            - listitem [ref=e200]:
+              - link "Code Analysis" [ref=e201] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Acode-analysis
+                - img [ref=e202]
+                - text: Code Analysis
+                - generic [ref=e204]: 1,373
+            - listitem [ref=e205]:
+              - link "Project Management" [ref=e206] [cursor=pointer]:
+                - /url: /mcp/servers?attributes=category%3Aproject-management
+                - img [ref=e207]
+                - text: Project Management
+                - generic [ref=e209]: 1,367
+          - link "See all attributes" [ref=e210] [cursor=pointer]:
+            - /url: /mcp/attributes
+        - generic [ref=e211]:
+          - region "Tool search results" [ref=e212]:
+            - paragraph [ref=e213]:
+              - link "MCP tools" [ref=e214] [cursor=pointer]:
+                - /url: /mcp/tools
+            - list "Tool search results" [ref=e215]:
+              - listitem "opa_get_futures" [ref=e216]:
+                - generic [ref=e217]:
+                  - link "opa_get_futures" [ref=e218] [cursor=pointer]:
+                    - /url: /mcp/servers/OilpriceAPI/mcp-server/tools/opa_get_futures
+                  - generic [ref=e219]: A
+                - paragraph [ref=e220]:
+                  - link "OilPriceAPI" [ref=e221] [cursor=pointer]:
+                    - /url: /mcp/servers/OilpriceAPI/mcp-server/tools/opa_get_futures
+              - listitem "getWidget" [ref=e222]:
+                - generic [ref=e223]:
+                  - link "getWidget" [ref=e224] [cursor=pointer]:
+                    - /url: /mcp/servers/brilliantdirectories/brilliant-directories-mcp/tools/getWidget
+                  - generic [ref=e225]: A
+                - paragraph [ref=e226]:
+                  - link "brilliant-directories-mcp" [ref=e227] [cursor=pointer]:
+                    - /url: /mcp/servers/brilliantdirectories/brilliant-directories-mcp/tools/getWidget
+              - listitem "option_quote" [ref=e228]:
+                - generic [ref=e229]:
+                  - link "option_quote" [ref=e230] [cursor=pointer]:
+                    - /url: /mcp/servers/longbridge/longbridge-mcp/tools/option_quote
+                  - generic [ref=e231]: A
+                - paragraph [ref=e232]:
+                  - link "longbridge" [ref=e233] [cursor=pointer]:
+                    - /url: /mcp/servers/longbridge/longbridge-mcp/tools/option_quote
+              - listitem "ep_revoke_commit" [ref=e234]:
+                - generic [ref=e235]:
+                  - link "ep_revoke_commit" [ref=e236] [cursor=pointer]:
+                    - /url: /mcp/servers/emiliaprotocol/emilia-protocol/tools/ep_revoke_commit
+                  - generic [ref=e237]: A
+                - paragraph [ref=e238]:
+                  - link "emilia-mcp-server" [ref=e239] [cursor=pointer]:
+                    - /url: /mcp/servers/emiliaprotocol/emilia-protocol/tools/ep_revoke_commit
+          - region "Remote server search results" [ref=e240]:
+            - paragraph [ref=e241]:
+              - link "MCP Connectors" [ref=e242] [cursor=pointer]:
+                - /url: /mcp/connectors
+            - list "Remote server search results" [ref=e243]:
+              - listitem "0nMCP — Universal AI API Orchestrator" [ref=e244]:
+                - generic [ref=e245]:
+                  - link "0nMCP — Universal AI API Orchestrator" [ref=e246] [cursor=pointer]:
+                    - /url: /mcp/connectors/io.github.0nork/0nMCP
+                  - generic "Server is responding" [ref=e247]
+                - paragraph [ref=e248]:
+                  - generic [ref=e249]: io.github.0nork
+              - listitem "100Hires - AI ATS & Recruitment Software" [ref=e250]:
+                - generic [ref=e251]:
+                  - link "100Hires - AI ATS & Recruitment Software" [ref=e252] [cursor=pointer]:
+                    - /url: /mcp/connectors/com.100hires/100hires
+                  - generic "Server is responding" [ref=e253]
+                - paragraph [ref=e254]:
+                  - generic [ref=e255]: com.100hires
+              - listitem "123elec-mcp" [ref=e256]:
+                - generic [ref=e257]:
+                  - link "123elec-mcp" [ref=e258] [cursor=pointer]:
+                    - /url: /mcp/connectors/io.github.Servicedsi/123elec-mcp
+                  - generic "Server is responding" [ref=e259]
+                - paragraph [ref=e260]:
+                  - generic [ref=e261]: io.github.Servicedsi
+              - listitem "1stay" [ref=e262]:
+                - generic [ref=e263]:
+                  - link "1stay" [ref=e264] [cursor=pointer]:
+                    - /url: /mcp/connectors/com.stayker/1stay
+                  - generic "Server is responding" [ref=e265]
+                - paragraph [ref=e266]:
+                  - generic [ref=e267]: com.stayker
+          - region "MCP servers matching the search criteria" [ref=e268]:
+            - heading "Popular MCP Servers" [level=1] [ref=e269]
+            - list "MCP servers" [ref=e270]:
+              - listitem "bult-mcp-server" [ref=e271]:
+                - article [ref=e272]:
+                  - generic [ref=e273]:
+                    - generic [ref=e274]:
+                      - link "bult-mcp-server by bultcloud" [ref=e275] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Abultcloud
+                        - img "bult-mcp-server by bultcloud" [ref=e276]
+                      - generic [ref=e277]:
+                        - generic [ref=e278]:
+                          - heading "bult-mcp-server official" [level=2] [ref=e279]:
+                            - link "bult-mcp-server" [ref=e280] [cursor=pointer]:
+                              - /url: /mcp/servers/bultcloud/mcp-server
+                            - generic [ref=e281]: official
+                          - navigation "Categories" [ref=e282]:
+                            - link "Cloud Platforms" [ref=e283] [cursor=pointer]:
+                              - /url: /mcp/categories/cloud-platforms
+                              - img [ref=e284]
+                              - generic [ref=e286]: Cloud Platforms
+                            - link "Developer Tools" [ref=e287] [cursor=pointer]:
+                              - /url: /mcp/categories/developer-tools
+                              - img [ref=e288]
+                              - generic [ref=e290]: Developer Tools
+                        - link "bultcloud" [ref=e292] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Abultcloud
+                    - generic [ref=e293]:
+                      - generic [ref=e294]:
+                        - generic [ref=e295]: A
+                        - generic [ref=e296]: license
+                      - generic [ref=e297]:
+                        - generic [ref=e298]: A
+                        - generic [ref=e299]: quality
+                      - generic [ref=e300]:
+                        - generic [ref=e301]: B
+                        - generic [ref=e302]: maintenance
+                    - generic [ref=e303]: Deploy and manage Bult.ai cloud hosting projects from MCP clients like Cursor, Claude Desktop, and Claude Code. Create projects and services, deploy GitHub repositories or Docker images, manage routes and volumes, inspect logs, and troubleshoot deployments from your AI assistant.
+                    - generic [ref=e304]:
+                      - generic "Last updated" [ref=e305]:
+                        - img [ref=e306]
+                        - text: Last updated
+                        - time [ref=e308]: 2026-06-10
+                      - generic [ref=e309]:
+                        - generic [ref=e310]:
+                          - img [ref=e311]
+                          - text: "2"
+                        - generic [ref=e313]:
+                          - img [ref=e314]
+                          - text: "24"
+                        - generic [ref=e316]:
+                          - img [ref=e317]
+                          - text: "57"
+                        - generic [ref=e319]:
+                          - img [ref=e320]
+                          - text: "1"
+                  - generic [ref=e322]:
+                    - generic "License" [ref=e323]:
+                      - img [ref=e324]
+                      - text: MIT
+                    - list [ref=e326]:
+                      - listitem [ref=e327]:
+                        - img [ref=e328]
+                      - listitem [ref=e330]:
+                        - img [ref=e331]
+                      - listitem [ref=e333]:
+                        - img [ref=e334]
+              - listitem "hasdata-mcp" [ref=e336]:
+                - article [ref=e337]:
+                  - generic [ref=e338]:
+                    - generic [ref=e339]:
+                      - link "hasdata-mcp by HasData" [ref=e340] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3AHasData
+                        - img "hasdata-mcp by HasData" [ref=e341]
+                      - generic [ref=e342]:
+                        - generic [ref=e343]:
+                          - heading "hasdata-mcp official" [level=2] [ref=e344]:
+                            - link "hasdata-mcp" [ref=e345] [cursor=pointer]:
+                              - /url: /mcp/servers/HasData/hasdata-mcp
+                            - generic [ref=e346]: official
+                          - navigation "Categories" [ref=e347]:
+                            - link "Web Scraping" [ref=e348] [cursor=pointer]:
+                              - /url: /mcp/categories/web-scraping
+                              - img [ref=e349]
+                              - generic [ref=e351]: Web Scraping
+                            - link "Search" [ref=e352] [cursor=pointer]:
+                              - /url: /mcp/categories/search
+                              - img [ref=e353]
+                              - generic [ref=e355]: Search
+                        - link "HasData" [ref=e357] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3AHasData
+                    - generic [ref=e358]:
+                      - generic [ref=e359]:
+                        - generic [ref=e360]: A
+                        - generic [ref=e361]: license
+                      - generic [ref=e362]:
+                        - generic [ref=e363]: A
+                        - generic [ref=e364]: quality
+                      - generic [ref=e365]:
+                        - generic [ref=e366]: A
+                        - generic [ref=e367]: maintenance
+                    - generic [ref=e368]: Direct access to 40+ scraping and search tools. Extract structured data from Google (Search, Maps, Trends), Amazon, Airbnb, Social Media, and any web page directly into your AI agent.
+                    - generic [ref=e369]:
+                      - generic "Last updated" [ref=e370]:
+                        - img [ref=e371]
+                        - text: Last updated
+                        - time [ref=e373]: 2026-05-05
+                      - generic [ref=e374]:
+                        - generic [ref=e375]:
+                          - img [ref=e376]
+                          - text: "12"
+                        - generic [ref=e378]:
+                          - img [ref=e379]
+                          - text: "42"
+                        - generic [ref=e381]:
+                          - img [ref=e382]
+                          - text: "2"
+                  - generic [ref=e384]:
+                    - generic "License" [ref=e385]:
+                      - img [ref=e386]
+                      - text: MIT
+                    - list [ref=e388]:
+                      - listitem [ref=e389]:
+                        - img [ref=e390]
+                      - listitem [ref=e392]:
+                        - img [ref=e393]
+                      - listitem [ref=e395]:
+                        - img [ref=e396]
+              - listitem "aegis-dq" [ref=e398]:
+                - article [ref=e399]:
+                  - generic [ref=e400]:
+                    - generic [ref=e401]:
+                      - link "aegis-dq by aegis-dq" [ref=e402] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Aaegis-dq
+                        - img "aegis-dq by aegis-dq" [ref=e403]
+                      - generic [ref=e404]:
+                        - generic [ref=e405]:
+                          - heading "aegis-dq official" [level=2] [ref=e406]:
+                            - link "aegis-dq" [ref=e407] [cursor=pointer]:
+                              - /url: /mcp/servers/aegis-dq/aegis-dq
+                            - generic [ref=e408]: official
+                          - navigation "Categories" [ref=e409]:
+                            - link "Databases" [ref=e410] [cursor=pointer]:
+                              - /url: /mcp/categories/databases
+                              - img [ref=e411]
+                              - generic [ref=e413]: Databases
+                            - link "AI & Machine Learning" [ref=e414] [cursor=pointer]:
+                              - /url: /mcp/categories/ai-and-machine-learning
+                              - img [ref=e415]
+                              - generic [ref=e417]: AI & Machine Learning
+                            - link "CI/CD & DevOps" [ref=e418] [cursor=pointer]:
+                              - /url: /mcp/categories/ci-cd
+                              - img [ref=e419]
+                              - generic [ref=e421]: CI/CD & DevOps
+                        - link "aegis-dq" [ref=e423] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Aaegis-dq
+                    - generic [ref=e424]:
+                      - generic [ref=e425]:
+                        - generic [ref=e426]: A
+                        - generic [ref=e427]: license
+                      - generic [ref=e428]:
+                        - generic [ref=e429]: B
+                        - generic [ref=e430]: quality
+                      - generic [ref=e431]:
+                        - generic [ref=e432]: B
+                        - generic [ref=e433]: maintenance
+                    - generic [ref=e434]: Agentic data quality MCP server — runs structured validation rules against warehouses (DuckDB, BigQuery, Athena, Databricks, Postgres), diagnoses failures with LLM root cause analysis, and proposes SQL remediations. Full audit trail of every AI decision.
+                    - generic [ref=e435]:
+                      - generic "Last updated" [ref=e436]:
+                        - img [ref=e437]
+                        - text: Last updated
+                        - time [ref=e439]: 2026-05-27
+                      - generic [ref=e440]:
+                        - generic [ref=e441]:
+                          - img [ref=e442]
+                          - text: "10"
+                        - generic [ref=e444]:
+                          - img [ref=e445]
+                          - text: "6"
+                        - generic [ref=e447]:
+                          - img [ref=e448]
+                          - text: "3"
+                  - generic [ref=e450]:
+                    - generic "License" [ref=e451]:
+                      - img [ref=e452]
+                      - text: Apache 2.0
+                    - list [ref=e454]:
+                      - listitem [ref=e455]:
+                        - img [ref=e456]
+                      - listitem [ref=e458]:
+                        - img [ref=e459]
+                      - listitem [ref=e461]:
+                        - img [ref=e462]
+              - listitem "longbridge" [ref=e464]:
+                - article [ref=e465]:
+                  - generic [ref=e466]:
+                    - generic [ref=e467]:
+                      - link "longbridge by longbridge" [ref=e468] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Alongbridge
+                        - img "longbridge by longbridge" [ref=e469]
+                      - generic [ref=e470]:
+                        - generic [ref=e471]:
+                          - heading "longbridge official" [level=2] [ref=e472]:
+                            - link "longbridge" [ref=e473] [cursor=pointer]:
+                              - /url: /mcp/servers/longbridge/longbridge-mcp
+                            - generic [ref=e474]: official
+                          - navigation "Categories" [ref=e475]:
+                            - link "Finance" [ref=e476] [cursor=pointer]:
+                              - /url: /mcp/categories/finance
+                              - img [ref=e477]
+                              - generic [ref=e479]: Finance
+                            - link "Research & Data" [ref=e480] [cursor=pointer]:
+                              - /url: /mcp/categories/research-and-data
+                              - img [ref=e481]
+                              - generic [ref=e483]: Research & Data
+                        - link "longbridge" [ref=e485] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Alongbridge
+                    - generic [ref=e486]:
+                      - generic [ref=e487]:
+                        - generic [ref=e488]: A
+                        - generic [ref=e489]: license
+                      - generic [ref=e490]:
+                        - generic [ref=e491]: A
+                        - generic [ref=e492]: quality
+                      - generic [ref=e493]:
+                        - generic [ref=e494]: A
+                        - generic [ref=e495]: maintenance
+                    - generic [ref=e496]: "US/HK markets — 110 tools: real-time quotes, options, orders, fundamentals, alerts, DCA & portfolio"
+                    - generic [ref=e497]:
+                      - generic "Last updated" [ref=e498]:
+                        - img [ref=e499]
+                        - text: Last updated
+                        - time [ref=e501]: 2026-06-10
+                      - generic [ref=e502]:
+                        - generic [ref=e503]:
+                          - img [ref=e504]
+                          - text: "4"
+                        - generic [ref=e506]:
+                          - img [ref=e507]
+                          - text: "100"
+                        - generic [ref=e509]:
+                          - img [ref=e510]
+                          - text: "8"
+                  - generic [ref=e512]:
+                    - generic "License" [ref=e513]:
+                      - img [ref=e514]
+                      - text: MIT
+                    - list [ref=e516]:
+                      - listitem [ref=e517]:
+                        - img [ref=e518]
+              - listitem "IP2Location IP Geolocation MCP Server" [ref=e520]:
+                - article [ref=e521]:
+                  - generic [ref=e522]:
+                    - generic [ref=e523]:
+                      - link "IP2Location IP Geolocation MCP Server by ip2location" [ref=e524] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Aip2location
+                        - img "IP2Location IP Geolocation MCP Server by ip2location" [ref=e525]
+                      - generic [ref=e526]:
+                        - generic [ref=e527]:
+                          - heading "IP2Location IP Geolocation MCP official" [level=2] [ref=e528]:
+                            - link "IP2Location IP Geolocation MCP" [ref=e529] [cursor=pointer]:
+                              - /url: /mcp/servers/ip2location/mcp-ip2location-io
+                            - generic [ref=e530]: official
+                          - navigation "Categories" [ref=e531]:
+                            - link "Location Services" [ref=e532] [cursor=pointer]:
+                              - /url: /mcp/categories/location-services
+                              - img [ref=e533]
+                              - generic [ref=e535]: Location Services
+                        - generic [ref=e536]:
+                          - link "ip2location" [ref=e537] [cursor=pointer]:
+                            - /url: /mcp/servers?query=author%3Aip2location
+                          - generic "Server maintainers are verified by Glama" [ref=e539]:
+                            - img [ref=e540]
+                    - generic [ref=e542]:
+                      - generic [ref=e543]:
+                        - generic [ref=e544]: A
+                        - generic [ref=e545]: license
+                      - generic [ref=e546]:
+                        - generic [ref=e547]: A
+                        - generic [ref=e548]: quality
+                      - generic [ref=e549]:
+                        - generic [ref=e550]: B
+                        - generic [ref=e551]: maintenance
+                    - generic [ref=e552]: IP Geolocation MCP server using IP2Location.io API to ease the query of geolocation information.
+                    - generic [ref=e553]:
+                      - generic "Last updated" [ref=e554]:
+                        - img [ref=e555]
+                        - text: Last updated
+                        - time [ref=e557]: 2026-05-26
+                      - generic [ref=e558]:
+                        - generic [ref=e559]:
+                          - img [ref=e560]
+                          - text: "8"
+                        - generic [ref=e562]:
+                          - img [ref=e563]
+                          - text: "1"
+                        - generic [ref=e565]:
+                          - img [ref=e566]
+                          - text: "14"
+                  - generic [ref=e568]:
+                    - generic [ref=e569]: Python
+                    - generic "License" [ref=e571]:
+                      - img [ref=e572]
+                      - text: MIT
+                    - list [ref=e574]:
+                      - listitem [ref=e575]:
+                        - img [ref=e576]
+                      - listitem [ref=e578]:
+                        - img [ref=e579]
+                      - listitem [ref=e581]:
+                        - img [ref=e582]
+              - listitem "SEO Review Tools - MCP server" [ref=e584]:
+                - article [ref=e585]:
+                  - generic [ref=e586]:
+                    - generic [ref=e587]:
+                      - link "SEO Review Tools - MCP server by SEO-Review-Tools" [ref=e588] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3ASEO-Review-Tools
+                        - img "SEO Review Tools - MCP server by SEO-Review-Tools" [ref=e589]
+                      - generic [ref=e590]:
+                        - generic [ref=e591]:
+                          - heading "SEO Review Tools - MCP server official" [level=2] [ref=e592]:
+                            - link "SEO Review Tools - MCP server" [ref=e593] [cursor=pointer]:
+                              - /url: /mcp/servers/SEO-Review-Tools/SEO-API-MCP
+                            - generic [ref=e594]: official
+                          - navigation "Categories" [ref=e595]:
+                            - link "Search" [ref=e596] [cursor=pointer]:
+                              - /url: /mcp/categories/search
+                              - img [ref=e597]
+                              - generic [ref=e599]: Search
+                            - link "Marketing" [ref=e600] [cursor=pointer]:
+                              - /url: /mcp/categories/marketing
+                              - img [ref=e601]
+                              - generic [ref=e603]: Marketing
+                            - link "RAG Systems" [ref=e604] [cursor=pointer]:
+                              - /url: /mcp/categories/rag-systems
+                              - img [ref=e605]
+                              - generic [ref=e607]: RAG Systems
+                        - link "SEO-Review-Tools" [ref=e609] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3ASEO-Review-Tools
+                    - generic [ref=e610]:
+                      - generic [ref=e611]:
+                        - generic [ref=e612]: A
+                        - generic [ref=e613]: license
+                      - generic [ref=e614]:
+                        - generic [ref=e615]: B
+                        - generic [ref=e616]: quality
+                      - generic [ref=e617]:
+                        - generic [ref=e618]: C
+                        - generic [ref=e619]: maintenance
+                    - generic [ref=e620]: "Get access to real-time SEO data, including: keyword insights, backlink data, traffic estimates and more. Allow AI tools and Large Language Models (LLMs) to tap into the real-time SEO Review Tools API with natural language commands."
+                    - generic [ref=e621]:
+                      - generic "Last updated" [ref=e622]:
+                        - img [ref=e623]
+                        - text: Last updated
+                        - time [ref=e625]: 2025-06-11
+                      - generic [ref=e626]:
+                        - generic [ref=e627]:
+                          - img [ref=e628]
+                          - text: "6"
+                        - generic [ref=e630]:
+                          - img [ref=e631]
+                          - text: "8"
+                        - generic [ref=e633]:
+                          - img [ref=e634]
+                          - text: "1"
+                        - generic [ref=e636]:
+                          - img [ref=e637]
+                          - text: "5"
+                  - generic "License" [ref=e640]:
+                    - img [ref=e641]
+                    - text: MIT
+              - listitem "PropLine" [ref=e643]:
+                - article [ref=e644]:
+                  - generic [ref=e645]:
+                    - generic [ref=e646]:
+                      - link "PropLine by proplineapi" [ref=e647] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Aproplineapi
+                        - img "PropLine by proplineapi" [ref=e648]
+                      - generic [ref=e649]:
+                        - generic [ref=e650]:
+                          - heading "PropLine official" [level=2] [ref=e651]:
+                            - link "PropLine" [ref=e652] [cursor=pointer]:
+                              - /url: /mcp/servers/proplineapi/propline-mcp
+                            - generic [ref=e653]: official
+                          - navigation "Categories" [ref=e654]:
+                            - link "Sports" [ref=e655] [cursor=pointer]:
+                              - /url: /mcp/categories/sports
+                              - img [ref=e656]
+                              - generic [ref=e658]: Sports
+                            - link "Research & Data" [ref=e659] [cursor=pointer]:
+                              - /url: /mcp/categories/research-and-data
+                              - img [ref=e660]
+                              - generic [ref=e662]: Research & Data
+                        - link "proplineapi" [ref=e664] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Aproplineapi
+                    - generic [ref=e665]:
+                      - generic [ref=e666]:
+                        - generic [ref=e667]: A
+                        - generic [ref=e668]: license
+                      - generic [ref=e669]:
+                        - generic [ref=e670]: A
+                        - generic [ref=e671]: quality
+                      - generic [ref=e672]:
+                        - generic [ref=e673]: B
+                        - generic [ref=e674]: maintenance
+                    - generic [ref=e675]: Live sports betting odds, cross-book +EV, and graded player-prop resolution across 13 books.
+                    - generic [ref=e676]:
+                      - generic "Last updated" [ref=e677]:
+                        - img [ref=e678]
+                        - text: Last updated
+                        - time [ref=e680]: 2026-05-31
+                      - generic [ref=e681]:
+                        - generic [ref=e682]:
+                          - img [ref=e683]
+                          - text: "4"
+                        - generic [ref=e685]:
+                          - img [ref=e686]
+                          - text: "11"
+                        - generic [ref=e688]:
+                          - img [ref=e689]
+                          - text: "268"
+                  - generic [ref=e691]:
+                    - generic "License" [ref=e692]:
+                      - img [ref=e693]
+                      - text: MIT
+                    - list [ref=e695]:
+                      - listitem [ref=e696]:
+                        - img [ref=e697]
+                      - listitem [ref=e699]:
+                        - img [ref=e700]
+              - listitem "Pantrist" [ref=e702]:
+                - article [ref=e703]:
+                  - generic [ref=e704]:
+                    - generic [ref=e705]:
+                      - link "Pantrist by Pantrist-dev" [ref=e706] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3APantrist-dev
+                        - img "Pantrist by Pantrist-dev" [ref=e707]
+                      - generic [ref=e708]:
+                        - generic [ref=e709]:
+                          - heading "Pantrist official" [level=2] [ref=e710]:
+                            - link "Pantrist" [ref=e711] [cursor=pointer]:
+                              - /url: /mcp/servers/Pantrist-dev/pantrist-mcp
+                            - generic [ref=e712]: official
+                          - navigation "Categories" [ref=e713]:
+                            - link "E-commerce & Retail" [ref=e714] [cursor=pointer]:
+                              - /url: /mcp/categories/ecommerce-and-retail
+                              - img [ref=e715]
+                              - generic [ref=e717]: E-commerce & Retail
+                        - link "Pantrist-dev" [ref=e719] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3APantrist-dev
+                    - generic [ref=e720]:
+                      - generic [ref=e721]:
+                        - generic [ref=e722]: A
+                        - generic [ref=e723]: license
+                      - generic [ref=e724]:
+                        - generic [ref=e725]: A
+                        - generic [ref=e726]: quality
+                      - generic [ref=e727]:
+                        - generic [ref=e728]: B
+                        - generic [ref=e729]: maintenance
+                    - generic [ref=e730]: Manage your Pantrist pantry, shopping list, recipes, and weekly meal plan from Claude. The server wraps the same public REST API that powers the iOS, Android, and web apps, so your changes show up in real time on every device. * "What's on my shopping list?" * "Add milk, eggs, and that brand of olive oil I had last week" * "What's expiring in the next three days?"
+                    - generic [ref=e731]:
+                      - generic "Last updated" [ref=e732]:
+                        - img [ref=e733]
+                        - text: Last updated
+                        - time [ref=e735]: 2026-06-07
+                      - generic [ref=e736]:
+                        - generic [ref=e737]:
+                          - img [ref=e738]
+                          - text: "4"
+                        - generic [ref=e740]:
+                          - img [ref=e741]
+                          - text: "14"
+                  - generic [ref=e743]:
+                    - generic "License" [ref=e744]:
+                      - img [ref=e745]
+                      - text: MIT
+                    - list [ref=e747]:
+                      - listitem [ref=e748]:
+                        - img [ref=e749]
+                      - listitem [ref=e751]:
+                        - img [ref=e752]
+                      - listitem [ref=e754]:
+                        - img [ref=e755]
+              - listitem "MiniMax MCP JS" [ref=e757]:
+                - article [ref=e758]:
+                  - generic [ref=e759]:
+                    - generic [ref=e760]:
+                      - link "MiniMax MCP JS by MiniMax-AI" [ref=e761] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3AMiniMax-AI
+                        - img "MiniMax MCP JS by MiniMax-AI" [ref=e762]
+                      - generic [ref=e763]:
+                        - generic [ref=e764]:
+                          - heading "MiniMax MCP JS official" [level=2] [ref=e765]:
+                            - link "MiniMax MCP JS" [ref=e766] [cursor=pointer]:
+                              - /url: /mcp/servers/MiniMax-AI/MiniMax-MCP-JS
+                            - generic [ref=e767]: official
+                          - navigation "Categories" [ref=e768]:
+                            - link "Image & Video Processing" [ref=e769] [cursor=pointer]:
+                              - /url: /mcp/categories/image-and-video-processing
+                              - img [ref=e770]
+                              - generic [ref=e772]: Image & Video Processing
+                            - link "Text-to-Speech" [ref=e773] [cursor=pointer]:
+                              - /url: /mcp/categories/text-to-speech
+                              - img [ref=e774]
+                              - generic [ref=e776]: Text-to-Speech
+                            - link "Multimedia Processing" [ref=e777] [cursor=pointer]:
+                              - /url: /mcp/categories/multimedia-processing
+                              - img [ref=e778]
+                              - generic [ref=e780]: Multimedia Processing
+                        - link "MiniMax-AI" [ref=e782] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3AMiniMax-AI
+                    - generic [ref=e783]:
+                      - generic [ref=e784]:
+                        - generic [ref=e785]: A
+                        - generic [ref=e786]: license
+                      - generic [ref=e787]:
+                        - generic [ref=e788]: A
+                        - generic [ref=e789]: quality
+                      - generic [ref=e790]:
+                        - generic [ref=e791]: F
+                        - generic [ref=e792]: maintenance
+                    - generic [ref=e793]: JavaScript implementation of MiniMax MCP that enables interaction with MiniMax AI services for image generation, video generation, text-to-speech, and voice cloning through MCP-compatible clients.
+                    - generic [ref=e794]:
+                      - generic "Last updated" [ref=e795]:
+                        - img [ref=e796]
+                        - text: Last updated
+                        - time [ref=e798]: 2025-07-22
+                      - generic [ref=e799]:
+                        - generic [ref=e800]:
+                          - img [ref=e801]
+                          - text: "4"
+                        - generic [ref=e803]:
+                          - img [ref=e804]
+                          - text: "10"
+                        - generic [ref=e806]:
+                          - img [ref=e807]
+                          - text: "404"
+                        - generic [ref=e809]:
+                          - img [ref=e810]
+                          - text: "125"
+                  - generic "License" [ref=e813]:
+                    - img [ref=e814]
+                    - text: MIT
+              - listitem "CoinRithm/coinrithm-agent-trading" [ref=e816]:
+                - article [ref=e817]:
+                  - generic [ref=e818]:
+                    - generic [ref=e819]:
+                      - link "CoinRithm/coinrithm-agent-trading by CoinRithm" [ref=e820] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3ACoinRithm
+                        - img "CoinRithm/coinrithm-agent-trading by CoinRithm" [ref=e821]
+                      - generic [ref=e822]:
+                        - generic [ref=e823]:
+                          - heading "CoinRithm/coinrithm-agent official" [level=2] [ref=e824]:
+                            - link "CoinRithm/coinrithm-agent" [ref=e825] [cursor=pointer]:
+                              - /url: /mcp/servers/CoinRithm/coinrithm-agent-trading
+                            - generic [ref=e826]: official
+                          - navigation "Categories" [ref=e827]:
+                            - link "Cryptocurrency" [ref=e828] [cursor=pointer]:
+                              - /url: /mcp/categories/cryptocurrency
+                              - img [ref=e829]
+                              - generic [ref=e831]: Cryptocurrency
+                            - link "Finance" [ref=e832] [cursor=pointer]:
+                              - /url: /mcp/categories/finance
+                              - img [ref=e833]
+                              - generic [ref=e835]: Finance
+                            - link "Blockchain" [ref=e836] [cursor=pointer]:
+                              - /url: /mcp/categories/blockchain
+                              - img [ref=e837]
+                              - generic [ref=e839]: Blockchain
+                        - link "CoinRithm" [ref=e841] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3ACoinRithm
+                    - generic [ref=e842]:
+                      - generic [ref=e843]:
+                        - generic [ref=e844]: A
+                        - generic [ref=e845]: license
+                      - generic [ref=e846]:
+                        - generic [ref=e847]: A
+                        - generic [ref=e848]: quality
+                      - generic [ref=e849]:
+                        - generic [ref=e850]: B
+                        - generic [ref=e851]: maintenance
+                    - generic [ref=e852]: Paper-trade crypto spot, futures, and prediction markets on CoinRithm with a user-minted API key. Simulated funds only; includes 21 MCP tools and Agent Arena performance tracking.
+                    - generic [ref=e853]:
+                      - generic "Last updated" [ref=e854]:
+                        - img [ref=e855]
+                        - text: Last updated
+                        - time [ref=e857]: 2026-06-10
+                      - generic [ref=e858]:
+                        - generic [ref=e859]:
+                          - img [ref=e860]
+                          - text: "2"
+                        - generic [ref=e862]:
+                          - img [ref=e863]
+                          - text: "22"
+                        - generic [ref=e865]:
+                          - img [ref=e866]
+                          - text: "1"
+                  - generic [ref=e868]:
+                    - generic "License" [ref=e869]:
+                      - img [ref=e870]
+                      - text: MIT
+                    - list [ref=e872]:
+                      - listitem [ref=e873]:
+                        - img [ref=e874]
+                      - listitem [ref=e876]:
+                        - img [ref=e877]
+                      - listitem [ref=e879]:
+                        - img [ref=e880]
+              - listitem "Connectry Architect Cert" [ref=e882]:
+                - article [ref=e883]:
+                  - generic [ref=e884]:
+                    - generic [ref=e885]:
+                      - link "Connectry Architect Cert by Connectry-io" [ref=e886] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3AConnectry-io
+                        - img "Connectry Architect Cert by Connectry-io" [ref=e887]
+                      - generic [ref=e888]:
+                        - generic [ref=e889]:
+                          - heading "Connectry Architect Cert official" [level=2] [ref=e890]:
+                            - link "Connectry Architect Cert" [ref=e891] [cursor=pointer]:
+                              - /url: /mcp/servers/Connectry-io/connectrylab-architect-cert-mcp
+                            - generic [ref=e892]: official
+                          - navigation "Categories" [ref=e893]:
+                            - link "Education & Learning Tools" [ref=e894] [cursor=pointer]:
+                              - /url: /mcp/categories/education-and-learning-tools
+                              - img [ref=e895]
+                              - generic [ref=e897]: Education & Learning Tools
+                            - link "Developer Tools" [ref=e898] [cursor=pointer]:
+                              - /url: /mcp/categories/developer-tools
+                              - img [ref=e899]
+                              - generic [ref=e901]: Developer Tools
+                        - link "Connectry-io" [ref=e903] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3AConnectry-io
+                    - generic [ref=e904]:
+                      - generic [ref=e905]:
+                        - generic [ref=e906]: A
+                        - generic [ref=e907]: license
+                      - generic [ref=e908]:
+                        - generic [ref=e909]: A
+                        - generic [ref=e910]: quality
+                      - generic [ref=e911]:
+                        - generic [ref=e912]: B
+                        - generic [ref=e913]: maintenance
+                    - generic [ref=e914]: Free certification prep for the Claude Certified Architect exam. 390 scenario-based questions, guided capstone build, 30 concept handouts, 6 reference projects, practice exams, interactive UI with clickable answer cards, progress dashboard, spaced repetition, and deterministic grading. Everything runs locally — no cloud, no accounts, no telemetry.
+                    - generic [ref=e915]:
+                      - generic "Last updated" [ref=e916]:
+                        - img [ref=e917]
+                        - text: Last updated
+                        - time [ref=e919]: 2026-03-19
+                      - generic [ref=e920]:
+                        - generic [ref=e921]:
+                          - img [ref=e922]
+                          - text: "4"
+                        - generic [ref=e924]:
+                          - img [ref=e925]
+                          - text: "18"
+                        - generic [ref=e927]:
+                          - img [ref=e928]
+                          - text: "25"
+                        - generic [ref=e930]:
+                          - img [ref=e931]
+                          - text: "23"
+                  - generic [ref=e933]:
+                    - generic "License" [ref=e934]:
+                      - img [ref=e935]
+                      - text: MIT
+                    - list [ref=e937]:
+                      - listitem [ref=e938]:
+                        - img [ref=e939]
+                      - listitem [ref=e941]:
+                        - img [ref=e942]
+              - listitem "AI Design Blueprint Doctrine" [ref=e944]:
+                - article [ref=e945]:
+                  - generic [ref=e946]:
+                    - generic [ref=e947]:
+                      - link "AI Design Blueprint Doctrine by aidesignblueprint" [ref=e948] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Aaidesignblueprint
+                        - img "AI Design Blueprint Doctrine by aidesignblueprint" [ref=e949]
+                      - generic [ref=e950]:
+                        - generic [ref=e951]:
+                          - heading "AI Design Blueprint Doctrine official" [level=2] [ref=e952]:
+                            - link "AI Design Blueprint Doctrine" [ref=e953] [cursor=pointer]:
+                              - /url: /mcp/servers/aidesignblueprint/integrations
+                            - generic [ref=e954]: official
+                          - navigation "Categories" [ref=e955]:
+                            - link "Agent Orchestration" [ref=e956] [cursor=pointer]:
+                              - /url: /mcp/categories/agent-orchestration
+                              - img [ref=e957]
+                              - generic [ref=e959]: Agent Orchestration
+                            - link "Autonomous Agents" [ref=e960] [cursor=pointer]:
+                              - /url: /mcp/categories/autonomous-agents
+                              - img [ref=e961]
+                              - generic [ref=e963]: Autonomous Agents
+                        - link "aidesignblueprint" [ref=e965] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Aaidesignblueprint
+                    - generic [ref=e966]:
+                      - generic [ref=e967]:
+                        - generic [ref=e968]: A
+                        - generic [ref=e969]: license
+                      - generic [ref=e970]:
+                        - generic [ref=e971]: A
+                        - generic [ref=e972]: quality
+                      - generic [ref=e973]:
+                        - generic [ref=e974]: B
+                        - generic [ref=e975]: maintenance
+                    - generic [ref=e976]: he industry standard reference for safe, observable, and steerable AI agent UX. Browse and search 10 Blueprint principles, clusters, curated implementation examples, and application guides. 13 public tools require no credentials.
+                    - generic [ref=e977]:
+                      - generic "Last updated" [ref=e978]:
+                        - img [ref=e979]
+                        - text: Last updated
+                        - time [ref=e981]: 2026-05-28
+                      - generic [ref=e982]:
+                        - generic [ref=e983]:
+                          - img [ref=e984]
+                          - text: "8"
+                        - generic [ref=e986]:
+                          - img [ref=e987]
+                          - text: "24"
+                        - generic [ref=e989]:
+                          - img [ref=e990]
+                          - text: "2"
+                  - generic [ref=e992]:
+                    - generic "License" [ref=e993]:
+                      - img [ref=e994]
+                      - text: MIT
+                    - list [ref=e996]:
+                      - listitem [ref=e997]:
+                        - img [ref=e998]
+                      - listitem [ref=e1000]:
+                        - img [ref=e1001]
+              - listitem "brilliant-directories-mcp" [ref=e1003]:
+                - article [ref=e1004]:
+                  - generic [ref=e1005]:
+                    - generic [ref=e1006]:
+                      - link "brilliant-directories-mcp by brilliantdirectories" [ref=e1007] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Abrilliantdirectories
+                        - img "brilliant-directories-mcp by brilliantdirectories" [ref=e1008]
+                      - generic [ref=e1009]:
+                        - generic [ref=e1010]:
+                          - heading "brilliant-directories-mcp official" [level=2] [ref=e1011]:
+                            - link "brilliant-directories-mcp" [ref=e1012] [cursor=pointer]:
+                              - /url: /mcp/servers/brilliantdirectories/brilliant-directories-mcp
+                            - generic [ref=e1013]: official
+                          - navigation "Categories" [ref=e1014]:
+                            - link "Content Management Systems" [ref=e1015] [cursor=pointer]:
+                              - /url: /mcp/categories/content-management-systems
+                              - img [ref=e1016]
+                              - generic [ref=e1018]: Content Management Systems
+                            - link "App Automation" [ref=e1019] [cursor=pointer]:
+                              - /url: /mcp/categories/app-automation
+                              - img [ref=e1020]
+                              - generic [ref=e1022]: App Automation
+                        - link "brilliantdirectories" [ref=e1024] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Abrilliantdirectories
+                    - generic [ref=e1025]:
+                      - generic [ref=e1026]:
+                        - generic [ref=e1027]: A
+                        - generic [ref=e1028]: license
+                      - generic [ref=e1029]:
+                        - generic [ref=e1030]: A
+                        - generic [ref=e1031]: quality
+                      - generic [ref=e1032]:
+                        - generic [ref=e1033]: B
+                        - generic [ref=e1034]: maintenance
+                    - generic [ref=e1035]: Official MCP server for Brilliant Directories, the membership and directory website platform powering 50,000+ sites. Manage members, posts, leads, reviews, email templates, forms, menus, pages, redirects, tags, and more.
+                    - generic [ref=e1036]:
+                      - generic "Last updated" [ref=e1037]:
+                        - img [ref=e1038]
+                        - text: Last updated
+                        - time [ref=e1040]: 2026-05-30
+                      - generic [ref=e1041]:
+                        - generic [ref=e1042]:
+                          - img [ref=e1043]
+                          - text: "6"
+                        - generic [ref=e1045]:
+                          - img [ref=e1046]
+                          - text: "100"
+                        - generic [ref=e1048]:
+                          - img [ref=e1049]
+                          - text: "14"
+                  - generic [ref=e1051]:
+                    - generic "License" [ref=e1052]:
+                      - img [ref=e1053]
+                      - text: MIT
+                    - list [ref=e1055]:
+                      - listitem [ref=e1056]:
+                        - img [ref=e1057]
+                      - listitem [ref=e1059]:
+                        - img [ref=e1060]
+                      - listitem [ref=e1062]:
+                        - img [ref=e1063]
+              - listitem "Playwright MCP Server" [ref=e1065]:
+                - article [ref=e1066]:
+                  - generic [ref=e1067]:
+                    - generic [ref=e1068]:
+                      - link "Playwright MCP Server by microsoft" [ref=e1069] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Amicrosoft
+                        - img "Playwright MCP Server by microsoft" [ref=e1070]
+                      - generic [ref=e1071]:
+                        - generic [ref=e1072]:
+                          - heading "Playwright MCP Server official" [level=2] [ref=e1073]:
+                            - link "Playwright MCP Server" [ref=e1074] [cursor=pointer]:
+                              - /url: /mcp/servers/microsoft/playwright-mcp
+                            - generic [ref=e1075]: official
+                          - navigation "Categories" [ref=e1076]:
+                            - link "Browser Automation" [ref=e1077] [cursor=pointer]:
+                              - /url: /mcp/categories/browser-automation
+                              - img [ref=e1078]
+                              - generic [ref=e1080]: Browser Automation
+                            - link "Web Scraping" [ref=e1081] [cursor=pointer]:
+                              - /url: /mcp/categories/web-scraping
+                              - img [ref=e1082]
+                              - generic [ref=e1084]: Web Scraping
+                            - link "Agent Orchestration" [ref=e1085] [cursor=pointer]:
+                              - /url: /mcp/categories/agent-orchestration
+                              - img [ref=e1086]
+                              - generic [ref=e1088]: Agent Orchestration
+                        - link "microsoft" [ref=e1090] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Amicrosoft
+                    - generic [ref=e1091]:
+                      - generic [ref=e1092]:
+                        - generic [ref=e1093]: A
+                        - generic [ref=e1094]: license
+                      - generic [ref=e1095]:
+                        - generic [ref=e1096]: B
+                        - generic [ref=e1097]: quality
+                      - generic [ref=e1098]:
+                        - generic [ref=e1099]: A
+                        - generic [ref=e1100]: maintenance
+                    - generic [ref=e1101]: A Model Context Protocol server that enables LLMs to interact with web pages through structured accessibility snapshots without requiring vision models or screenshots.
+                    - generic [ref=e1102]:
+                      - generic "Last updated" [ref=e1103]:
+                        - img [ref=e1104]
+                        - text: Last updated
+                        - time [ref=e1106]: 2026-05-28
+                      - generic [ref=e1107]:
+                        - generic [ref=e1108]:
+                          - img [ref=e1109]
+                          - text: "22"
+                        - generic [ref=e1111]:
+                          - img [ref=e1112]
+                          - text: "23"
+                        - generic [ref=e1114]:
+                          - img [ref=e1115]
+                          - text: 5,319,545
+                        - generic [ref=e1117]:
+                          - img [ref=e1118]
+                          - text: 33,150
+                  - list [ref=e1121]:
+                    - listitem [ref=e1122]:
+                      - img [ref=e1123]
+                    - listitem [ref=e1125]:
+                      - img [ref=e1126]
+                    - listitem [ref=e1128]:
+                      - img [ref=e1129]
+              - listitem "WhisperGraph" [ref=e1131]:
+                - article [ref=e1132]:
+                  - generic [ref=e1133]:
+                    - generic [ref=e1134]:
+                      - link "WhisperGraph by whisper-sec" [ref=e1135] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Awhisper-sec
+                        - img "WhisperGraph by whisper-sec" [ref=e1136]
+                      - generic [ref=e1137]:
+                        - generic [ref=e1138]:
+                          - heading "WhisperGraph official" [level=2] [ref=e1139]:
+                            - link "WhisperGraph" [ref=e1140] [cursor=pointer]:
+                              - /url: /mcp/servers/whisper-sec/whisper-graph-mcp
+                            - generic [ref=e1141]: official
+                          - navigation "Categories" [ref=e1142]:
+                            - link "Knowledge & Memory" [ref=e1143] [cursor=pointer]:
+                              - /url: /mcp/categories/knowledge-and-memory
+                              - img [ref=e1144]
+                              - generic [ref=e1146]: Knowledge & Memory
+                            - link "Networking & Infrastructure" [ref=e1147] [cursor=pointer]:
+                              - /url: /mcp/categories/networking-and-infrastructure
+                              - img [ref=e1148]
+                              - generic [ref=e1150]: Networking & Infrastructure
+                            - link "Security" [ref=e1151] [cursor=pointer]:
+                              - /url: /mcp/categories/security-and-iam
+                              - img [ref=e1152]
+                              - generic [ref=e1154]: Security
+                        - link "whisper-sec" [ref=e1156] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Awhisper-sec
+                    - generic [ref=e1157]:
+                      - generic [ref=e1158]:
+                        - generic [ref=e1159]: A
+                        - generic [ref=e1160]: license
+                      - generic [ref=e1161]:
+                        - generic [ref=e1162]: A
+                        - generic [ref=e1163]: quality
+                      - generic [ref=e1164]:
+                        - generic [ref=e1165]: B
+                        - generic [ref=e1166]: maintenance
+                    - generic [ref=e1167]: Self-hostable MCP server for WhisperGraph — a graph of 7.39B nodes / 39B edges mapping DNS, BGP, GeoIP, WHOIS, and threat intelligence. Six read-only tools (Cypher query + schema introspection + threat assessment), six resources, eight investigation prompts. stdio and Streamable HTTP transports.
+                    - generic [ref=e1168]:
+                      - generic "Last updated" [ref=e1169]:
+                        - img [ref=e1170]
+                        - text: Last updated
+                        - time [ref=e1172]: 2026-05-17
+                      - generic [ref=e1173]:
+                        - generic [ref=e1174]:
+                          - img [ref=e1175]
+                          - text: "14"
+                        - generic [ref=e1177]:
+                          - img [ref=e1178]
+                          - text: "6"
+                        - generic [ref=e1180]:
+                          - img [ref=e1181]
+                          - text: "15"
+                        - generic [ref=e1183]:
+                          - img [ref=e1184]
+                          - text: "1"
+                  - generic "License" [ref=e1187]:
+                    - img [ref=e1188]
+                    - text: Apache 2.0
+              - listitem "mcp-server-comparedge" [ref=e1190]:
+                - article [ref=e1191]:
+                  - generic [ref=e1192]:
+                    - generic [ref=e1193]:
+                      - link "mcp-server-comparedge by comparedge" [ref=e1194] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Acomparedge
+                        - img "mcp-server-comparedge by comparedge" [ref=e1195]
+                      - generic [ref=e1196]:
+                        - generic [ref=e1197]:
+                          - heading "mcp-server-comparedge official" [level=2] [ref=e1198]:
+                            - link "mcp-server-comparedge" [ref=e1199] [cursor=pointer]:
+                              - /url: /mcp/servers/comparedge/mcp-server-comparedge
+                            - generic [ref=e1200]: official
+                          - navigation "Categories" [ref=e1201]:
+                            - link "Customer Data Platforms" [ref=e1202] [cursor=pointer]:
+                              - /url: /mcp/categories/customer-data-platforms
+                              - img [ref=e1203]
+                              - generic [ref=e1205]: Customer Data Platforms
+                            - link "Research & Data" [ref=e1206] [cursor=pointer]:
+                              - /url: /mcp/categories/research-and-data
+                              - img [ref=e1207]
+                              - generic [ref=e1209]: Research & Data
+                            - link "Search" [ref=e1210] [cursor=pointer]:
+                              - /url: /mcp/categories/search
+                              - img [ref=e1211]
+                              - generic [ref=e1213]: Search
+                        - link "comparedge" [ref=e1215] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Acomparedge
+                    - generic [ref=e1216]:
+                      - generic [ref=e1217]:
+                        - generic [ref=e1218]: A
+                        - generic [ref=e1219]: license
+                      - generic [ref=e1220]:
+                        - generic [ref=e1221]: A
+                        - generic [ref=e1222]: quality
+                      - generic [ref=e1223]:
+                        - generic [ref=e1224]: B
+                        - generic [ref=e1225]: maintenance
+                    - generic [ref=e1226]: Query verified pricing, aggregated user ratings, feature comparisons, and category rankings for 508+ SaaS, AI, and security tools across 45 categories. No API key required - install with npx @comparedge/mcp-server
+                    - generic [ref=e1227]:
+                      - generic "Last updated" [ref=e1228]:
+                        - img [ref=e1229]
+                        - text: Last updated
+                        - time [ref=e1231]: 2026-05-30
+                      - generic [ref=e1232]:
+                        - generic [ref=e1233]:
+                          - img [ref=e1234]
+                          - text: "16"
+                        - generic [ref=e1236]:
+                          - img [ref=e1237]
+                          - text: "8"
+                        - generic [ref=e1239]:
+                          - img [ref=e1240]
+                          - text: 1,721
+                        - generic [ref=e1242]:
+                          - img [ref=e1243]
+                          - text: "1"
+                  - generic [ref=e1245]:
+                    - generic "License" [ref=e1246]:
+                      - img [ref=e1247]
+                      - text: MIT
+                    - list [ref=e1249]:
+                      - listitem [ref=e1250]:
+                        - img [ref=e1251]
+                      - listitem [ref=e1253]:
+                        - img [ref=e1254]
+              - listitem "flox-mcp" [ref=e1256]:
+                - article [ref=e1257]:
+                  - generic [ref=e1258]:
+                    - generic [ref=e1259]:
+                      - link "flox-mcp by FLOX-Foundation" [ref=e1260] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3AFLOX-Foundation
+                        - img "flox-mcp by FLOX-Foundation" [ref=e1261]
+                      - generic [ref=e1262]:
+                        - generic [ref=e1263]:
+                          - heading "flox-mcp official" [level=2] [ref=e1264]:
+                            - link "flox-mcp" [ref=e1265] [cursor=pointer]:
+                              - /url: /mcp/servers/FLOX-Foundation/flox
+                            - generic [ref=e1266]: official
+                          - navigation "Categories" [ref=e1267]:
+                            - link "Finance" [ref=e1268] [cursor=pointer]:
+                              - /url: /mcp/categories/finance
+                              - img [ref=e1269]
+                              - generic [ref=e1271]: Finance
+                            - link "Developer Tools" [ref=e1272] [cursor=pointer]:
+                              - /url: /mcp/categories/developer-tools
+                              - img [ref=e1273]
+                              - generic [ref=e1275]: Developer Tools
+                            - link "Autonomous Agents" [ref=e1276] [cursor=pointer]:
+                              - /url: /mcp/categories/autonomous-agents
+                              - img [ref=e1277]
+                              - generic [ref=e1279]: Autonomous Agents
+                        - link "FLOX-Foundation" [ref=e1281] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3AFLOX-Foundation
+                    - generic [ref=e1282]:
+                      - generic [ref=e1283]:
+                        - generic [ref=e1284]: A
+                        - generic [ref=e1285]: license
+                      - generic [ref=e1286]:
+                        - generic [ref=e1287]: A
+                        - generic [ref=e1288]: quality
+                      - generic [ref=e1289]:
+                        - generic [ref=e1290]: B
+                        - generic [ref=e1291]: maintenance
+                    - generic [ref=e1292]: MCP server for the FLOX trading framework. About 30 tools to run backtests, scaffold strategies, validate for lookahead bias, compute indicators, place orders, and query PnL from Claude/Cursor.
+                    - generic [ref=e1293]:
+                      - generic "Last updated" [ref=e1294]:
+                        - img [ref=e1295]
+                        - text: Last updated
+                        - time [ref=e1297]: 2026-06-11
+                      - generic [ref=e1298]:
+                        - generic [ref=e1299]:
+                          - img [ref=e1300]
+                          - text: "10"
+                        - generic [ref=e1302]:
+                          - img [ref=e1303]
+                          - text: "33"
+                        - generic [ref=e1305]:
+                          - img [ref=e1306]
+                          - text: "214"
+                  - generic "License" [ref=e1309]:
+                    - img [ref=e1310]
+                    - text: MIT
+              - listitem "Mockzilla" [ref=e1312]:
+                - article [ref=e1313]:
+                  - generic [ref=e1314]:
+                    - generic [ref=e1315]:
+                      - link "Mockzilla by mockzilla" [ref=e1316] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Amockzilla
+                        - img "Mockzilla by mockzilla" [ref=e1317]
+                      - generic [ref=e1318]:
+                        - generic [ref=e1319]:
+                          - heading "Mockzilla official" [level=2] [ref=e1320]:
+                            - link "Mockzilla" [ref=e1321] [cursor=pointer]:
+                              - /url: /mcp/servers/mockzilla/mockzilla-mcp
+                            - generic [ref=e1322]: official
+                          - navigation "Categories" [ref=e1323]:
+                            - link "API Testing" [ref=e1324] [cursor=pointer]:
+                              - /url: /mcp/categories/api-testing
+                              - img [ref=e1325]
+                              - generic [ref=e1327]: API Testing
+                            - link "Developer Tools" [ref=e1328] [cursor=pointer]:
+                              - /url: /mcp/categories/developer-tools
+                              - img [ref=e1329]
+                              - generic [ref=e1331]: Developer Tools
+                            - link "Testing & QA Tools" [ref=e1332] [cursor=pointer]:
+                              - /url: /mcp/categories/testing-and-qa-tools
+                              - img [ref=e1333]
+                              - generic [ref=e1335]: Testing & QA Tools
+                        - link "mockzilla" [ref=e1337] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Amockzilla
+                    - generic [ref=e1338]:
+                      - generic [ref=e1339]:
+                        - generic [ref=e1340]: A
+                        - generic [ref=e1341]: license
+                      - generic [ref=e1342]:
+                        - generic [ref=e1343]: A
+                        - generic [ref=e1344]: quality
+                      - generic [ref=e1345]:
+                        - generic [ref=e1346]: B
+                        - generic [ref=e1347]: maintenance
+                    - generic [ref=e1348]: MCP server for mockzilla. Lets coding agents (Claude Desktop, Cursor, etc.) install the mockzilla CLI, stand up API mocks from an OpenAPI spec or a single endpoint, and — with an account — deploy hosted mocks on mockzilla.org.
+                    - generic [ref=e1349]:
+                      - generic "Last updated" [ref=e1350]:
+                        - img [ref=e1351]
+                        - text: Last updated
+                        - time [ref=e1353]: 2026-05-23
+                      - generic [ref=e1354]:
+                        - generic [ref=e1355]:
+                          - img [ref=e1356]
+                          - text: "8"
+                        - generic [ref=e1358]:
+                          - img [ref=e1359]
+                          - text: "14"
+                        - generic [ref=e1361]:
+                          - img [ref=e1362]
+                          - text: "219"
+                        - generic [ref=e1364]:
+                          - img [ref=e1365]
+                          - text: "5"
+                  - generic [ref=e1367]:
+                    - generic "License" [ref=e1368]:
+                      - img [ref=e1369]
+                      - text: MIT
+                    - list [ref=e1371]:
+                      - listitem [ref=e1372]:
+                        - img [ref=e1373]
+                      - listitem [ref=e1375]:
+                        - img [ref=e1376]
+              - listitem "decisionnode/DecisionNode" [ref=e1378]:
+                - article [ref=e1379]:
+                  - generic [ref=e1380]:
+                    - generic [ref=e1381]:
+                      - link "decisionnode/DecisionNode by decisionnode" [ref=e1382] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3Adecisionnode
+                        - img "decisionnode/DecisionNode by decisionnode" [ref=e1383]
+                      - generic [ref=e1384]:
+                        - generic [ref=e1385]:
+                          - heading "decisionnode/DecisionNode official" [level=2] [ref=e1386]:
+                            - link "decisionnode/DecisionNode" [ref=e1387] [cursor=pointer]:
+                              - /url: /mcp/servers/decisionnode/DecisionNode
+                            - generic [ref=e1388]: official
+                          - navigation "Categories" [ref=e1389]:
+                            - link "Knowledge & Memory" [ref=e1390] [cursor=pointer]:
+                              - /url: /mcp/categories/knowledge-and-memory
+                              - img [ref=e1391]
+                              - generic [ref=e1393]: Knowledge & Memory
+                            - link "Developer Tools" [ref=e1394] [cursor=pointer]:
+                              - /url: /mcp/categories/developer-tools
+                              - img [ref=e1395]
+                              - generic [ref=e1397]: Developer Tools
+                            - link "RAG Systems" [ref=e1398] [cursor=pointer]:
+                              - /url: /mcp/categories/rag-systems
+                              - img [ref=e1399]
+                              - generic [ref=e1401]: RAG Systems
+                        - link "decisionnode" [ref=e1403] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3Adecisionnode
+                    - generic [ref=e1404]:
+                      - generic [ref=e1405]:
+                        - generic [ref=e1406]: A
+                        - generic [ref=e1407]: license
+                      - generic [ref=e1408]:
+                        - generic [ref=e1409]: A
+                        - generic [ref=e1410]: quality
+                      - generic [ref=e1411]:
+                        - generic [ref=e1412]: B
+                        - generic [ref=e1413]: maintenance
+                    - generic [ref=e1414]: Record development decisions as structured JSON, embed them as vectors via Gemini, and search semantically over MCP. Works with Claude Code, Cursor, Windsurf, and any MCP client.
+                    - generic [ref=e1415]:
+                      - generic "Last updated" [ref=e1416]:
+                        - img [ref=e1417]
+                        - text: Last updated
+                        - time [ref=e1419]: 2026-04-15
+                      - generic [ref=e1420]:
+                        - generic [ref=e1421]:
+                          - img [ref=e1422]
+                          - text: "6"
+                        - generic [ref=e1424]:
+                          - img [ref=e1425]
+                          - text: "9"
+                        - generic [ref=e1427]:
+                          - img [ref=e1428]
+                          - text: "18"
+                        - generic [ref=e1430]:
+                          - img [ref=e1431]
+                          - text: "39"
+                  - generic [ref=e1433]:
+                    - generic "License" [ref=e1434]:
+                      - img [ref=e1435]
+                      - text: MIT
+                    - list [ref=e1437]:
+                      - listitem [ref=e1438]:
+                        - img [ref=e1439]
+                      - listitem [ref=e1441]:
+                        - img [ref=e1442]
+                      - listitem [ref=e1444]:
+                        - img [ref=e1445]
+              - listitem "SubDownload" [ref=e1447]:
+                - article [ref=e1448]:
+                  - generic [ref=e1449]:
+                    - generic [ref=e1450]:
+                      - link "SubDownload by SubDownload" [ref=e1451] [cursor=pointer]:
+                        - /url: /mcp/servers?query=author%3ASubDownload
+                        - img "SubDownload by SubDownload" [ref=e1452]
+                      - generic [ref=e1453]:
+                        - generic [ref=e1454]:
+                          - heading "SubDownload official" [level=2] [ref=e1455]:
+                            - link "SubDownload" [ref=e1456] [cursor=pointer]:
+                              - /url: /mcp/servers/SubDownload/subdownload-mcp
+                            - generic [ref=e1457]: official
+                          - navigation "Categories" [ref=e1458]:
+                            - link "Entertainment & Media" [ref=e1459] [cursor=pointer]:
+                              - /url: /mcp/categories/entertainment-and-media
+                              - img [ref=e1460]
+                              - generic [ref=e1462]: Entertainment & Media
+                            - link "Search" [ref=e1463] [cursor=pointer]:
+                              - /url: /mcp/categories/search
+                              - img [ref=e1464]
+                              - generic [ref=e1466]: Search
+                            - link "Knowledge & Memory" [ref=e1467] [cursor=pointer]:
+                              - /url: /mcp/categories/knowledge-and-memory
+                              - img [ref=e1468]
+                              - generic [ref=e1470]: Knowledge & Memory
+                        - link "SubDownload" [ref=e1472] [cursor=pointer]:
+                          - /url: /mcp/servers?query=author%3ASubDownload
+                    - generic [ref=e1473]:
+                      - generic [ref=e1474]:
+                        - generic [ref=e1475]: A
+                        - generic [ref=e1476]: license
+                      - generic [ref=e1477]:
+                        - generic [ref=e1478]: A
+                        - generic [ref=e1479]: quality
+                      - generic [ref=e1480]:
+                        - generic [ref=e1481]: C
+                        - generic [ref=e1482]: maintenance
+                    - generic [ref=e1483]: Public MCP wrapper for SubDownload.Fetch YouTube transcripts, search videos, browse channels and playlists — instant YouTube data for your AI workflow.
+                    - generic [ref=e1484]:
+                      - generic "Last updated" [ref=e1485]:
+                        - img [ref=e1486]
+                        - text: Last updated
+                        - time [ref=e1488]: 2026-04-27
+                      - generic [ref=e1489]:
+                        - generic [ref=e1490]:
+                          - img [ref=e1491]
+                          - text: "4"
+                        - generic [ref=e1493]:
+                          - img [ref=e1494]
+                          - text: "13"
+                        - generic [ref=e1496]:
+                          - img [ref=e1497]
+                          - text: "3"
+                  - generic "License" [ref=e1500]:
+                    - img [ref=e1501]
+                    - text: MIT
+    - contentinfo "Footer" [ref=e1503]:
+      - region "Feedback" [ref=e1504]:
+        - generic [ref=e1505]: Was this helpful?
+        - generic [ref=e1506]:
+          - button "Yes" [ref=e1507] [cursor=pointer]
+          - button "No" [ref=e1508] [cursor=pointer]
+      - navigation "Footer navigation" [ref=e1509]:
+        - generic [ref=e1510]:
+          - generic [ref=e1511]: MCP
+          - list [ref=e1512]:
+            - listitem [ref=e1513]:
+              - link "MCP Servers" [ref=e1514] [cursor=pointer]:
+                - /url: /mcp/servers
+            - listitem [ref=e1515]:
+              - link "MCP Connectors" [ref=e1516] [cursor=pointer]:
+                - /url: /mcp/connectors
+            - listitem [ref=e1517]:
+              - link "MCP Gateway" [ref=e1518] [cursor=pointer]:
+                - /url: /mcp/gateway
+            - listitem [ref=e1519]:
+              - link "MCP Hosting" [ref=e1520] [cursor=pointer]:
+                - /url: /mcp/hosting
+            - listitem [ref=e1521]:
+              - link "MCP Inspector" [ref=e1522] [cursor=pointer]:
+                - /url: /mcp/inspector
+            - listitem [ref=e1523]:
+              - link "MCP Clients" [ref=e1524] [cursor=pointer]:
+                - /url: /mcp/clients
+            - listitem [ref=e1525]:
+              - link "MCP Tools" [ref=e1526] [cursor=pointer]:
+                - /url: /mcp/tools
+        - generic [ref=e1527]:
+          - generic [ref=e1528]: AI
+          - list [ref=e1529]:
+            - listitem [ref=e1530]:
+              - link "Chat" [ref=e1531] [cursor=pointer]:
+                - /url: /chat
+            - listitem [ref=e1532]:
+              - link "AI Gateway" [ref=e1533] [cursor=pointer]:
+                - /url: /ai/gateway
+            - listitem [ref=e1534]:
+              - link "AI Models" [ref=e1535] [cursor=pointer]:
+                - /url: /ai/models
+        - generic [ref=e1536]:
+          - generic [ref=e1537]: Policies
+          - list [ref=e1538]:
+            - listitem [ref=e1539]:
+              - link "Terms of Service" [ref=e1540] [cursor=pointer]:
+                - /url: /policies/terms-of-service
+            - listitem [ref=e1541]:
+              - link "Privacy Policy" [ref=e1542] [cursor=pointer]:
+                - /url: /policies/privacy-policy
+            - listitem [ref=e1543]:
+              - link "VDP" [ref=e1544] [cursor=pointer]:
+                - /url: /policies/vulnerability-disclosure
+        - generic [ref=e1545]:
+          - generic [ref=e1546]: Resources
+          - list [ref=e1547]:
+            - listitem [ref=e1548]:
+              - link "Release Notes" [ref=e1549] [cursor=pointer]:
+                - /url: /release-notes
+            - listitem [ref=e1550]:
+              - link "Support" [ref=e1551] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=e1552]:
+              - link "Pricing" [ref=e1553] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e1554]:
+              - link "Careers" [ref=e1555] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e1556]:
+              - link "Blog" [ref=e1557] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e1558]:
+              - link "Newsletter" [ref=e1559] [cursor=pointer]:
+                - /url: /newsletter
+      - region "Company information and social media" [ref=e1560]:
+        - generic [ref=e1561]:
+          - link "Glama" [ref=e1562] [cursor=pointer]:
+            - /url: /
+          - text: – all-in-one AI workspace.
+        - generic [ref=e1563]:
+          - link "All systems online" [ref=e1564] [cursor=pointer]:
+            - /url: /status
+            - generic [ref=e1568]: All systems online
+          - link "Join our Discord community" [ref=e1569] [cursor=pointer]:
+            - /url: /discord
+            - img [ref=e1570]
+          - link "Join our Reddit community" [ref=e1572] [cursor=pointer]:
+            - /url: https://reddit.com/r/glama
+            - img [ref=e1573]
+          - link "Follow us on X" [ref=e1575] [cursor=pointer]:
+            - /url: https://x.com/glama_ai
+            - img [ref=e1576]
+  - region "Notifications, top-end (alt+T)"
