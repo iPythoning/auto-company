@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to content":
+      - /url: "#main-content"
+    - generic [ref=e3]:
+      - link "DEV Community Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "DEV Community" [ref=e5]
+      - search [ref=e7]:
+        - generic [ref=e9]:
+          - textbox "Search..." [ref=e10]
+          - button "Search" [ref=e11] [cursor=pointer]:
+            - img
+          - link "Powered by Algolia" [ref=e12] [cursor=pointer]:
+            - /url: https://www.algolia.com/developers/?utm_source=devto&utm_medium=referral
+            - text: Powered by Algolia
+            - img [ref=e13]
+      - generic [ref=e16]:
+        - link "Log in" [ref=e18] [cursor=pointer]:
+          - /url: https://dev.to/enter?signup_subforem=1
+        - link "Create account" [ref=e19] [cursor=pointer]:
+          - /url: https://dev.to/enter?signup_subforem=1&state=new-user
+  - generic [ref=e24]:
+    - paragraph [ref=e25]: Create your account
+    - generic [ref=e26]:
+      - generic [ref=e27]: Profile image
+      - button "Profile image" [ref=e28]
+    - generic [ref=e29]:
+      - generic "Name" [ref=e30]:
+        - text: Name
+        - generic [ref=e31]: "* * - required"
+      - textbox "Name" [ref=e32]
+    - generic [ref=e33]:
+      - generic "Username" [ref=e34]:
+        - text: Username
+        - generic [ref=e35]: "* * - required"
+      - textbox "Username" [ref=e36]
+    - generic [ref=e37]:
+      - generic "Email" [ref=e38]:
+        - text: Email
+        - generic [ref=e39]: "* * - required"
+      - textbox "Email" [ref=e40]
+    - generic [ref=e41]:
+      - generic "Password" [ref=e42]:
+        - text: Password
+        - generic [ref=e43]: "* * - required"
+      - textbox "Password" [ref=e44]
+    - generic [ref=e45]:
+      - generic "Password Confirmation" [ref=e46]:
+        - text: Password Confirmation
+        - generic [ref=e47]: "* * - required"
+      - textbox "Password Confirmation" [ref=e48]
+    - iframe [ref=e53]:
+      - generic [ref=f4e2]:
+        - generic [ref=f4e3]:
+          - checkbox "进行人机身份验证" [ref=f4e7]
+          - generic [ref=f4e11]: 进行人机身份验证
+        - generic [ref=f4e15]: reCAPTCHA
+    - button "Sign up" [ref=e55] [cursor=pointer]

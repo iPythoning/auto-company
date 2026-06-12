@@ -1,0 +1,22 @@
+- main [ref=e4]:
+  - generic:
+    - heading [level=1]
+    - generic:
+      - time
+  - article [ref=e5]:
+    - paragraph [ref=e7]
+    - generic:
+      - generic:
+        - generic:
+          - button
+          - button
+          - button
+        - generic:
+          - button
+          - button
+          - button
+      - generic:
+        - generic: ×
+        - generic:
+          - textbox
+  - complementary [ref=e8]

@@ -1,0 +1,89 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - heading "DNS Record Types Explained — A Complete Guide (2026)" [level=1] [ref=e6]
+    - time [ref=e8]: •June 12, 2026
+  - article [ref=e9]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]
+      - paragraph [ref=e12]: DNS Tools Guide
+      - paragraph [ref=e13]
+      - paragraph [ref=e14]:
+        - text: DNS (Domain Name System) is the phonebook of the internet. When you type a domain name, DNS translates it into an IP address that computers understand. But DNS does much more than that — it uses different
+        - strong [ref=e15]: record types
+        - text: to serve different purposes, from email routing to security policies.
+      - paragraph [ref=e16]
+      - paragraph [ref=e17]: "Understanding DNS record types is essential for anyone managing domains, websites, or email services. Here's a quick overview of the most important ones:"
+      - paragraph [ref=e18]
+      - paragraph [ref=e19]
+      - paragraph [ref=e20]: A Record (Address Record)
+      - paragraph [ref=e21]:
+        - text: "The most fundamental DNS record. Maps a domain name to an IPv4 address. Example:"
+        - code [ref=e22]: example.com → 93.184.216.34
+      - paragraph [ref=e23]
+      - paragraph [ref=e24]
+      - paragraph [ref=e25]: AAAA Record (Quad-A Record)
+      - paragraph [ref=e26]: Same as A record but for IPv6 addresses. As IPv4 addresses run out, AAAA records become increasingly important.
+      - paragraph [ref=e27]
+      - paragraph [ref=e28]
+      - paragraph [ref=e29]: CNAME Record (Canonical Name)
+      - paragraph [ref=e30]:
+        - text: Creates an alias from one domain to another.
+        - code [ref=e31]: www.example.com → example.com
+        - text: . Essential for CDN setups and subdomain management.
+      - paragraph [ref=e32]
+      - paragraph [ref=e33]
+      - paragraph [ref=e34]: MX Record (Mail Exchange)
+      - paragraph [ref=e35]: Directs email to the correct mail server. Includes a priority value — lower numbers get tried first. Without proper MX records, your domain cannot receive email.
+      - paragraph [ref=e36]
+      - paragraph [ref=e37]
+      - paragraph [ref=e38]: TXT Record (Text Record)
+      - paragraph [ref=e39]: Stores text data for various purposes. Most commonly used for SPF (email authentication), DKIM signatures, and domain ownership verification.
+      - paragraph [ref=e40]
+      - paragraph [ref=e41]
+      - paragraph [ref=e42]: NS Record (Name Server)
+      - paragraph [ref=e43]: Delegates a DNS zone to specific name servers. These are the authoritative servers that hold the actual DNS records for a domain.
+      - paragraph [ref=e44]
+      - paragraph [ref=e45]
+      - paragraph [ref=e46]: SOA Record (Start of Authority)
+      - paragraph [ref=e47]: "Contains administrative information about the DNS zone: primary name server, admin email, serial number, and timing parameters for zone transfers."
+      - paragraph [ref=e48]
+      - paragraph [ref=e49]
+      - paragraph [ref=e50]: CAA Record (Certification Authority Authorization)
+      - paragraph [ref=e51]: Specifies which Certificate Authorities are allowed to issue SSL/TLS certificates for your domain. A critical security record that prevents unauthorized certificate issuance.
+      - paragraph [ref=e52]
+      - paragraph [ref=e53]
+      - paragraph [ref=e54]: PTR Record (Pointer Record)
+      - paragraph [ref=e55]: The reverse of A/AAAA records — maps an IP address back to a domain name. Used for reverse DNS lookups, important for email deliverability.
+      - paragraph [ref=e56]
+      - paragraph [ref=e57]
+      - paragraph [ref=e58]: SRV Record (Service Record)
+      - paragraph [ref=e59]: Specifies host and port for specific services like SIP, LDAP, or XMPP. Includes priority and weight for load balancing.
+      - paragraph [ref=e60]
+      - paragraph [ref=e61]
+      - paragraph [ref=e62]: Putting It All Together
+      - paragraph [ref=e63]: Each DNS record type serves a specific purpose in the internet's infrastructure. Whether you're setting up a website, configuring email, or securing your domain with SSL, understanding these record types is the foundation.
+      - paragraph [ref=e64]
+      - paragraph [ref=e65]:
+        - strong [ref=e66]: Need to check your domain's DNS records?
+        - text: Use our
+        - link "free online DNS tools" [ref=e67] [cursor=pointer]:
+          - /url: https://ipythoning.github.io/dns-tools/
+        - text: — lookup A, AAAA, MX, TXT, CNAME, NS records and more instantly. Also check out the
+        - link "complete DNS Record Types reference guide" [ref=e68] [cursor=pointer]:
+          - /url: https://ipythoning.github.io/dns-tools/dns-record-types.html
+        - text: with detailed examples for every record type.
+    - generic:
+      - generic:
+        - generic:
+          - button
+          - button
+          - button
+        - generic:
+          - button
+          - button
+          - button
+      - generic:
+        - generic: ×
+        - generic:
+          - textbox
+  - complementary [ref=e69]

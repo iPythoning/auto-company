@@ -1,0 +1,48 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - link "DEV Community" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img "DEV Community" [ref=e9]
+    - heading "Join the DEV Community" [level=1] [ref=e10]
+    - paragraph [ref=e11]: DEV Community is a community of 3,949,105 amazing developers
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - button "Sign up with Apple" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+        - generic [ref=e18]: Sign up with Apple
+      - button "Sign up with Facebook" [ref=e20] [cursor=pointer]:
+        - img [ref=e21]
+        - generic [ref=e24]: Sign up with Facebook
+      - button "Sign up with GitHub" [ref=e26] [cursor=pointer]:
+        - img [ref=e27]
+        - generic [ref=e29]: Sign up with GitHub
+      - button "Sign up with Google" [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+        - generic [ref=e37]: Sign up with Google
+      - button "Sign up with MyMLH" [ref=e39] [cursor=pointer]:
+        - img [ref=e40]
+        - generic [ref=e69]: Sign up with MyMLH
+      - button "Sign up with Twitter (X)" [ref=e71] [cursor=pointer]:
+        - img [ref=e72]
+        - generic [ref=e74]: Sign up with Twitter (X)
+      - link "Sign up with Email" [ref=e75] [cursor=pointer]:
+        - /url: /users/sign_up?state=email_signup
+        - img [ref=e76]
+        - generic [ref=e78]: Sign up with Email
+    - generic [ref=e79]:
+      - text: By signing up, you are agreeing to our
+      - link "privacy policy" [ref=e80] [cursor=pointer]:
+        - /url: /privacy
+      - text: ","
+      - link "terms of use" [ref=e81] [cursor=pointer]:
+        - /url: /terms
+      - text: and
+      - link "code of conduct" [ref=e82] [cursor=pointer]:
+        - /url: /code-of-conduct
+      - text: .
+    - separator [ref=e83]
+    - generic [ref=e84]:
+      - text: Already have an account?
+      - link "Log in" [ref=e85] [cursor=pointer]:
+        - /url: https://dev.to/enter?signup_subforem=1
+      - text: .

@@ -1,0 +1,1161 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "Hashnode" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Hashnode" [ref=e9]
+      - button "Toggle Sidebar" [ref=e12] [cursor=pointer]:
+        - generic [ref=e15]: Toggle Sidebar
+    - generic [ref=e16]:
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e24]: Home
+        - listitem [ref=e25]:
+          - link "Blogs" [ref=e26] [cursor=pointer]:
+            - /url: /login?callbackUrl=/dashboards
+            - generic [ref=e29]: Blogs
+        - listitem [ref=e30]:
+          - link "Bookmarks" [ref=e31] [cursor=pointer]:
+            - /url: /login?callbackUrl=/bookmarks
+            - generic [ref=e34]: Bookmarks
+        - listitem [ref=e35]:
+          - link "Forums" [ref=e36] [cursor=pointer]:
+            - /url: /forums
+            - generic [ref=e39]: Forums
+        - listitem [ref=e40]:
+          - link "Hackathons" [ref=e41] [cursor=pointer]:
+            - /url: /hackathons
+            - generic [ref=e44]: Hackathons
+        - listitem [ref=e45]:
+          - link "Search" [ref=e46] [cursor=pointer]:
+            - /url: /search
+            - generic [ref=e49]: Search
+      - generic [ref=e50]:
+        - generic [ref=e51]: Author
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - link "Write" [ref=e55] [cursor=pointer]:
+              - /url: /login?callbackUrl=/drafts
+              - generic [ref=e57]: Write
+          - listitem [ref=e58]:
+            - link "Drafts" [ref=e59] [cursor=pointer]:
+              - /url: /login?callbackUrl=/drafts
+              - generic [ref=e61]: Drafts
+    - list [ref=e63]:
+      - listitem [ref=e64]:
+        - button "Explore" [ref=e65]:
+          - generic [ref=e67]: Explore
+        - generic: New
+        - navigation "Resources" [ref=e68]:
+          - link "Bug0 - The AI-native e2e QA regression testing" [ref=e69] [cursor=pointer]:
+            - /url: https://bug0.com?utm_source=hashnode&utm_medium=sidebar&utm_campaign=cross_product
+          - link "Bug0 Browsers - Cloud Chromium on demand, per-minute, live preview" [ref=e70] [cursor=pointer]:
+            - /url: https://browsers.bug0.com?utm_source=hashnode&utm_medium=sidebar&utm_campaign=cross_product
+          - link "Passmark - The open-source AI framework for regression testing" [ref=e71] [cursor=pointer]:
+            - /url: https://go.bug0.com/passmark
+          - link "Changelog" [ref=e72] [cursor=pointer]:
+            - /url: /changelog
+          - link "Brand" [ref=e73] [cursor=pointer]:
+            - /url: /brand
+          - link "@hashnode on X" [ref=e74] [cursor=pointer]:
+            - /url: https://x.com/hashnode
+          - link "Hashnode on LinkedIn" [ref=e75] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/hashnode
+          - link "Code of Conduct" [ref=e76] [cursor=pointer]:
+            - /url: /code-of-conduct
+          - link "Support - hello+support@hashnode.com" [ref=e77] [cursor=pointer]:
+            - /url: mailto:hello+support@hashnode.com
+      - listitem [ref=e78]:
+        - link "Sign in" [ref=e79] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=e81]: Sign in
+      - generic [ref=e82]:
+        - link "Terms" [ref=e83] [cursor=pointer]:
+          - /url: /terms
+        - link "Privacy" [ref=e84] [cursor=pointer]:
+          - /url: /privacy-policy
+        - link "Sitemap" [ref=e85] [cursor=pointer]:
+          - /url: /sitemap.xml
+        - button "Shortcuts" [ref=e86]
+      - paragraph [ref=e87]: © 2026 LinearBytes Inc.
+  - main [ref=e88]:
+    - main [ref=e89]:
+      - main [ref=e90]:
+        - generic [ref=e92]:
+          - heading "Popular posts" [level=1] [ref=e94]
+          - generic [ref=e96]:
+            - generic [ref=e97]: "Last 24h:"
+            - generic [ref=e100]: 352 articles
+            - generic [ref=e102]: 275 writers
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - heading "Write to think. Publish to connect." [level=1] [ref=e107]:
+              - text: Write to think.
+              - text: Publish to connect.
+            - paragraph [ref=e108]: AI can generate a thousand articles a minute. But it can't do your thinking for you. Hashnode is a community of builders, engineers, and tech leaders who blog to sharpen their ideas, share what they've learned, and grow alongside people who care about the craft.
+            - paragraph [ref=e109]: Your blog is your reputation — start building it.
+            - link "Start your blog" [ref=e111] [cursor=pointer]:
+              - /url: /login
+          - img "Hashnode community illustration" [ref=e113]
+        - region "New and popular stories" [ref=e114]:
+          - generic [ref=e118]: New & popular
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - article [ref=e123]:
+                - link "Good Architecture Creates Engineering Momentum" [ref=e126] [cursor=pointer]:
+                  - /url: https://blog.m2s2.io/good-architecture-creates-engineering-momentum?utm_source=hashnode&utm_medium=feed
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - link "Michael Masterson" [ref=e129] [cursor=pointer]:
+                      - /url: /@mgmaster24
+                    - generic [ref=e130]: ·
+                    - time [ref=e131]: 1d ago
+                    - generic [ref=e132]: ·
+                    - generic [ref=e133]: 9 min
+                  - link "Good Architecture Creates Engineering Momentum" [ref=e134] [cursor=pointer]:
+                    - /url: https://blog.m2s2.io/good-architecture-creates-engineering-momentum?utm_source=hashnode&utm_medium=feed
+                    - heading "Good Architecture Creates Engineering Momentum" [level=3] [ref=e135]
+                  - generic [ref=e137]:
+                    - button "Upvote" [ref=e138] [cursor=pointer]:
+                      - generic [ref=e140]: "5"
+                    - link "4" [ref=e141] [cursor=pointer]:
+                      - /url: /posts/good-architecture-creates-engineering-momentum/6a2a1173fb4deeb7e9e923c1
+                      - generic [ref=e143]: "4"
+              - article [ref=e144]:
+                - link "[OCI] Check Jobs DBCli" [ref=e147] [cursor=pointer]:
+                  - /url: https://dbaintheshadow.com/oci-check-jobs-dbcli?utm_source=hashnode&utm_medium=feed
+                - generic [ref=e148]:
+                  - generic [ref=e149]:
+                    - link "David Sanz" [ref=e150] [cursor=pointer]:
+                      - /url: /@sanzmaci
+                    - generic [ref=e151]: ·
+                    - time [ref=e152]: 1d ago
+                    - generic [ref=e153]: ·
+                    - generic [ref=e154]: 3 min
+                  - link "[OCI] Check Jobs DBCli" [ref=e155] [cursor=pointer]:
+                    - /url: https://dbaintheshadow.com/oci-check-jobs-dbcli?utm_source=hashnode&utm_medium=feed
+                    - heading "[OCI] Check Jobs DBCli" [level=3] [ref=e156]
+                  - generic [ref=e158]:
+                    - button "Upvote" [ref=e159] [cursor=pointer]:
+                      - generic [ref=e161]: "4"
+                    - link "3" [ref=e162] [cursor=pointer]:
+                      - /url: /posts/oci-check-jobs-dbcli/6a2977447a91d95c7450dcf1
+                      - generic [ref=e164]: "3"
+              - article [ref=e165]:
+                - 'link "Progressive Disclosure vs. Monolithic Skills: A Real-World Benchmark of How to Structure LLM Instructions" [ref=e168] [cursor=pointer]':
+                  - /url: https://blog.subhampanda.com/progressive-disclosure-vs-monolithic-skills-a-real-world-benchmark-of-how-to-structure-llm-instructions?utm_source=hashnode&utm_medium=feed
+                - generic [ref=e169]:
+                  - generic [ref=e170]:
+                    - link "Subham Panda" [ref=e171] [cursor=pointer]:
+                      - /url: /@subhampanda
+                    - generic [ref=e172]: ·
+                    - time [ref=e173]: 1d ago
+                    - generic [ref=e174]: ·
+                    - generic [ref=e175]: 16 min
+                  - 'link "Progressive Disclosure vs. Monolithic Skills: A Real-World Benchmark of How to Structure LLM Instructions" [ref=e176] [cursor=pointer]':
+                    - /url: https://blog.subhampanda.com/progressive-disclosure-vs-monolithic-skills-a-real-world-benchmark-of-how-to-structure-llm-instructions?utm_source=hashnode&utm_medium=feed
+                    - 'heading "Progressive Disclosure vs. Monolithic Skills: A Real-World Benchmark of How to Structure LLM Instructions" [level=3] [ref=e177]'
+                  - generic [ref=e179]:
+                    - button "Upvote" [ref=e180] [cursor=pointer]:
+                      - generic [ref=e182]: "8"
+                    - link "0" [ref=e183] [cursor=pointer]:
+                      - /url: /posts/progressive-disclosure-vs-monolithic-skills-a-real-world-benchmark-of-how-to-structure-llm-instructions/6a29b8bcc8c52f3fd99fb0cb
+                      - generic [ref=e185]: "0"
+            - generic [ref=e186]:
+              - article [ref=e187]:
+                - link "How I Actually Use AI to Write Code (Without Wrecking the Codebase)" [ref=e190] [cursor=pointer]:
+                  - /url: https://blogs.kishorek.dev/how-i-actually-use-ai-to-write-code-without-wrecking-the-codebase?utm_source=hashnode&utm_medium=feed
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - link "Kishore K Sharma" [ref=e193] [cursor=pointer]:
+                      - /url: /@kishoreksharma
+                    - generic [ref=e194]: ·
+                    - time [ref=e195]: 1d ago
+                    - generic [ref=e196]: ·
+                    - generic [ref=e197]: 7 min
+                  - link "How I Actually Use AI to Write Code (Without Wrecking the Codebase)" [ref=e198] [cursor=pointer]:
+                    - /url: https://blogs.kishorek.dev/how-i-actually-use-ai-to-write-code-without-wrecking-the-codebase?utm_source=hashnode&utm_medium=feed
+                    - heading "How I Actually Use AI to Write Code (Without Wrecking the Codebase)" [level=3] [ref=e199]
+                  - generic [ref=e201]:
+                    - button "Upvote" [ref=e202] [cursor=pointer]:
+                      - generic [ref=e204]: "6"
+                    - link "1" [ref=e205] [cursor=pointer]:
+                      - /url: /posts/how-i-actually-use-ai-to-write-code-without-wrecking-the-codebase/6a297f1275bb27c4f3d9aab2
+                      - generic [ref=e207]: "1"
+              - article [ref=e208]:
+                - 'link "From vibe coding to craftsmanship: what Microsoft Build 2026 teaches us about AI and junior developers" [ref=e211] [cursor=pointer]':
+                  - /url: https://blog.carlintveld.nl/from-vibe-coding-to-craftsmanship-what-microsoft-build-2026-teaches-us-about-ai-and-junior-developers?utm_source=hashnode&utm_medium=feed
+                - generic [ref=e212]:
+                  - generic [ref=e213]:
+                    - link "Carl in 't Veld" [ref=e214] [cursor=pointer]:
+                      - /url: /@carlintveld
+                    - generic [ref=e215]: ·
+                    - time [ref=e216]: 19h ago
+                    - generic [ref=e217]: ·
+                    - generic [ref=e218]: 4 min
+                  - 'link "From vibe coding to craftsmanship: what Microsoft Build 2026 teaches us about AI and junior developers" [ref=e219] [cursor=pointer]':
+                    - /url: https://blog.carlintveld.nl/from-vibe-coding-to-craftsmanship-what-microsoft-build-2026-teaches-us-about-ai-and-junior-developers?utm_source=hashnode&utm_medium=feed
+                    - 'heading "From vibe coding to craftsmanship: what Microsoft Build 2026 teaches us about AI and junior developers" [level=3] [ref=e220]'
+                  - generic [ref=e222]:
+                    - button "Upvote" [ref=e223] [cursor=pointer]:
+                      - generic [ref=e225]: "4"
+                    - link "1" [ref=e226] [cursor=pointer]:
+                      - /url: /posts/from-vibe-coding-to-craftsmanship-what-microsoft-build-2026-teaches-us-about-ai-and-junior-developers/6a2aa29748e2d256f87f66bc
+                      - generic [ref=e228]: "1"
+              - article [ref=e229]:
+                - link "How to Start your Career in Tech with freeCodeCamp - Full Talk in Spanish" [ref=e232] [cursor=pointer]:
+                  - /url: https://freecodecamp.org/news/how-to-start-your-career-in-tech-with-freecodecamp-full-talk-in-spanish?utm_source=hashnode&utm_medium=feed
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - link "Estefania Cassingena Navone" [ref=e235] [cursor=pointer]:
+                      - /url: /@estefaniacn
+                    - generic [ref=e236]: ·
+                    - time [ref=e237]: 16h ago
+                    - generic [ref=e238]: ·
+                    - generic [ref=e239]: 3 min
+                  - link "How to Start your Career in Tech with freeCodeCamp - Full Talk in Spanish" [ref=e240] [cursor=pointer]:
+                    - /url: https://freecodecamp.org/news/how-to-start-your-career-in-tech-with-freecodecamp-full-talk-in-spanish?utm_source=hashnode&utm_medium=feed
+                    - heading "How to Start your Career in Tech with freeCodeCamp - Full Talk in Spanish" [level=3] [ref=e241]
+                  - generic [ref=e243]:
+                    - button "Upvote" [ref=e244] [cursor=pointer]:
+                      - generic [ref=e246]: "4"
+                    - link "0" [ref=e247] [cursor=pointer]:
+                      - /url: /posts/how-to-start-your-career-in-tech-with-freecodecamp-full-talk-in-spanish/6a2ace357fbd41b5facfabdf
+                      - generic [ref=e249]: "0"
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - button "What are you working on?" [ref=e255]:
+              - generic [ref=e259]: What are you working on?
+            - generic [ref=e261]:
+              - article "From Zero to 500+ Daily Visitors in 3 Days – A Traffic Explosion Post-Mortem" [ref=e263]:
+                - generic [ref=e264]:
+                  - generic [ref=e265]:
+                    - generic [ref=e266]:
+                      - link "OO Oge Obubu" [ref=e267] [cursor=pointer]:
+                        - /url: /@ogeobubu
+                        - generic [ref=e269]: OO
+                        - generic [ref=e270]: Oge Obubu
+                      - generic [ref=e271]: in
+                      - link "ogeobubu.hashnode.dev" [ref=e272] [cursor=pointer]:
+                        - /url: https://ogeobubu.hashnode.dev/from-zero-to-500-daily-visitors-in-3-days-a-traffic-explosion-post-mortem?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e273]
+                  - generic [ref=e275]:
+                    - generic [ref=e276]:
+                      - button "Upvote" [ref=e277] [cursor=pointer]:
+                        - generic [ref=e279]: "0"
+                      - link "0" [ref=e280] [cursor=pointer]:
+                        - /url: /posts/from-zero-to-500-daily-visitors-in-3-days-a-traffic-explosion-post-mortem/6a2ba629a06d0edda6d90eb5
+                        - generic [ref=e282]: "0"
+                    - generic [ref=e284]:
+                      - generic [ref=e285]:
+                        - link "From Zero to 500+ Daily Visitors in 3 Days – A Traffic Explosion Post-Mortem 1h ago · 2 min read · Something happened between June 9 and June 11. We went from zero to 523 unique visitors in just three days.Requests skyrocketed from 0 to nearly 17K per day.And caching? It kicked in hard—saving us fr" [ref=e286] [cursor=pointer]:
+                          - /url: https://ogeobubu.hashnode.dev/from-zero-to-500-daily-visitors-in-3-days-a-traffic-explosion-post-mortem?utm_source=hashnode&utm_medium=feed
+                          - heading "From Zero to 500+ Daily Visitors in 3 Days – A Traffic Explosion Post-Mortem" [level=3] [ref=e287]
+                          - paragraph [ref=e288]:
+                            - generic [ref=e289]: 1h ago · 2 min read ·
+                            - text: Something happened between June 9 and June 11. We went from zero to 523 unique visitors in just three days.Requests skyrocketed from 0 to nearly 17K per day.And caching? It kicked in hard—saving us fr
+                        - link "Join discussion" [ref=e290] [cursor=pointer]:
+                          - /url: /posts/from-zero-to-500-daily-visitors-in-3-days-a-traffic-explosion-post-mortem/6a2ba629a06d0edda6d90eb5
+                          - text: Join discussion
+                      - link "From Zero to 500+ Daily Visitors in 3 Days – A Traffic Explosion Post-Mortem" [ref=e292] [cursor=pointer]:
+                        - /url: https://ogeobubu.hashnode.dev/from-zero-to-500-daily-visitors-in-3-days-a-traffic-explosion-post-mortem?utm_source=hashnode&utm_medium=feed
+              - article "Will AI Replace Developers? My Honest Take as a Software Engineer" [ref=e295]:
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]:
+                      - link "T TechKis" [ref=e299] [cursor=pointer]:
+                        - /url: /@techkis
+                        - generic [ref=e301]: T
+                        - generic [ref=e302]: TechKis
+                      - generic [ref=e303]: in
+                      - link "blogs.techkis.tech" [ref=e304] [cursor=pointer]:
+                        - /url: https://blogs.techkis.tech/will-ai-replace-developers-my-honest-take-as-a-software-engineer?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e305]
+                  - generic [ref=e307]:
+                    - generic [ref=e308]:
+                      - button "Upvote" [ref=e309] [cursor=pointer]:
+                        - generic [ref=e311]: "0"
+                      - link "0" [ref=e312] [cursor=pointer]:
+                        - /url: /posts/will-ai-replace-developers-my-honest-take-as-a-software-engineer/6a2b98f39fc6332a941ab698
+                        - generic [ref=e314]: "0"
+                    - generic [ref=e316]:
+                      - generic [ref=e317]:
+                        - 'link "Will AI Replace Developers? My Honest Take as a Software Engineer 1h ago · 4 min read · This question comes up everywhere now. On X, on YouTube, in tech podcasts, even in random conversations between developers: \"Will AI replace software engineers?\" Over the past year I''ve heard it more" [ref=e318] [cursor=pointer]':
+                          - /url: https://blogs.techkis.tech/will-ai-replace-developers-my-honest-take-as-a-software-engineer?utm_source=hashnode&utm_medium=feed
+                          - heading "Will AI Replace Developers? My Honest Take as a Software Engineer" [level=3] [ref=e319]
+                          - paragraph [ref=e320]:
+                            - generic [ref=e321]: 1h ago · 4 min read ·
+                            - text: "This question comes up everywhere now. On X, on YouTube, in tech podcasts, even in random conversations between developers: \"Will AI replace software engineers?\" Over the past year I've heard it more"
+                        - link "Join discussion" [ref=e322] [cursor=pointer]:
+                          - /url: /posts/will-ai-replace-developers-my-honest-take-as-a-software-engineer/6a2b98f39fc6332a941ab698
+                          - text: Join discussion
+                      - link "Will AI Replace Developers? My Honest Take as a Software Engineer" [ref=e324] [cursor=pointer]:
+                        - /url: https://blogs.techkis.tech/will-ai-replace-developers-my-honest-take-as-a-software-engineer?utm_source=hashnode&utm_medium=feed
+              - generic [ref=e328]:
+                - heading "People are talking about" [level=2] [ref=e332]
+                - article [ref=e333]:
+                  - generic [ref=e334]:
+                    - link "M8 Marketing 8080AI" [ref=e336] [cursor=pointer]:
+                      - /url: /@8080ai
+                      - generic [ref=e338]: M8
+                      - generic [ref=e339]: Marketing 8080AI
+                    - link "Active 1h ago" [ref=e340] [cursor=pointer]:
+                      - /url: /forums/thread/infrastructure-is-the-most-important-function
+                      - generic [ref=e343]: Active 1h ago
+                  - link "Infrastructure is the most important function Infrastructure is the engineering function startups defer most. Not the core product. Requires specific expertise. Competes directly with feature time. In 2026, Dockerfiles, Helm charts, and Kubernete" [ref=e344] [cursor=pointer]:
+                    - /url: /forums/thread/infrastructure-is-the-most-important-function
+                    - heading "Infrastructure is the most important function" [level=3] [ref=e345]
+                    - paragraph [ref=e346]: Infrastructure is the engineering function startups defer most. Not the core product. Requires specific expertise. Competes directly with feature time. In 2026, Dockerfiles, Helm charts, and Kubernete
+                  - link "S sophia Completely agree. Infrastructure is no longer something businesses can afford to treat as an afterthought. At Expandrum, we're seeing AI and... P Peace The point about building Kubernetes readiness into the codebase from the start rather than treating it as a panic migration project is exact..." [ref=e347] [cursor=pointer]:
+                    - /url: /forums/thread/infrastructure-is-the-most-important-function
+                    - generic [ref=e348]:
+                      - generic [ref=e350]: S
+                      - generic [ref=e351]:
+                        - text: sophia
+                        - paragraph [ref=e352]: Completely agree. Infrastructure is no longer something businesses can afford to treat as an afterthought. At Expandrum, we're seeing AI and...
+                    - generic [ref=e353]:
+                      - generic [ref=e355]: P
+                      - generic [ref=e356]:
+                        - text: Peace
+                        - paragraph [ref=e357]: The point about building Kubernetes readiness into the codebase from the start rather than treating it as a panic migration project is exact...
+                  - generic [ref=e358]:
+                    - link "6 4 replies S P E O" [ref=e359] [cursor=pointer]:
+                      - /url: /forums/thread/infrastructure-is-the-most-important-function
+                      - generic [ref=e360]: "6"
+                      - generic [ref=e362]: 4 replies
+                      - generic [ref=e364]:
+                        - generic [ref=e366]: S
+                        - generic [ref=e368]: P
+                        - generic [ref=e370]: E
+                        - generic [ref=e372]: O
+                    - link "Join discussion" [ref=e373] [cursor=pointer]:
+                      - /url: /forums/thread/infrastructure-is-the-most-important-function
+                      - text: Join discussion
+                - generic [ref=e375]:
+                  - generic [ref=e376]:
+                    - link "11" [ref=e377] [cursor=pointer]:
+                      - /url: /forums/thread/stop-chasing-every-framework-master-these-3-core-skills-instead
+                      - generic [ref=e379]: "11"
+                    - generic [ref=e380]:
+                      - link "Stop Chasing Every Framework. Master These 3 Core Skills Instead." [ref=e381] [cursor=pointer]:
+                        - /url: /forums/thread/stop-chasing-every-framework-master-these-3-core-skills-instead
+                        - generic [ref=e382]: Stop Chasing Every Framework. Master These 3 Core Skills Instead.
+                      - generic [ref=e383]:
+                        - generic [ref=e384]:
+                          - generic [ref=e385]:
+                            - generic [ref=e387]: S
+                            - generic [ref=e389]: F
+                            - generic [ref=e391]: M
+                          - generic [ref=e392]: Synfinity + 4
+                        - generic [ref=e393]: ·
+                        - link "4d ago" [ref=e394] [cursor=pointer]:
+                          - /url: /forums/thread/stop-chasing-every-framework-master-these-3-core-skills-instead
+                          - time [ref=e395]: 4d ago
+                  - generic [ref=e396]:
+                    - link "2" [ref=e397] [cursor=pointer]:
+                      - /url: /forums/thread/hi-i-m-synfinity-dynamics
+                      - generic [ref=e399]: "2"
+                    - generic [ref=e400]:
+                      - link "Hi, I'm Synfinity Dynamics." [ref=e401] [cursor=pointer]:
+                        - /url: /forums/thread/hi-i-m-synfinity-dynamics
+                        - generic [ref=e402]: Hi, I'm Synfinity Dynamics.
+                      - generic [ref=e403]:
+                        - generic [ref=e404]:
+                          - generic [ref=e407]: K
+                          - generic [ref=e408]: Keesan
+                        - generic [ref=e409]: ·
+                        - link "1d ago" [ref=e410] [cursor=pointer]:
+                          - /url: /forums/thread/hi-i-m-synfinity-dynamics
+                          - time [ref=e411]: 1d ago
+                  - generic [ref=e412]:
+                    - link "1" [ref=e413] [cursor=pointer]:
+                      - /url: /forums/thread/hi-all-node-js-postgresql-on-hetzner-vps-what-to-expect-as-you-scale-from-5k-to-1m-monthly-users
+                      - generic [ref=e415]: "1"
+                    - generic [ref=e416]:
+                      - link "Hi all, Node.js + PostgreSQL on Hetzner VPS – what to expect as you scale from 5k to 1M monthly users?" [ref=e417] [cursor=pointer]:
+                        - /url: /forums/thread/hi-all-node-js-postgresql-on-hetzner-vps-what-to-expect-as-you-scale-from-5k-to-1m-monthly-users
+                        - generic [ref=e418]: Hi all, Node.js + PostgreSQL on Hetzner VPS – what to expect as you scale from 5k to 1M monthly users?
+                      - generic [ref=e419]:
+                        - generic [ref=e420]:
+                          - generic [ref=e423]: M
+                          - generic [ref=e424]: Mateo
+                        - generic [ref=e425]: ·
+                        - link "1d ago" [ref=e426] [cursor=pointer]:
+                          - /url: /forums/thread/hi-all-node-js-postgresql-on-hetzner-vps-what-to-expect-as-you-scale-from-5k-to-1m-monthly-users
+                          - time [ref=e427]: 1d ago
+                  - generic [ref=e428]:
+                    - link "1" [ref=e429] [cursor=pointer]:
+                      - /url: /forums/thread/why-aws-solutions-architect-associate-is-highly-valued
+                      - generic [ref=e431]: "1"
+                    - generic [ref=e432]:
+                      - link "Why AWS Solutions Architect Associate Is Highly Valued" [ref=e433] [cursor=pointer]:
+                        - /url: /forums/thread/why-aws-solutions-architect-associate-is-highly-valued
+                        - generic [ref=e434]: Why AWS Solutions Architect Associate Is Highly Valued
+                      - generic [ref=e435]:
+                        - generic [ref=e436]:
+                          - generic [ref=e439]: K
+                          - generic [ref=e440]: Keesan
+                        - generic [ref=e441]: ·
+                        - link "1d ago" [ref=e442] [cursor=pointer]:
+                          - /url: /forums/thread/why-aws-solutions-architect-associate-is-highly-valued
+                          - time [ref=e443]: 1d ago
+                - generic [ref=e444]:
+                  - link "View all threads" [ref=e445] [cursor=pointer]:
+                    - /url: /forums
+                    - text: View all threads
+                  - link "Start a thread" [ref=e447] [cursor=pointer]:
+                    - /url: /forums/new
+                    - text: Start a thread
+              - article "AI Can Generate Code, But It Cannot Fix Weak Engineering Fundamentals" [ref=e450]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]:
+                    - generic [ref=e453]:
+                      - link "DH Devni Heraliyawala" [ref=e454] [cursor=pointer]:
+                        - /url: /@devni
+                        - generic [ref=e456]: DH
+                        - generic [ref=e457]: Devni Heraliyawala
+                      - generic [ref=e458]: in
+                      - link "blog.devni.dev" [ref=e459] [cursor=pointer]:
+                        - /url: https://blog.devni.dev/ai-can-generate-code-but-it-cannot-fix-weak-engineering-fundamentals?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e460]
+                  - generic [ref=e462]:
+                    - generic [ref=e463]:
+                      - button "Upvote" [ref=e464] [cursor=pointer]:
+                        - generic [ref=e466]: "0"
+                      - link "0" [ref=e467] [cursor=pointer]:
+                        - /url: /posts/ai-can-generate-code-but-it-cannot-fix-weak-engineering-fundamentals/6a2b97a358676a9ca7d3cb83
+                        - generic [ref=e469]: "0"
+                    - generic [ref=e471]:
+                      - generic [ref=e472]:
+                        - link "AI Can Generate Code, But It Cannot Fix Weak Engineering Fundamentals 2h ago · 7 min read · AI can generate code quickly. It can create an API endpoint, write a service method, suggest a database query, generate unit tests, explain an error message, or help refactor a class within seconds. T" [ref=e473] [cursor=pointer]:
+                          - /url: https://blog.devni.dev/ai-can-generate-code-but-it-cannot-fix-weak-engineering-fundamentals?utm_source=hashnode&utm_medium=feed
+                          - heading "AI Can Generate Code, But It Cannot Fix Weak Engineering Fundamentals" [level=3] [ref=e474]
+                          - paragraph [ref=e475]:
+                            - generic [ref=e476]: 2h ago · 7 min read ·
+                            - text: AI can generate code quickly. It can create an API endpoint, write a service method, suggest a database query, generate unit tests, explain an error message, or help refactor a class within seconds. T
+                        - link "Join discussion" [ref=e477] [cursor=pointer]:
+                          - /url: /posts/ai-can-generate-code-but-it-cannot-fix-weak-engineering-fundamentals/6a2b97a358676a9ca7d3cb83
+                          - text: Join discussion
+                      - link "AI Can Generate Code, But It Cannot Fix Weak Engineering Fundamentals" [ref=e479] [cursor=pointer]:
+                        - /url: https://blog.devni.dev/ai-can-generate-code-but-it-cannot-fix-weak-engineering-fundamentals?utm_source=hashnode&utm_medium=feed
+              - article "MinaCoding2026_Free" [ref=e482]:
+                - generic [ref=e483]:
+                  - generic [ref=e484]:
+                    - generic [ref=e485]:
+                      - link "K/ Kofi / Illestpreacha" [ref=e486] [cursor=pointer]:
+                        - /url: /@illestpreacha
+                        - generic [ref=e488]: K/
+                        - generic [ref=e489]: Kofi / Illestpreacha
+                      - generic [ref=e490]: in
+                      - link "blog.illestpreacha.com" [ref=e491] [cursor=pointer]:
+                        - /url: https://blog.illestpreacha.com/minacoding2026-free?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e492]
+                  - generic [ref=e494]:
+                    - generic [ref=e495]:
+                      - button "Upvote" [ref=e496] [cursor=pointer]:
+                        - generic [ref=e498]: "1"
+                      - link "0" [ref=e499] [cursor=pointer]:
+                        - /url: /posts/minacoding2026-free/6a2b90005b73fdeb9fc02b6f
+                        - generic [ref=e501]: "0"
+                    - generic [ref=e503]:
+                      - generic [ref=e504]:
+                        - 'link "MinaCoding2026_Free 2h ago · 1 min read · SciFiTennisAudio For MinaCoding2026 Day30: Free, SciFiTennisAudio coded in HydraVideoSynth & #Strudel showcases how a SciFiTennis match may sound Video https://youtu.be/xfEVZrEi6AE Code Strudel setc" [ref=e505] [cursor=pointer]':
+                          - /url: https://blog.illestpreacha.com/minacoding2026-free?utm_source=hashnode&utm_medium=feed
+                          - heading "MinaCoding2026_Free" [level=3] [ref=e506]
+                          - paragraph [ref=e507]:
+                            - generic [ref=e508]: 2h ago · 1 min read ·
+                            - text: "SciFiTennisAudio For MinaCoding2026 Day30: Free, SciFiTennisAudio coded in HydraVideoSynth & #Strudel showcases how a SciFiTennis match may sound Video https://youtu.be/xfEVZrEi6AE Code Strudel setc"
+                        - link "Join discussion" [ref=e509] [cursor=pointer]:
+                          - /url: /posts/minacoding2026-free/6a2b90005b73fdeb9fc02b6f
+                          - text: Join discussion
+                      - link "MinaCoding2026_Free" [ref=e511] [cursor=pointer]:
+                        - /url: https://blog.illestpreacha.com/minacoding2026-free?utm_source=hashnode&utm_medium=feed
+              - 'article "The AI Threat Era: Shielding Infrastructure With Virtual Patching" [ref=e514]':
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - generic [ref=e517]:
+                      - link "SB Sriram Badrinarayanan" [ref=e518] [cursor=pointer]:
+                        - /url: /@SriramBadri
+                        - generic [ref=e520]: SB
+                        - generic [ref=e521]: Sriram Badrinarayanan
+                      - generic [ref=e522]: in
+                      - link "thecyberveda.com" [ref=e523] [cursor=pointer]:
+                        - /url: https://thecyberveda.com/the-ai-threat-era-shielding-infrastructure-with-virtual-patching?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e524]
+                  - generic [ref=e526]:
+                    - generic [ref=e527]:
+                      - button "Upvote" [ref=e528] [cursor=pointer]:
+                        - generic [ref=e530]: "0"
+                      - link "0" [ref=e531] [cursor=pointer]:
+                        - /url: /posts/the-ai-threat-era-shielding-infrastructure-with-virtual-patching/6a2b7c4cf781949bc4391efa
+                        - generic [ref=e533]: "0"
+                    - generic [ref=e536]:
+                      - 'link "The AI Threat Era: Shielding Infrastructure With Virtual Patching 4h ago · 3 min read · In our last post, we looked at the stark reality of the modern threat landscape: legacy patch management cannot keep pace with machine-speed exploits. When a zero-day drops or a vendor delays a critic" [ref=e537] [cursor=pointer]':
+                        - /url: https://thecyberveda.com/the-ai-threat-era-shielding-infrastructure-with-virtual-patching?utm_source=hashnode&utm_medium=feed
+                        - 'heading "The AI Threat Era: Shielding Infrastructure With Virtual Patching" [level=3] [ref=e538]'
+                        - paragraph [ref=e539]:
+                          - generic [ref=e540]: 4h ago · 3 min read ·
+                          - text: "In our last post, we looked at the stark reality of the modern threat landscape: legacy patch management cannot keep pace with machine-speed exploits. When a zero-day drops or a vendor delays a critic"
+                      - link "Join discussion" [ref=e541] [cursor=pointer]:
+                        - /url: /posts/the-ai-threat-era-shielding-infrastructure-with-virtual-patching/6a2b7c4cf781949bc4391efa
+                        - text: Join discussion
+              - 'article "From Flutter to Backend: How to Build Production-Grade REST APIs with Dart and Dart Frog" [ref=e544]':
+                - generic [ref=e545]:
+                  - generic [ref=e546]:
+                    - generic [ref=e547]:
+                      - link "OF Oluwaseyi Fatunmole" [ref=e548] [cursor=pointer]:
+                        - /url: /@foluwaseyi
+                        - generic [ref=e550]: OF
+                        - generic [ref=e551]: Oluwaseyi Fatunmole
+                      - generic [ref=e552]: in
+                      - link "freecodecamp.org" [ref=e553] [cursor=pointer]:
+                        - /url: https://freecodecamp.org/news/how-to-build-production-grade-rest-apis-with-dart-and-dart-frog?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e554]
+                  - generic [ref=e556]:
+                    - generic [ref=e557]:
+                      - button "Upvote" [ref=e558] [cursor=pointer]:
+                        - generic [ref=e560]: "1"
+                      - link "0" [ref=e561] [cursor=pointer]:
+                        - /url: /posts/how-to-build-production-grade-rest-apis-with-dart-and-dart-frog/6a2b553bb84c3c44ce471560
+                        - generic [ref=e563]: "0"
+                    - generic [ref=e565]:
+                      - generic [ref=e566]:
+                        - 'link "From Flutter to Backend: How to Build Production-Grade REST APIs with Dart and Dart Frog 6h ago · 25 min read · Dart backend frameworks exist on a spectrum. At the minimal end sits Shelf, with raw primitives and full control. You wire everything yourself. At the maximal end sits Serverpod. It''s a full framework" [ref=e567] [cursor=pointer]':
+                          - /url: https://freecodecamp.org/news/how-to-build-production-grade-rest-apis-with-dart-and-dart-frog?utm_source=hashnode&utm_medium=feed
+                          - 'heading "From Flutter to Backend: How to Build Production-Grade REST APIs with Dart and Dart Frog" [level=3] [ref=e568]'
+                          - paragraph [ref=e569]:
+                            - generic [ref=e570]: 6h ago · 25 min read ·
+                            - text: Dart backend frameworks exist on a spectrum. At the minimal end sits Shelf, with raw primitives and full control. You wire everything yourself. At the maximal end sits Serverpod. It's a full framework
+                        - link "Join discussion" [ref=e571] [cursor=pointer]:
+                          - /url: /posts/how-to-build-production-grade-rest-apis-with-dart-and-dart-frog/6a2b553bb84c3c44ce471560
+                          - text: Join discussion
+                      - 'link "From Flutter to Backend: How to Build Production-Grade REST APIs with Dart and Dart Frog" [ref=e573] [cursor=pointer]':
+                        - /url: https://freecodecamp.org/news/how-to-build-production-grade-rest-apis-with-dart-and-dart-frog?utm_source=hashnode&utm_medium=feed
+              - article "Adding Spaced Repetition to an LLM Study System — SM-2, Schema Design, and a Scoring Problem Worth Solving" [ref=e576]:
+                - generic [ref=e577]:
+                  - generic [ref=e578]:
+                    - generic [ref=e579]:
+                      - link "DH David Hahn" [ref=e580] [cursor=pointer]:
+                        - /url: /@davidhahn
+                        - generic [ref=e582]: DH
+                        - generic [ref=e583]: David Hahn
+                      - generic [ref=e584]: in
+                      - link "blog.davidhahn.co" [ref=e585] [cursor=pointer]:
+                        - /url: https://blog.davidhahn.co/adding-spaced-repetition-to-an-llm-study-system-sm-2-schema-design-and-a-scoring-problem-worth-solving?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e586]
+                  - generic [ref=e588]:
+                    - generic [ref=e589]:
+                      - button "Upvote" [ref=e590] [cursor=pointer]:
+                        - generic [ref=e592]: "0"
+                      - link "0" [ref=e593] [cursor=pointer]:
+                        - /url: /posts/adding-spaced-repetition-to-an-llm-study-system-sm-2-schema-design-and-a-scoring-problem-worth-solving/6a2b4320755bd059ac34908d
+                        - generic [ref=e595]: "0"
+                    - generic [ref=e598]:
+                      - 'link "Adding Spaced Repetition to an LLM Study System — SM-2, Schema Design, and a Scoring Problem Worth Solving 8h ago · 6 min read · The first three phases of my study system handled the session loop: generate a problem, grade the solution, log the result. Useful, but with a fundamental gap — there was no memory of what I struggled" [ref=e599] [cursor=pointer]':
+                        - /url: https://blog.davidhahn.co/adding-spaced-repetition-to-an-llm-study-system-sm-2-schema-design-and-a-scoring-problem-worth-solving?utm_source=hashnode&utm_medium=feed
+                        - heading "Adding Spaced Repetition to an LLM Study System — SM-2, Schema Design, and a Scoring Problem Worth Solving" [level=3] [ref=e600]
+                        - paragraph [ref=e601]:
+                          - generic [ref=e602]: 8h ago · 6 min read ·
+                          - text: "The first three phases of my study system handled the session loop: generate a problem, grade the solution, log the result. Useful, but with a fundamental gap — there was no memory of what I struggled"
+                      - link "Join discussion" [ref=e603] [cursor=pointer]:
+                        - /url: /posts/adding-spaced-repetition-to-an-llm-study-system-sm-2-schema-design-and-a-scoring-problem-worth-solving/6a2b4320755bd059ac34908d
+                        - text: Join discussion
+              - article "How Building a Real-Time App Sent Me Down the Rabbit Hole of WebSocket Scaling" [ref=e606]:
+                - generic [ref=e607]:
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - link "AA Aqib Ansari" [ref=e610] [cursor=pointer]:
+                        - /url: /@aqibansari
+                        - generic [ref=e612]: AA
+                        - generic [ref=e613]: Aqib Ansari
+                      - generic [ref=e614]: in
+                      - link "blog.aqibansari.xyz" [ref=e615] [cursor=pointer]:
+                        - /url: https://blog.aqibansari.xyz/how-building-a-real-time-app-sent-me-down-the-rabbit-hole-of-websocket-scaling?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e616]
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - button "Upvote" [ref=e620] [cursor=pointer]:
+                        - generic [ref=e622]: "0"
+                      - link "0" [ref=e623] [cursor=pointer]:
+                        - /url: /posts/how-building-a-real-time-app-sent-me-down-the-rabbit-hole-of-websocket-scaling/6a2b39a6ba74a3ee2b79c5f4
+                        - generic [ref=e625]: "0"
+                    - generic [ref=e627]:
+                      - generic [ref=e628]:
+                        - 'link "How Building a Real-Time App Sent Me Down the Rabbit Hole of WebSocket Scaling 8h ago · 8 min read · When I started building a real-time application, I thought the hardest part would be designing the features. Things like: Live notifications Real-time dashboards Presence indicators Collaborative" [ref=e629] [cursor=pointer]':
+                          - /url: https://blog.aqibansari.xyz/how-building-a-real-time-app-sent-me-down-the-rabbit-hole-of-websocket-scaling?utm_source=hashnode&utm_medium=feed
+                          - heading "How Building a Real-Time App Sent Me Down the Rabbit Hole of WebSocket Scaling" [level=3] [ref=e630]
+                          - paragraph [ref=e631]:
+                            - generic [ref=e632]: 8h ago · 8 min read ·
+                            - text: "When I started building a real-time application, I thought the hardest part would be designing the features. Things like: Live notifications Real-time dashboards Presence indicators Collaborative"
+                        - link "Join discussion" [ref=e633] [cursor=pointer]:
+                          - /url: /posts/how-building-a-real-time-app-sent-me-down-the-rabbit-hole-of-websocket-scaling/6a2b39a6ba74a3ee2b79c5f4
+                          - text: Join discussion
+                      - link "How Building a Real-Time App Sent Me Down the Rabbit Hole of WebSocket Scaling" [ref=e635] [cursor=pointer]:
+                        - /url: https://blog.aqibansari.xyz/how-building-a-real-time-app-sent-me-down-the-rabbit-hole-of-websocket-scaling?utm_source=hashnode&utm_medium=feed
+              - 'article "Go types explained: the foundation you need before writing HTTP handlers" [ref=e638]':
+                - generic [ref=e639]:
+                  - generic [ref=e640]:
+                    - generic [ref=e641]:
+                      - link "F Fer" [ref=e642] [cursor=pointer]:
+                        - /url: /@ferztyle
+                        - generic [ref=e644]: F
+                        - generic [ref=e645]: Fer
+                      - generic [ref=e646]: in
+                      - link "ferztyle.me" [ref=e647] [cursor=pointer]:
+                        - /url: https://ferztyle.me/go-types-explained-the-foundation-you-need-before-writing-http-handlers?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e648]
+                  - generic [ref=e650]:
+                    - generic [ref=e651]:
+                      - button "Upvote" [ref=e652] [cursor=pointer]:
+                        - generic [ref=e654]: "0"
+                      - link "0" [ref=e655] [cursor=pointer]:
+                        - /url: /posts/go-types-explained-the-foundation-you-need-before-writing-http-handlers/6a2b246ecb60c15dca8635f6
+                        - generic [ref=e657]: "0"
+                    - generic [ref=e659]:
+                      - generic [ref=e660]:
+                        - 'link "Go types explained: the foundation you need before writing HTTP handlers 10h ago · 7 min read · A quick introduction to Go types According to https://go.dev/ref/spec#Types, in Go, a type specifies a set of values, along with operations and methods specific to those values. This is something fund" [ref=e661] [cursor=pointer]':
+                          - /url: https://ferztyle.me/go-types-explained-the-foundation-you-need-before-writing-http-handlers?utm_source=hashnode&utm_medium=feed
+                          - 'heading "Go types explained: the foundation you need before writing HTTP handlers" [level=3] [ref=e662]'
+                          - paragraph [ref=e663]:
+                            - generic [ref=e664]: 10h ago · 7 min read ·
+                            - text: A quick introduction to Go types According to https://go.dev/ref/spec#Types, in Go, a type specifies a set of values, along with operations and methods specific to those values. This is something fund
+                        - link "Join discussion" [ref=e665] [cursor=pointer]:
+                          - /url: /posts/go-types-explained-the-foundation-you-need-before-writing-http-handlers/6a2b246ecb60c15dca8635f6
+                          - text: Join discussion
+                      - 'link "Go types explained: the foundation you need before writing HTTP handlers" [ref=e667] [cursor=pointer]':
+                        - /url: https://ferztyle.me/go-types-explained-the-foundation-you-need-before-writing-http-handlers?utm_source=hashnode&utm_medium=feed
+              - article "How to Build Your First Self-Running AI Agent in 15 Minutes" [ref=e670]:
+                - generic [ref=e671]:
+                  - generic [ref=e672]:
+                    - generic [ref=e673]:
+                      - link "XY Xiao Yao" [ref=e674] [cursor=pointer]:
+                        - /url: /@blobxiaoyao
+                        - generic [ref=e676]: XY
+                        - generic [ref=e677]: Xiao Yao
+                      - generic [ref=e678]: in
+                      - link "blog.appliedaihub.org" [ref=e679] [cursor=pointer]:
+                        - /url: https://blog.appliedaihub.org/how-to-build-your-first-self-running-ai-agent-in-15-minutes?utm_source=hashnode&utm_medium=feed
+                    - button "Bookmark this post" [ref=e680]
+                  - generic [ref=e682]:
+                    - generic [ref=e683]:
+                      - button "Upvote" [ref=e684] [cursor=pointer]:
+                        - generic [ref=e686]: "1"
+                      - link "0" [ref=e687] [cursor=pointer]:
+                        - /url: /posts/how-to-build-your-first-self-running-ai-agent-in-15-minutes/6a2b1123d27dd74d8c6c126e
+                        - generic [ref=e689]: "0"
+                    - generic [ref=e691]:
+                      - generic [ref=e692]:
+                        - 'link "How to Build Your First Self-Running AI Agent in 15 Minutes 11h ago · 17 min read · Most engineering workflows treat LLMs as stateless calculators: input a prompt, copy the snippet, kill the tab. The session ends, the context evaporates, and the model''s iterative reasoning capacity —" [ref=e693] [cursor=pointer]':
+                          - /url: https://blog.appliedaihub.org/how-to-build-your-first-self-running-ai-agent-in-15-minutes?utm_source=hashnode&utm_medium=feed
+                          - heading "How to Build Your First Self-Running AI Agent in 15 Minutes" [level=3] [ref=e694]
+                          - paragraph [ref=e695]:
+                            - generic [ref=e696]: 11h ago · 17 min read ·
+                            - text: "Most engineering workflows treat LLMs as stateless calculators: input a prompt, copy the snippet, kill the tab. The session ends, the context evaporates, and the model's iterative reasoning capacity —"
+                        - link "Join discussion" [ref=e697] [cursor=pointer]:
+                          - /url: /posts/how-to-build-your-first-self-running-ai-agent-in-15-minutes/6a2b1123d27dd74d8c6c126e
+                          - text: Join discussion
+                      - link "How to Build Your First Self-Running AI Agent in 15 Minutes" [ref=e699] [cursor=pointer]:
+                        - /url: https://blog.appliedaihub.org/how-to-build-your-first-self-running-ai-agent-in-15-minutes?utm_source=hashnode&utm_medium=feed
+              - button "Load more posts" [ref=e702]:
+                - generic [ref=e703]: Load more
+          - complementary [ref=e705]:
+            - generic [ref=e706]:
+              - heading "Recent comments" [level=3] [ref=e710]
+              - generic [ref=e711]:
+                - generic [ref=e712]:
+                  - link "Is Node.js Still Enough? When to Move Your Backend to Rust" [ref=e713] [cursor=pointer]:
+                    - /url: /posts/is-node-js-still-enough-when-to-move-your-backend-to-rust/6a255d36902c6ec4f10dc67a
+                    - generic [ref=e715]: Is Node.js Still Enough? When to Move Your Backend to Rust
+                  - generic [ref=e716]:
+                    - link "SK" [ref=e717] [cursor=pointer]:
+                      - /url: /@sagarkashyap
+                      - generic [ref=e719]: SK
+                    - link "This was the first issue, the major issue I faced while migrating my Node.js codebse to Golang was during the implementation. I was tired googling \"What is the best alternative of express package in Go?\" and so on. It was never ending. searching for each package and then you see multiple results, filter them according to the reviews, github stars, stack overflow, etc. What if there was a tool who could do all this? Thats why I build PackagePal, It is a code migration assistant which suggest the best alternative of a package in target language. It helps developer with best alternative packag" [ref=e720] [cursor=pointer]:
+                      - /url: /posts/is-node-js-still-enough-when-to-move-your-backend-to-rust/6a255d36902c6ec4f10dc67a/comment/6a26bccfefdf11419744bb94
+                      - paragraph [ref=e723]: This was the first issue, the major issue I faced while migrating my Node.js codebse to Golang was during the implementation. I was tired googling "What is the best alternative of express package in Go?" and so on. It was never ending. searching for each package and then you see multiple results, filter them according to the reviews, github stars, stack overflow, etc. What if there was a tool who could do all this? Thats why I build PackagePal, It is a code migration assistant which suggest the best alternative of a package in target language. It helps developer with best alternative packag
+                  - generic [ref=e724]:
+                    - generic [ref=e725]: Sagar
+                    - generic [ref=e726]: ·
+                    - time [ref=e727]: 3d ago
+                - generic [ref=e728]:
+                  - link "How I Learned Docker Networking by Trying to Connect a Container to My Host MySQL" [ref=e729] [cursor=pointer]:
+                    - /url: /posts/how-i-learned-docker-networking-by-trying-to-connect-a-container-to-my-host-mysql/6a1e668d223ca982ed925a29
+                    - generic [ref=e731]: How I Learned Docker Networking by Trying to Connect a Container to My Host MySQL
+                  - generic [ref=e732]:
+                    - link "BV" [ref=e733] [cursor=pointer]:
+                      - /url: /@brijesh26
+                      - generic [ref=e735]: BV
+                    - link "Great article! The explanation of why 127.0.0.1 inside a container is different from the host machine was very clear and easy to understand. I've also heard that host.docker.internal is a common way to connect to the host from a container, so a brief mention of that could be helpful. Overall, a very helpful read." [ref=e736] [cursor=pointer]:
+                      - /url: /posts/how-i-learned-docker-networking-by-trying-to-connect-a-container-to-my-host-mysql/6a1e668d223ca982ed925a29/comment/6a2ba7d1e732751cc21dfe33
+                      - paragraph [ref=e739]: Great article! The explanation of why 127.0.0.1 inside a container is different from the host machine was very clear and easy to understand. I've also heard that host.docker.internal is a common way to connect to the host from a container, so a brief mention of that could be helpful. Overall, a very helpful read.
+                  - generic [ref=e740]:
+                    - generic [ref=e741]: Brijesh
+                    - generic [ref=e742]: ·
+                    - time [ref=e743]: 54m ago
+                - generic [ref=e744]:
+                  - 'link "Why I Built Glyf: Launching Apps by Drawing Symbols Instead of Tapping Icons" [ref=e745] [cursor=pointer]':
+                    - /url: /posts/why-i-built-glyf/6a2ba215e83242e5f80f9a22
+                    - generic [ref=e747]: "Why I Built Glyf: Launching Apps by Drawing Symbols Instead of Tapping Icons"
+                  - generic [ref=e748]:
+                    - link "RS" [ref=e749] [cursor=pointer]:
+                      - /url: /@revaman
+                      - generic [ref=e751]: RS
+                    - link "That's very amazing idea. I like unique idea apps. That shows the developer's level of creativity. I tried the app , soon will be get used to it. Kudos to you..." [ref=e752] [cursor=pointer]:
+                      - /url: /posts/why-i-built-glyf/6a2ba215e83242e5f80f9a22/comment/6a2ba3917eb8e2a8907e6ddf
+                      - paragraph [ref=e755]: That's very amazing idea. I like unique idea apps. That shows the developer's level of creativity. I tried the app , soon will be get used to it. Kudos to you...
+                  - generic [ref=e756]:
+                    - generic [ref=e757]: Revaman
+                    - generic [ref=e758]: ·
+                    - time [ref=e759]: 1h ago
+                - generic [ref=e760]:
+                  - 'link "Deploying 8 Microservices to AWS EKS with Docker Compose: A Step-by-Step Walkthrough" [ref=e761] [cursor=pointer]':
+                    - /url: /posts/deploying-8-microservices-to-aws-eks-with-docker-compose-a-step-by-step-walkthrough/6a2aa520f78514b3654e3ea7
+                    - generic [ref=e763]: "Deploying 8 Microservices to AWS EKS with Docker Compose: A Step-by-Step Walkthrough"
+                  - generic [ref=e764]:
+                    - link "AV" [ref=e765] [cursor=pointer]:
+                      - /url: /@vatul16
+                      - generic [ref=e767]: AV
+                    - link "Really enjoyed this walkthrough. Deploying multiple microservices to EKS is one of those things that sounds straightforward on paper, but in practice the number of moving parts can get messy very quickly. I like that you showed the process step by step instead of skipping straight to the “final architecture” part. What stood out to me most was how Docker Compose helped bridge the local development setup with the Kubernetes/EKS deployment flow. That transition is often where people get stuck, so this makes the whole journey feel a lot more approachable. I’m also working through" [ref=e768] [cursor=pointer]:
+                      - /url: /posts/deploying-8-microservices-to-aws-eks-with-docker-compose-a-step-by-step-walkthrough/6a2aa520f78514b3654e3ea7/comment/6a2ac4745e04b2dd3bc97c51
+                      - paragraph [ref=e771]: Really enjoyed this walkthrough. Deploying multiple microservices to EKS is one of those things that sounds straightforward on paper, but in practice the number of moving parts can get messy very quickly. I like that you showed the process step by step instead of skipping straight to the “final architecture” part. What stood out to me most was how Docker Compose helped bridge the local development setup with the Kubernetes/EKS deployment flow. That transition is often where people get stuck, so this makes the whole journey feel a lot more approachable. I’m also working through
+                  - generic [ref=e772]:
+                    - generic [ref=e773]: Atul
+                    - generic [ref=e774]: ·
+                    - time [ref=e775]: 17h ago
+                - generic [ref=e776]:
+                  - link "Building a Cyberpunk Wealth Simulator Using Pure JS & Web Audio API" [ref=e777] [cursor=pointer]:
+                    - /url: /posts/building-a-cyberpunk-wealth-simulator-using-pure-js-web-audio-api/6a2a6917a58e6d9294efd14c
+                    - generic [ref=e779]: Building a Cyberpunk Wealth Simulator Using Pure JS & Web Audio API
+                  - generic [ref=e780]:
+                    - link "WQ" [ref=e781] [cursor=pointer]:
+                      - /url: /@waejdhb
+                      - generic [ref=e783]: WQ
+                    - link "Wow the Game is best Play it Now" [ref=e784] [cursor=pointer]:
+                      - /url: /posts/building-a-cyberpunk-wealth-simulator-using-pure-js-web-audio-api/6a2a6917a58e6d9294efd14c/comment/6a2ab1ecefe3bfa0d6005028
+                      - paragraph [ref=e787]: Wow the Game is best Play it Now
+                  - generic [ref=e788]:
+                    - generic [ref=e789]: Wealthyyvibes
+                    - generic [ref=e790]: ·
+                    - time [ref=e791]: 18h ago
+                - generic [ref=e792]:
+                  - 'link "Running Ollama Locally vs in the Cloud: A Practical Look at AI Infrastructure" [ref=e793] [cursor=pointer]':
+                    - /url: /posts/running-ollama-locally-vs-in-the-cloud-a-practical-look-at-ai-infrastructure/6a2a848ba339b335c15e1f38
+                    - generic [ref=e795]: "Running Ollama Locally vs in the Cloud: A Practical Look at AI Infrastructure"
+                  - generic [ref=e796]:
+                    - link "MR" [ref=e797] [cursor=pointer]:
+                      - /url: /@mateoruiz
+                      - generic [ref=e799]: MR
+                    - link "I like that this post doesn't turn it into a local-vs-cloud debate. They're really different stages of the same journey. Running Ollama locally is one of the fastest ways to understand what AI workloads actually cost in terms of memory, compute, and latency. A lot of those realities are hidden when you're only consuming APIs. What I've seen in practice is that local models are great for experimentation, internal tools, and privacy-sensitive workflows, while cloud infrastructure becomes important once reliability, concurrency, and operational support matter. Most teams will pro" [ref=e800] [cursor=pointer]:
+                      - /url: /posts/running-ollama-locally-vs-in-the-cloud-a-practical-look-at-ai-infrastructure/6a2a848ba339b335c15e1f38/comment/6a2a85863b020503009c35db
+                      - paragraph [ref=e803]: I like that this post doesn't turn it into a local-vs-cloud debate. They're really different stages of the same journey. Running Ollama locally is one of the fastest ways to understand what AI workloads actually cost in terms of memory, compute, and latency. A lot of those realities are hidden when you're only consuming APIs. What I've seen in practice is that local models are great for experimentation, internal tools, and privacy-sensitive workflows, while cloud infrastructure becomes important once reliability, concurrency, and operational support matter. Most teams will pro
+                  - generic [ref=e804]:
+                    - generic [ref=e805]: Mateo
+                    - generic [ref=e806]: ·
+                    - time [ref=e807]: 21h ago
+            - generic [ref=e808]:
+              - heading "Authors worth following" [level=3] [ref=e812]
+              - list [ref=e813]:
+                - listitem [ref=e814]:
+                  - link "BE Blue Eyes Exploring technology, business trends, digital innovation and practical insights. 1 post this month" [ref=e815] [cursor=pointer]:
+                    - /url: /@mediabeyes
+                    - generic [ref=e817]: BE
+                    - generic [ref=e818]:
+                      - generic [ref=e819]: Blue Eyes
+                      - paragraph [ref=e820]: Exploring technology, business trends, digital innovation and practical insights.
+                      - generic [ref=e821]: 1 post this month
+                - listitem [ref=e822]:
+                  - link "S Steve @steve45 3 posts this month" [ref=e823] [cursor=pointer]:
+                    - /url: /@steve45
+                    - generic [ref=e825]: S
+                    - generic [ref=e826]:
+                      - generic [ref=e827]: Steve
+                      - generic [ref=e828]: "@steve45"
+                      - generic [ref=e829]: 3 posts this month
+                - listitem [ref=e830]:
+                  - link "B Bijon Full Stack Developer & ML Researcher | Built govt & NGO systems @FAITE | MERN · Laravel · FastAPI · Python | BSc Software Engineering @SLIIT 1 post this month" [ref=e831] [cursor=pointer]:
+                    - /url: /@bijon
+                    - generic [ref=e833]: B
+                    - generic [ref=e834]:
+                      - generic [ref=e835]: Bijon
+                      - paragraph [ref=e836]: Full Stack Developer & ML Researcher | Built govt & NGO systems @FAITE | MERN · Laravel · FastAPI · Python | BSc Software Engineering @SLIIT
+                      - generic [ref=e837]: 1 post this month
+                - listitem [ref=e838]:
+                  - 'link "BB Bold BI by Syncfusion AI-Powered Analytics: Turning Complex Business data into Decisions 1 post this month" [ref=e839] [cursor=pointer]':
+                    - /url: /@bold-bi
+                    - generic [ref=e841]: BB
+                    - generic [ref=e842]:
+                      - generic [ref=e843]: Bold BI by Syncfusion
+                      - paragraph [ref=e844]: "AI-Powered Analytics: Turning Complex Business data into Decisions"
+                      - generic [ref=e845]: 1 post this month
+                - listitem [ref=e846]:
+                  - link "E Everycred @everycred9 1 post this month" [ref=e847] [cursor=pointer]:
+                    - /url: /@everycred9
+                    - generic [ref=e849]: E
+                    - generic [ref=e850]:
+                      - generic [ref=e851]: Everycred
+                      - generic [ref=e852]: "@everycred9"
+                      - generic [ref=e853]: 1 post this month
+              - generic [ref=e854]:
+                - button "Prev" [disabled]: Prev
+                - generic [ref=e855]: 1 / 3
+                - button "Next" [ref=e856]: Next
+            - generic [ref=e858]:
+              - heading "Trending tags this week" [level=3] [ref=e862]
+              - list [ref=e863]:
+                - listitem [ref=e864]:
+                  - 'link "1 #ai" [ref=e865] [cursor=pointer]':
+                    - /url: /tag/ai
+                    - generic [ref=e866]: "1"
+                    - generic [ref=e867]: "#ai"
+                  - generic [ref=e868]:
+                    - generic [ref=e869]:
+                      - link "andrewbaisden" [ref=e870] [cursor=pointer]:
+                        - /url: /@andrewbaisden
+                      - link "neuralnotes" [ref=e871] [cursor=pointer]:
+                        - /url: /@neuralnotes
+                      - link "oinone" [ref=e872] [cursor=pointer]:
+                        - /url: /@oinone
+                    - generic [ref=e873]: "186"
+                - listitem [ref=e874]:
+                  - 'link "2 #devops" [ref=e875] [cursor=pointer]':
+                    - /url: /tag/devops
+                    - generic [ref=e876]: "2"
+                    - generic [ref=e877]: "#devops"
+                  - generic [ref=e878]:
+                    - generic [ref=e879]:
+                      - link "scottdudeman69" [ref=e880] [cursor=pointer]:
+                        - /url: /@scottdudeman69
+                      - link "vatul16" [ref=e881] [cursor=pointer]:
+                        - /url: /@vatul16
+                      - link "uptimearchitect" [ref=e882] [cursor=pointer]:
+                        - /url: /@uptimearchitect
+                    - generic [ref=e883]: "112"
+                - listitem [ref=e884]:
+                  - 'link "3 #python" [ref=e885] [cursor=pointer]':
+                    - /url: /tag/python
+                    - generic [ref=e886]: "3"
+                    - generic [ref=e887]: "#python"
+                  - generic [ref=e888]:
+                    - generic [ref=e889]:
+                      - link "vshulcz" [ref=e890] [cursor=pointer]:
+                        - /url: /@vshulcz
+                      - link "tanmaybhurkunde" [ref=e891] [cursor=pointer]:
+                        - /url: /@tanmaybhurkunde
+                      - link "meetp2022" [ref=e892] [cursor=pointer]:
+                        - /url: /@meetp2022
+                    - generic [ref=e893]: "74"
+                - listitem [ref=e894]:
+                  - 'link "4 #javascript" [ref=e895] [cursor=pointer]':
+                    - /url: /tag/javascript
+                    - generic [ref=e896]: "4"
+                    - generic [ref=e897]: "#javascript"
+                  - generic [ref=e898]:
+                    - generic [ref=e899]:
+                      - link "sufyan-bin-uzayr" [ref=e900] [cursor=pointer]:
+                        - /url: /@sufyan-bin-uzayr
+                      - link "magesheet" [ref=e901] [cursor=pointer]:
+                        - /url: /@magesheet
+                      - link "zerodrop" [ref=e902] [cursor=pointer]:
+                        - /url: /@zerodrop
+                    - generic [ref=e903]: "73"
+                - listitem [ref=e904]:
+                  - 'link "5 #webdev" [ref=e905] [cursor=pointer]':
+                    - /url: /tag/webdev
+                    - generic [ref=e906]: "5"
+                    - generic [ref=e907]: "#webdev"
+                  - generic [ref=e908]:
+                    - generic [ref=e909]:
+                      - link "analystyuchels" [ref=e910] [cursor=pointer]:
+                        - /url: /@analystyuchels
+                      - link "pixelshift-gallery" [ref=e911] [cursor=pointer]:
+                        - /url: /@pixelshift-gallery
+                      - link "henilp" [ref=e912] [cursor=pointer]:
+                        - /url: /@henilp
+                    - generic [ref=e913]: "59"
+                - listitem [ref=e914]:
+                  - 'link "6 #software-development" [ref=e915] [cursor=pointer]':
+                    - /url: /tag/software-development
+                    - generic [ref=e916]: "6"
+                    - generic [ref=e917]: "#software-development"
+                  - generic [ref=e918]:
+                    - generic [ref=e919]:
+                      - link "Sushil2k4" [ref=e920] [cursor=pointer]:
+                        - /url: /@Sushil2k4
+                      - link "mediusware" [ref=e921] [cursor=pointer]:
+                        - /url: /@mediusware
+                      - link "amibuckblog" [ref=e922] [cursor=pointer]:
+                        - /url: /@amibuckblog
+                    - generic [ref=e923]: "56"
+                - listitem [ref=e924]:
+                  - 'link "7 #llm" [ref=e925] [cursor=pointer]':
+                    - /url: /tag/llm
+                    - generic [ref=e926]: "7"
+                    - generic [ref=e927]: "#llm"
+                  - generic [ref=e928]:
+                    - generic [ref=e929]:
+                      - link "Sushil2k4" [ref=e930] [cursor=pointer]:
+                        - /url: /@Sushil2k4
+                      - link "jasmineparkdev" [ref=e931] [cursor=pointer]:
+                        - /url: /@jasmineparkdev
+                      - link "mofuteq" [ref=e932] [cursor=pointer]:
+                        - /url: /@mofuteq
+                    - generic [ref=e933]: "55"
+                - listitem [ref=e934]:
+                  - 'link "8 #cybersecurity" [ref=e935] [cursor=pointer]':
+                    - /url: /tag/cybersecurity
+                    - generic [ref=e936]: "8"
+                    - generic [ref=e937]: "#cybersecurity"
+                  - generic [ref=e938]:
+                    - generic [ref=e939]:
+                      - link "whatdoeskmean" [ref=e940] [cursor=pointer]:
+                        - /url: /@whatdoeskmean
+                      - link "jonathanmayer" [ref=e941] [cursor=pointer]:
+                        - /url: /@jonathanmayer
+                      - link "relayshieldsecurity" [ref=e942] [cursor=pointer]:
+                        - /url: /@relayshieldsecurity
+                    - generic [ref=e943]: "54"
+                - listitem [ref=e944]:
+                  - 'link "9 #web-development" [ref=e945] [cursor=pointer]':
+                    - /url: /tag/web-development
+                    - generic [ref=e946]: "9"
+                    - generic [ref=e947]: "#web-development"
+                  - generic [ref=e948]:
+                    - generic [ref=e949]:
+                      - link "Heisenberg3006" [ref=e950] [cursor=pointer]:
+                        - /url: /@Heisenberg3006
+                      - link "varunvarde" [ref=e951] [cursor=pointer]:
+                        - /url: /@varunvarde
+                      - link "garbagenose" [ref=e952] [cursor=pointer]:
+                        - /url: /@garbagenose
+                    - generic [ref=e953]: "54"
+                - listitem [ref=e954]:
+                  - 'link "10 #opensource" [ref=e955] [cursor=pointer]':
+                    - /url: /tag/opensource
+                    - generic [ref=e956]: "10"
+                    - generic [ref=e957]: "#opensource"
+                  - generic [ref=e958]:
+                    - generic [ref=e959]:
+                      - link "sharmukh" [ref=e960] [cursor=pointer]:
+                        - /url: /@sharmukh
+                      - link "glendel" [ref=e961] [cursor=pointer]:
+                        - /url: /@glendel
+                      - link "wrishi" [ref=e962] [cursor=pointer]:
+                        - /url: /@wrishi
+                    - generic [ref=e963]: "52"
+                - listitem [ref=e964]:
+                  - 'link "11 #aws" [ref=e965] [cursor=pointer]':
+                    - /url: /tag/aws
+                    - generic [ref=e966]: "11"
+                    - generic [ref=e967]: "#aws"
+                  - generic [ref=e968]:
+                    - generic [ref=e969]:
+                      - link "hpfpv" [ref=e970] [cursor=pointer]:
+                        - /url: /@hpfpv
+                      - link "himavarshini" [ref=e971] [cursor=pointer]:
+                        - /url: /@himavarshini
+                      - link "sagarthosar" [ref=e972] [cursor=pointer]:
+                        - /url: /@sagarthosar
+                    - generic [ref=e973]: "50"
+                - listitem [ref=e974]:
+                  - 'link "12 #artificial-intelligence" [ref=e975] [cursor=pointer]':
+                    - /url: /tag/artificial-intelligence
+                    - generic [ref=e976]: "12"
+                    - generic [ref=e977]: "#artificial-intelligence"
+                  - generic [ref=e978]:
+                    - generic [ref=e979]:
+                      - link "aryan672002" [ref=e980] [cursor=pointer]:
+                        - /url: /@aryan672002
+                      - link "8080ai" [ref=e981] [cursor=pointer]:
+                        - /url: /@8080ai
+                      - link "hari-marthala" [ref=e982] [cursor=pointer]:
+                        - /url: /@hari-marthala
+                    - generic [ref=e983]: "50"
+                - listitem [ref=e984]:
+                  - 'link "13 #programming-blogs" [ref=e985] [cursor=pointer]':
+                    - /url: /tag/programming-blogs
+                    - generic [ref=e986]: "13"
+                    - generic [ref=e987]: "#programming-blogs"
+                  - generic [ref=e988]:
+                    - generic [ref=e989]:
+                      - link "arpan7sarkar" [ref=e990] [cursor=pointer]:
+                        - /url: /@arpan7sarkar
+                      - link "sufyan-bin-uzayr" [ref=e991] [cursor=pointer]:
+                        - /url: /@sufyan-bin-uzayr
+                      - link "camma" [ref=e992] [cursor=pointer]:
+                        - /url: /@camma
+                    - generic [ref=e993]: "48"
+                - listitem [ref=e994]:
+                  - 'link "14 #software-engineering" [ref=e995] [cursor=pointer]':
+                    - /url: /tag/software-engineering
+                    - generic [ref=e996]: "14"
+                    - generic [ref=e997]: "#software-engineering"
+                  - generic [ref=e998]:
+                    - generic [ref=e999]:
+                      - link "naomilgbt" [ref=e1000] [cursor=pointer]:
+                        - /url: /@naomilgbt
+                      - link "leon74" [ref=e1001] [cursor=pointer]:
+                        - /url: /@leon74
+                      - link "astasilva" [ref=e1002] [cursor=pointer]:
+                        - /url: /@astasilva
+                    - generic [ref=e1003]: "47"
+            - generic [ref=e1004]:
+              - heading "Trending series" [level=3] [ref=e1008]
+              - list [ref=e1009]:
+                - listitem [ref=e1010]:
+                  - 'link "1 Battle of BackFront Syed Ahmer Shah | Engineering Logs: Build, Hack & Design 480 views 4 posts" [ref=e1011] [cursor=pointer]':
+                    - /url: https://blog.ahmershah.dev/series/battle-of-backfront
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]: "1"
+                      - generic [ref=e1014]:
+                        - generic [ref=e1015]: Battle of BackFront
+                        - generic [ref=e1016]: "Syed Ahmer Shah | Engineering Logs: Build, Hack & Design"
+                      - generic [ref=e1017]:
+                        - generic [ref=e1018]: 480 views
+                        - generic [ref=e1019]: 4 posts
+                - listitem [ref=e1020]:
+                  - link "2 Things in APEX I've used for years, but not fully understood how they work Hot off the Application Express 465 views 1 post" [ref=e1021] [cursor=pointer]:
+                    - /url: https://mattmulvaney.hashnode.dev/series/how-does-it-work
+                    - generic [ref=e1022]:
+                      - generic [ref=e1023]: "2"
+                      - generic [ref=e1024]:
+                        - generic [ref=e1025]: Things in APEX I've used for years, but not fully understood how they work
+                        - generic [ref=e1026]: Hot off the Application Express
+                      - generic [ref=e1027]:
+                        - generic [ref=e1028]: 465 views
+                        - generic [ref=e1029]: 1 post
+                - listitem [ref=e1030]:
+                  - link "3 Debugging Clio Labs 418 views 1 post" [ref=e1031] [cursor=pointer]:
+                    - /url: https://cliolabs.hashnode.dev/series/debugging
+                    - generic [ref=e1032]:
+                      - generic [ref=e1033]: "3"
+                      - generic [ref=e1034]:
+                        - generic [ref=e1035]: Debugging
+                        - generic [ref=e1036]: Clio Labs
+                      - generic [ref=e1037]:
+                        - generic [ref=e1038]: 418 views
+                        - generic [ref=e1039]: 1 post
+                - listitem [ref=e1040]:
+                  - link "4 Fintech Systems Kratika | Payment Systems & Engineering Leadership 231 views 1 post" [ref=e1041] [cursor=pointer]:
+                    - /url: https://kratikajain.com/series/fintech-systems
+                    - generic [ref=e1042]:
+                      - generic [ref=e1043]: "4"
+                      - generic [ref=e1044]:
+                        - generic [ref=e1045]: Fintech Systems
+                        - generic [ref=e1046]: Kratika | Payment Systems & Engineering Leadership
+                      - generic [ref=e1047]:
+                        - generic [ref=e1048]: 231 views
+                        - generic [ref=e1049]: 1 post
+                - listitem [ref=e1050]:
+                  - link "5 Backend Series Augusty Tech 204 views 1 post" [ref=e1051] [cursor=pointer]:
+                    - /url: https://blog.dhanrajsahu.com/series/backend-engineering
+                    - generic [ref=e1052]:
+                      - generic [ref=e1053]: "5"
+                      - generic [ref=e1054]:
+                        - generic [ref=e1055]: Backend Series
+                        - generic [ref=e1056]: Augusty Tech
+                      - generic [ref=e1057]:
+                        - generic [ref=e1058]: 204 views
+                        - generic [ref=e1059]: 1 post
+                - listitem [ref=e1060]:
+                  - link "6 Real AI Engineering Blog | TeachMeBro 143 views 1 post" [ref=e1061] [cursor=pointer]:
+                    - /url: https://blog.altafshaikh.in/series/real-ai-engineering
+                    - generic [ref=e1062]:
+                      - generic [ref=e1063]: "6"
+                      - generic [ref=e1064]:
+                        - generic [ref=e1065]: Real AI Engineering
+                        - generic [ref=e1066]: Blog | TeachMeBro
+                      - generic [ref=e1067]:
+                        - generic [ref=e1068]: 143 views
+                        - generic [ref=e1069]: 1 post
+                - listitem [ref=e1070]:
+                  - link "7 Beyond Technical Engineering Kratika | Payment Systems & Engineering Leadership 124 views 2 posts" [ref=e1071] [cursor=pointer]:
+                    - /url: https://kratikajain.com/series/beyond-technical-engineering
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073]: "7"
+                      - generic [ref=e1074]:
+                        - generic [ref=e1075]: Beyond Technical Engineering
+                        - generic [ref=e1076]: Kratika | Payment Systems & Engineering Leadership
+                      - generic [ref=e1077]:
+                        - generic [ref=e1078]: 124 views
+                        - generic [ref=e1079]: 2 posts
+                - listitem [ref=e1080]:
+                  - link "8 The Firmware Brain The Firmware Brain 89 views 3 posts" [ref=e1081] [cursor=pointer]:
+                    - /url: https://firmware-to-ai.hashnode.dev/series/the-firmware-brain
+                    - generic [ref=e1082]:
+                      - generic [ref=e1083]: "8"
+                      - generic [ref=e1084]:
+                        - generic [ref=e1085]: The Firmware Brain
+                        - generic [ref=e1086]: The Firmware Brain
+                      - generic [ref=e1087]:
+                        - generic [ref=e1088]: 89 views
+                        - generic [ref=e1089]: 3 posts
+                - listitem [ref=e1090]:
+                  - link "9 Spec-Driven Development Systems of Intent | Chris Prince 89 views 2 posts" [ref=e1091] [cursor=pointer]:
+                    - /url: https://chrisprince.net/series/sdd
+                    - generic [ref=e1092]:
+                      - generic [ref=e1093]: "9"
+                      - generic [ref=e1094]:
+                        - generic [ref=e1095]: Spec-Driven Development
+                        - generic [ref=e1096]: Systems of Intent | Chris Prince
+                      - generic [ref=e1097]:
+                        - generic [ref=e1098]: 89 views
+                        - generic [ref=e1099]: 2 posts
+                - listitem [ref=e1100]:
+                  - link "10 Docker Raeveen Pasupathy | Blog 78 views 1 post" [ref=e1101] [cursor=pointer]:
+                    - /url: https://blog.raeveen.dev/series/docker
+                    - generic [ref=e1102]:
+                      - generic [ref=e1103]: "10"
+                      - generic [ref=e1104]:
+                        - generic [ref=e1105]: Docker
+                        - generic [ref=e1106]: Raeveen Pasupathy | Blog
+                      - generic [ref=e1107]:
+                        - generic [ref=e1108]: 78 views
+                        - generic [ref=e1109]: 1 post
+            - generic [ref=e1110]:
+              - heading "From our blog" [level=3] [ref=e1114]
+              - list [ref=e1115]:
+                - listitem [ref=e1116]:
+                  - 'link "Headless browsers in 2026: Playwright vs Puppeteer vs Selenium, and where they should run Apr 23" [ref=e1117] [cursor=pointer]':
+                    - /url: https://hashnode.com/blog/playwright-vs-puppeteer-vs-selenium-2026
+                    - generic [ref=e1118]:
+                      - generic [ref=e1119]: "Headless browsers in 2026: Playwright vs Puppeteer vs Selenium, and where they should run"
+                      - generic [ref=e1120]: Apr 23
+                - listitem [ref=e1121]:
+                  - link "We just open sourced, Passmark, the AI testing framework we built at Bug0 Apr 3" [ref=e1122] [cursor=pointer]:
+                    - /url: https://hashnode.com/blog/we-just-open-sourced-passmark-the-ai-regression-testing-framework
+                    - generic [ref=e1123]:
+                      - generic [ref=e1124]: We just open sourced, Passmark, the AI testing framework we built at Bug0
+                      - generic [ref=e1125]: Apr 3
+                - listitem [ref=e1126]:
+                  - 'link "The state of vibe coding in 2026: Adoption won, now what? Feb 26" [ref=e1127] [cursor=pointer]':
+                    - /url: https://hashnode.com/blog/state-of-vibe-coding-2026
+                    - generic [ref=e1128]:
+                      - generic [ref=e1129]: "The state of vibe coding in 2026: Adoption won, now what?"
+                      - generic [ref=e1130]: Feb 26
+                - listitem [ref=e1131]:
+                  - 'link "The AI-native stack (2026): From text-to-app to agentic QA Feb 12" [ref=e1132] [cursor=pointer]':
+                    - /url: https://hashnode.com/blog/the-ai-native-stack-2026-from-text-to-app-to-agentic-qa
+                    - generic [ref=e1133]:
+                      - generic [ref=e1134]: "The AI-native stack (2026): From text-to-app to agentic QA"
+                      - generic [ref=e1135]: Feb 12
+                - listitem [ref=e1136]:
+                  - 'link "12 best generative AI testing tools (2026): Ranked and reviewed for QA engineers Feb 12" [ref=e1137] [cursor=pointer]':
+                    - /url: https://hashnode.com/blog/best-generative-ai-testing-tools-2026
+                    - generic [ref=e1138]:
+                      - generic [ref=e1139]: "12 best generative AI testing tools (2026): Ranked and reviewed for QA engineers"
+                      - generic [ref=e1140]: Feb 12
+                - listitem [ref=e1141]:
+                  - 'link "From ChatGPT for Testing to Full Automation: Why I Built My Own AI Testing Tool Nov 20" [ref=e1142] [cursor=pointer]':
+                    - /url: https://hashnode.com/blog/chatgpt-for-testing-alternative-playwright-automation
+                    - generic [ref=e1143]:
+                      - generic [ref=e1144]: "From ChatGPT for Testing to Full Automation: Why I Built My Own AI Testing Tool"
+                      - generic [ref=e1145]: Nov 20
+              - link "View all posts" [ref=e1147] [cursor=pointer]:
+                - /url: https://hashnode.com/blog
+                - text: View all posts
+  - generic [ref=e1149]:
+    - heading "Search Hashnode" [level=2] [ref=e1150]
+    - paragraph [ref=e1151]: Search posts, tags, users, and pages
+  - region "Notifications alt+T"
