@@ -1,0 +1,39 @@
+- generic [ref=e87]:
+  - generic [ref=e88]: Welcome! - DEV Community
+  - generic [ref=e90]:
+    - paragraph [ref=e91]: Create your account
+    - generic [ref=e92]:
+      - generic [ref=e93]: Profile image
+      - button "Profile image" [ref=e94]
+    - generic [ref=e95]:
+      - generic "Name" [ref=e96]:
+        - text: Name
+        - generic [ref=e97]: "* * - required"
+      - textbox "Name" [ref=e98]
+    - generic [ref=e99]:
+      - generic "Username" [ref=e100]:
+        - text: Username
+        - generic [ref=e101]: "* * - required"
+      - textbox "Username" [ref=e102]
+    - generic [ref=e103]:
+      - generic "Email" [ref=e104]:
+        - text: Email
+        - generic [ref=e105]: "* * - required"
+      - textbox "Email" [ref=e106]
+    - generic [ref=e107]:
+      - generic "Password" [ref=e108]:
+        - text: Password
+        - generic [ref=e109]: "* * - required"
+      - textbox "Password" [ref=e110]
+    - generic [ref=e111]:
+      - generic "Password Confirmation" [ref=e112]:
+        - text: Password Confirmation
+        - generic [ref=e113]: "* * - required"
+      - textbox "Password Confirmation" [ref=e114]
+    - iframe [ref=e119]:
+      - generic [ref=f4e2]:
+        - generic [ref=f4e3]:
+          - checkbox "进行人机身份验证" [ref=f4e7]
+          - generic [ref=f4e11]: 进行人机身份验证
+        - generic [ref=f4e15]: reCAPTCHA
+    - button "Sign up" [ref=e121] [cursor=pointer]

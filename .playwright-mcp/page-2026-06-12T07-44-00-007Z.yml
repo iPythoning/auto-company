@@ -1,0 +1,130 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - heading "How to Check DNS Records — A Complete Guide (2026)" [level=1] [ref=e6]
+    - time [ref=e8]: June 12, 2026
+  - article [ref=e9]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: DNS records are the backbone of how the internet works. Every time you visit a website, send an email, or use a web service, DNS records are working behind the scenes. But how do you check what DNS records your domain actually has? This guide covers everything you need to know.
+      - paragraph [ref=e12]:
+        - strong [ref=e13]: Why Check DNS Records?
+      - paragraph [ref=e14]: "There are several reasons you might need to check DNS records:"
+      - paragraph [ref=e15]:
+        - text: •
+        - strong [ref=e16]: Troubleshooting website issues
+        - text: — If your site is down, incorrect DNS records might be the culprit
+      - paragraph [ref=e17]:
+        - text: •
+        - strong [ref=e18]: Email delivery problems
+        - text: — Missing or misconfigured MX/SPF/DKIM records can cause emails to bounce
+      - paragraph [ref=e19]:
+        - text: •
+        - strong [ref=e20]: Domain migration
+        - text: — When moving to a new host, verify DNS changes have propagated
+      - paragraph [ref=e21]:
+        - text: •
+        - strong [ref=e22]: Security audits
+        - text: — Check for unauthorized DNS changes or missing security records like CAA
+      - paragraph [ref=e23]:
+        - text: •
+        - strong [ref=e24]: SSL certificate setup
+        - text: — Verify your domain resolves correctly before requesting certificates
+      - paragraph [ref=e25]:
+        - strong [ref=e26]: "Method 1: Command Line Tools"
+      - paragraph [ref=e27]: "The most powerful way to check DNS records is using command-line tools:"
+      - paragraph [ref=e28]:
+        - strong [ref=e29]: dig
+        - text: "(Domain Information Groper) — The standard DNS lookup tool on Linux and macOS:"
+      - paragraph [ref=e30]:
+        - code [ref=e31]: dig example.com A
+        - text: — Look up the IPv4 address
+      - paragraph [ref=e32]:
+        - code [ref=e33]: dig example.com MX
+        - text: — Check mail servers
+      - paragraph [ref=e34]:
+        - code [ref=e35]: dig example.com TXT
+        - text: — View SPF/DKIM records
+      - paragraph [ref=e36]:
+        - code [ref=e37]: dig example.com NS
+        - text: — Find authoritative nameservers
+      - paragraph [ref=e38]:
+        - strong [ref=e39]: nslookup
+        - text: "— Available on all platforms (Windows, Mac, Linux):"
+      - paragraph [ref=e40]:
+        - code [ref=e41]: nslookup example.com
+        - text: — Basic DNS lookup
+      - paragraph [ref=e42]:
+        - code [ref=e43]: nslookup -type=MX example.com
+        - text: — Check MX records
+      - paragraph [ref=e44]:
+        - strong [ref=e45]: "Method 2: Online DNS Tools"
+      - paragraph [ref=e46]: If you prefer a visual interface, online DNS tools offer instant results without the command line. They typically show A, AAAA, MX, TXT, CNAME, NS, and SOA records in an easy-to-read format. Many also include WHOIS data, SSL certificate information, and domain expiry dates.
+      - paragraph [ref=e47]:
+        - strong [ref=e48]: "Method 3: WHOIS Lookup"
+      - paragraph [ref=e49]: "WHOIS reveals domain registration details: registrar, registration/expiry dates, and nameservers. While WHOIS doesn't show individual DNS records, it confirms the authoritative nameservers responsible for your DNS zone."
+      - paragraph [ref=e50]:
+        - strong [ref=e51]: Understanding Your DNS Results
+      - paragraph [ref=e52]: "When you check your DNS records, here's what to look for:"
+      - paragraph [ref=e53]:
+        - text: •
+        - strong [ref=e54]: A/AAAA Records
+        - text: — Should point to your web server's IP address. If missing, your domain won't resolve
+      - paragraph [ref=e55]:
+        - text: •
+        - strong [ref=e56]: MX Records
+        - text: — Must point to your email provider's servers with correct priority values
+      - paragraph [ref=e57]:
+        - text: •
+        - strong [ref=e58]: TXT Records
+        - text: — Should include SPF (v=spf1...) and DKIM records for email authentication
+      - paragraph [ref=e59]:
+        - text: •
+        - strong [ref=e60]: NS Records
+        - text: — Should match the nameservers listed by your DNS provider
+      - paragraph [ref=e61]:
+        - text: •
+        - strong [ref=e62]: CAA Records
+        - text: — Should list your authorized SSL certificate authorities
+      - paragraph [ref=e63]:
+        - strong [ref=e64]: Troubleshooting Common DNS Issues
+      - paragraph [ref=e65]:
+        - text: •
+        - strong [ref=e66]: Site not loading?
+        - text: Check A/AAAA records. Try a propagation checker to see if changes have spread globally.
+      - paragraph [ref=e67]:
+        - text: •
+        - strong [ref=e68]: Emails bouncing?
+        - text: Verify MX records exist and SPF/DKIM/DMARC TXT records are configured correctly.
+      - paragraph [ref=e69]:
+        - text: •
+        - strong [ref=e70]: SSL errors?
+        - text: Ensure your domain resolves to the server where the SSL certificate is installed.
+      - paragraph [ref=e71]:
+        - text: •
+        - strong [ref=e72]: DNS changes not taking effect?
+        - text: DNS propagation can take up to 48 hours. Use a propagation checker to monitor progress.
+      - paragraph [ref=e73]:
+        - strong [ref=e74]: Start Checking Your DNS Records Now
+      - paragraph [ref=e75]:
+        - text: Whether you're debugging an issue or auditing your domain's configuration, having the right tools makes all the difference. Use our
+        - link "free DNS tools" [ref=e76] [cursor=pointer]:
+          - /url: https://ipythoning.github.io/dns-tools/
+        - text: to instantly check A, MX, TXT, and all major DNS record types. Also try our
+        - link "step-by-step DNS record checking guide" [ref=e77] [cursor=pointer]:
+          - /url: https://ipythoning.github.io/dns-tools/how-to-check-dns-records.html
+        - text: with screenshots and detailed instructions for every method.
+      - paragraph [ref=e78]
+    - generic:
+      - generic:
+        - generic:
+          - button
+          - button
+          - button
+        - generic:
+          - button
+          - button
+          - button
+      - generic:
+        - generic: ×
+        - generic:
+          - textbox
+  - complementary [ref=e79]

@@ -1,0 +1,8 @@
+[    3890ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41
+[    3890ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41
+[    7342ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41
+[    7342ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41
+[   10207ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41
+[   10207ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41
+[   11641ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41
+[   11641ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:dns-tools.pages.dev:41

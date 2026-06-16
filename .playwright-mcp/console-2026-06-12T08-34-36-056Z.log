@@ -1,0 +1,8 @@
+[    4733ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41
+[    4733ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41
+[    7140ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41
+[    7140ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41
+[   10153ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41
+[   10153ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41
+[   11551ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41
+[   11551ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:ipythoning.github.io/dns-tools:41

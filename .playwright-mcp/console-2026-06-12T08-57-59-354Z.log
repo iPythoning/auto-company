@@ -1,0 +1,9 @@
+[   18866ms] SyntaxError: Failed to execute 'insertBefore' on 'Node': Identifier 'registrationsPage' has already been declared
+    at _ (https://assets.dev.to/assets/base-7c073df15c05e20d1f5c3aca0ca04507fc467586eff2797c9875f3b1a8bd861f.js:5:21499)
+    at c (https://assets.dev.to/assets/base-7c073df15c05e20d1f5c3aca0ca04507fc467586eff2797c9875f3b1a8bd861f.js:5:19125)
+    at E (https://assets.dev.to/assets/base-7c073df15c05e20d1f5c3aca0ca04507fc467586eff2797c9875f3b1a8bd861f.js:5:22491)
+    at b (https://assets.dev.to/assets/base-7c073df15c05e20d1f5c3aca0ca04507fc467586eff2797c9875f3b1a8bd861f.js:5:20677)
+    at XMLHttpRequest.y (https://assets.dev.to/assets/base-7c073df15c05e20d1f5c3aca0ca04507fc467586eff2797c9875f3b1a8bd861f.js:5:19989)
+    at XMLHttpRequest.<anonymous> (https://assets.dev.to/assets/base-7c073df15c05e20d1f5c3aca0ca04507fc467586eff2797c9875f3b1a8bd861f.js:4:31945)
+[   23572ms] [ERROR] Failed to load resource: the server responded with a status of 429 (Too Many Requests) @ https://api.honeybadger.io/v1/notices/js:0
+[   23573ms] [WARNING] [Honeybadger] Error report failed: unknown response from server. code=429 @ https://assets.dev.to/assets/base-7c073df15c05e20d1f5c3aca0ca04507fc467586eff2797c9875f3b1a8bd861f.js:3

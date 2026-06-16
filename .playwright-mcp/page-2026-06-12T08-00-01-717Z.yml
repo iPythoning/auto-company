@@ -1,0 +1,207 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Forem Home" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Forem" [ref=e9]
+          - generic [ref=e10]: Home
+        - link "Docs" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "API" [ref=e12] [cursor=pointer]:
+          - /url: /api
+      - generic [ref=e13]:
+        - link "GitHub" [ref=e14] [cursor=pointer]:
+          - /url: https://github.com/forem/forem
+          - text: GitHub
+          - img [ref=e15]
+        - button "Switch between dark and light mode (currently light mode)" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - button "Search" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]:
+            - img [ref=e24]
+            - generic [ref=e26]: Search
+          - generic [ref=e27]:
+            - generic [ref=e28]: ⌘
+            - generic [ref=e29]: K
+  - generic [ref=e31]:
+    - complementary [ref=e32]:
+      - navigation "Docs sidebar" [ref=e35]:
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "Introduction 👋" [ref=e38] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e39]:
+            - link "Technical Overview" [ref=e41] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e42]:
+            - link "Getting Started" [ref=e44] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e45]:
+            - link "Contributing Guide" [ref=e47] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e48]:
+            - link "Backend Guide" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e51]:
+            - link "Frontend Guide" [ref=e53] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e54]:
+            - link "Admin Guide" [ref=e56] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e57]:
+            - link "Design Guide" [ref=e59] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e60]:
+            - link "Testing/QA Guide" [ref=e62] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e63]:
+            - link "Troubleshooting" [ref=e64] [cursor=pointer]:
+              - /url: /troubleshooting
+          - listitem [ref=e65]:
+            - link "Licensing" [ref=e66] [cursor=pointer]:
+              - /url: /licensing
+          - listitem [ref=e67]:
+            - link "Maintainers Guide" [ref=e69] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e70]:
+            - link "Forem Creators Guide" [ref=e72] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e73]:
+            - link "FAQ" [ref=e75] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e76]:
+            - link "API" [ref=e77] [cursor=pointer]:
+              - /url: /api
+          - listitem [ref=e78]:
+            - link "Self Hosting Forem" [ref=e79] [cursor=pointer]:
+              - /url: /self-hosting
+    - main [ref=e80]:
+      - generic [ref=e82]:
+        - generic [ref=e84]:
+          - article [ref=e85]:
+            - navigation "Breadcrumbs" [ref=e86]:
+              - list [ref=e87]:
+                - listitem [ref=e88]:
+                  - link "Home page" [ref=e89] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e90]
+                - listitem [ref=e92]:
+                  - generic [ref=e93]: API
+            - generic [ref=e94]:
+              - heading "API" [level=1] [ref=e95]
+              - generic [ref=e96]:
+                - generic [ref=e97]:
+                  - img [ref=e99]
+                  - text: info
+                - paragraph [ref=e102]:
+                  - text: We’re currently making rapid changes to the product so our docs may be out of date. If you need help, please email
+                  - link "yo@forem.com" [ref=e103] [cursor=pointer]:
+                    - /url: mailto:yo@forem.com
+                  - text: .
+              - paragraph [ref=e104]:
+                - text: "There are two versions of the API:"
+                - link "version 0" [ref=e105] [cursor=pointer]:
+                  - /url: /api/v0
+                - text: and
+                - link "version 1" [ref=e106] [cursor=pointer]:
+                  - /url: /api/v1
+                - text: ". All V0 endpoints are available in V1: we will be adding V1 documentation for these endpoints in the future. Right now we recommend calling V0 endpoints with"
+                - code [ref=e107]: accept
+                - text: and
+                - code [ref=e108]: api-key
+                - text: headers.
+              - heading "Version 0Direct link to version-0" [level=2] [ref=e109]:
+                - link "Version 0" [ref=e110] [cursor=pointer]:
+                  - /url: /api/v0
+                - link "Direct link to version-0" [ref=e111] [cursor=pointer]:
+                  - /url: "#version-0"
+                  - text: "#"
+              - paragraph [ref=e112]: This is the legacy API. It is deprecated and will be removed in a future release. Clients can continue to use it as is, but we recommend using the version 1 API.
+              - heading "Version 1Direct link to version-1" [level=2] [ref=e113]:
+                - link "Version 1" [ref=e114] [cursor=pointer]:
+                  - /url: /api/v1
+                - link "Direct link to version-1" [ref=e115] [cursor=pointer]:
+                  - /url: "#version-1"
+                  - text: "#"
+              - paragraph [ref=e116]:
+                - text: This is the current version of the API. It is the recommended way to interact with Forem. Version 1 requires clients to use an
+                - code [ref=e117]: accept
+                - text: header, and many endpoints (but not all) require
+                - code [ref=e118]: api-key
+                - text: header.
+              - paragraph [ref=e119]:
+                - text: The
+                - code [ref=e120]: accept
+                - text: header must be set to
+                - code [ref=e121]: application/vnd.forem.api-v1+json
+                - text: . The
+                - code [ref=e122]: api-key
+                - text: header must be set to the API key for the user. This API key can be generated by the user via their settings page in Forem.
+            - link "Edit this page" [ref=e126] [cursor=pointer]:
+              - /url: https://github.com/forem/forem-docs/edit/main/docs/api.md
+              - img [ref=e127]
+              - text: Edit this page
+          - navigation "Docs pages" [ref=e131]:
+            - link "Previous « Reducing Git Repo Size" [ref=e132] [cursor=pointer]:
+              - /url: /FAQ/git
+              - generic [ref=e133]: Previous
+              - generic [ref=e134]: « Reducing Git Repo Size
+            - link "Next Self Hosting Forem »" [ref=e135] [cursor=pointer]:
+              - /url: /self-hosting
+              - generic [ref=e136]: Next
+              - generic [ref=e137]: Self Hosting Forem »
+        - list [ref=e140]:
+          - listitem [ref=e141]:
+            - link "Version 0" [ref=e142] [cursor=pointer]:
+              - /url: "#version-0"
+          - listitem [ref=e143]:
+            - link "Version 1" [ref=e144] [cursor=pointer]:
+              - /url: "#version-1"
+  - contentinfo [ref=e145]:
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - generic [ref=e149]: Docs
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - link "Introduction" [ref=e152] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e153]:
+              - link "API Docs" [ref=e154] [cursor=pointer]:
+                - /url: /api
+        - generic [ref=e155]:
+          - generic [ref=e156]: Community
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "forem.dev" [ref=e159] [cursor=pointer]:
+                - /url: https://forem.dev
+                - text: forem.dev
+                - img [ref=e160]
+            - listitem [ref=e162]:
+              - link "DEV" [ref=e163] [cursor=pointer]:
+                - /url: https://dev.to
+                - text: DEV
+                - img [ref=e164]
+            - listitem [ref=e166]:
+              - link "GitHub" [ref=e167] [cursor=pointer]:
+                - /url: https://github.com/forem/forem
+                - text: GitHub
+                - img [ref=e168]
+        - generic [ref=e170]:
+          - generic [ref=e171]: Social
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - link "Twitter" [ref=e174] [cursor=pointer]:
+                - /url: https://twitter.com/forem
+                - text: Twitter
+                - img [ref=e175]
+            - listitem [ref=e177]:
+              - link "dev.to Twitter" [ref=e178] [cursor=pointer]:
+                - /url: https://twitter.com/thepracticaldev
+                - text: dev.to Twitter
+                - img [ref=e179]
+      - generic [ref=e182]: Copyright © 2024 Forem, Inc.

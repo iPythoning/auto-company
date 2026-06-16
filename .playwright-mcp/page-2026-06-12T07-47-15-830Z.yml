@@ -1,0 +1,452 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "2026 年世界杯开赛！" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&ictx=2&sa=X&ved=0ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQPQgK
+          - img "2026 年世界杯开赛！" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "搜索" [ref=e19]: "\"DNS Record Types Explained\" telegra.ph \"DNS Record Types Explained\" telegra.ph"
+            - generic [ref=e20]:
+              - button "清除" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "按语音搜索" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "按图搜索" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "搜索" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "设置" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google 应用" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "登录" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3D%2522DNS%2BRecord%2BTypes%2BExplained%2522%2Btelegra.ph&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI 模式" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=%22DNS+Record+Types+Explained%22+telegra.ph&sca_esv=f0c0becfdceeffee&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&aep=1&ntc=1&sa=X&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQ2J8OegQIEBAD
+              - generic [ref=e76]: AI 模式
+          - listitem [ref=e77]:
+            - link "全部" [disabled] [ref=e78]:
+              - generic [ref=e80]: 全部
+          - listitem [ref=e81]:
+            - link "图片" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%22DNS+Record+Types+Explained%22+telegra.ph&sa=X&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQtKgLegQIFxAB
+              - generic [ref=e84]: 图片
+          - listitem [ref=e85]:
+            - link "视频" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%22DNS+Record+Types+Explained%22+telegra.ph&sa=X&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQtKgLegQIFRAB
+              - generic [ref=e88]: 视频
+          - listitem [ref=e89]:
+            - link "购物" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%22DNS+Record+Types+Explained%22+telegra.ph&ved=1t:220175&ictx=111
+              - generic [ref=e92]: 购物
+          - listitem [ref=e93]:
+            - link "短视频" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=%22DNS+Record+Types+Explained%22+telegra.ph&sa=X&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQs6gLegQIFBAB
+              - generic [ref=e96]: 短视频
+          - listitem [ref=e97]:
+            - link "新闻" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&q=%22DNS+Record+Types+Explained%22+telegra.ph&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&sa=X&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQ0pQJegQIExAB
+              - generic [ref=e100]: 新闻
+          - listitem [ref=e101]:
+            - button "更多过滤条件" [ref=e102] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: 更多
+                  - img [ref=e107]
+        - button "工具" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: 工具
+            - img [ref=e115]
+    - heading "搜索结果" [level=1] [ref=e117]
+    - generic [ref=e122]:
+      - generic [ref=e141]:
+        - generic [ref=e143]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - img [ref=e147]
+              - heading "AI 概览" [level=2] [ref=e149]
+            - button "关于这条结果的详细信息" [ref=e153]:
+              - img [ref=e155]
+          - generic [ref=e175]:
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - text: DNS records are foundational instructions on authoritative servers that map domain names to IP addresses and dictate how requests for a domain are handled. They are the digital phonebook of the internet, ensuring users reach your website and emails are delivered properly.
+                - generic [ref=e181]:
+                  - link "Cloudflare（+1 个）- 查看相关链接" [ref=e183] [cursor=pointer]:
+                    - /url: https://www.cloudflare.com/learning/dns/dns-records/
+                  - button "Cloudflare（+1 个）- 查看相关链接" [disabled] [ref=e184]:
+                    - generic [ref=e186]:
+                      - generic [ref=e187]: Cloudflare
+                      - generic [ref=e188]: "+1"
+              - heading "Core DNS Record Types Explained" [level=3] [ref=e189]
+              - list [ref=e191]:
+                - listitem [ref=e192]:
+                  - generic [ref=e193]:
+                    - strong [ref=e194]: "A Record (Address):"
+                    - text: Maps a domain name directly to an IPv4 address (e.g.,
+                    - code [ref=e195]: 192.0.2.1
+                    - text: ). This is the most common record used to point a domain to a website’s hosting server.
+                - listitem [ref=e196]:
+                  - generic [ref=e197]:
+                    - strong [ref=e198]: "AAAA Record (IPv6 Address):"
+                    - text: Maps a domain name to an IPv6 address. It serves the same function as an A record but utilizes the newer, expanded IPv6 addressing system.
+                - listitem [ref=e199]:
+                  - generic [ref=e200]:
+                    - strong [ref=e201]: "CNAME Record (Canonical Name):"
+                    - text: Creates an alias that points a domain or subdomain to
+                    - emphasis [ref=e202]: another
+                    - text: domain name (rather than directly to an IP address). For example, pointing
+                    - code [ref=e203]: ://yourdomain.com
+                    - text: to
+                    - code [ref=e204]: yourdomain.com
+                    - text: .
+                - listitem [ref=e205]:
+                  - generic [ref=e206]:
+                    - strong [ref=e207]: "MX Record (Mail Exchange):"
+                    - text: Directs email to the specific mail servers responsible for handling incoming messages for your domain. These must always point to an A or AAAA record, never to a CNAME.
+                - listitem [ref=e208]:
+                  - generic [ref=e209]:
+                    - strong [ref=e210]: "TXT Record (Text):"
+                    - text: Allows you to store arbitrary, human-readable text in the DNS. It is frequently used for domain verification, security, and anti-spam protocols like SPF, DKIM, and DMARC.
+                - listitem [ref=e211]:
+                  - generic [ref=e212]:
+                    - strong [ref=e213]: "NS Record (Name Server):"
+                    - text: Delegates a domain (or subdomain) to a specific set of authoritative DNS servers, telling the internet which servers hold the actual DNS records for that domain.
+                - listitem [ref=e214]:
+                  - generic [ref=e215]:
+                    - strong [ref=e216]: "SOA Record (Start of Authority):"
+                    - text: Contains critical administrative information about the domain, including the primary name server, the email address of the administrator, the serial number of the zone, and various refresh/retry timers.
+                  - generic [ref=e218]:
+                    - link [ref=e220] [cursor=pointer]:
+                      - /url: https://www.cloudflare.com/learning/dns/dns-records/
+                    - button [disabled] [ref=e221]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]: Cloudflare
+                        - generic [ref=e225]: "+4"
+              - generic [ref=e227]:
+                - text: To explore how these records are managed in real-world environments, you can consult the
+                - link [ref=e229] [cursor=pointer]:
+                  - /url: https://www.cloudflare.com/learning/dns/dns-records/
+                  - text: Cloudflare DNS Learning Center
+                - text: or review the
+                - link [ref=e231] [cursor=pointer]:
+                  - /url: https://support.dnsimple.com/articles/common-dns-records/
+                  - text: DNSimple Record Documentation
+                - text: for technical implementation guides.
+              - generic [ref=e233]: "If you are looking to set up a specific type of record, tell me:"
+              - list [ref=e235]:
+                - listitem [ref=e236]:
+                  - generic [ref=e237]:
+                    - text: What
+                    - strong [ref=e238]: service
+                    - text: are you trying to connect? (e.g., website hosting, Google Workspace, Microsoft 365)
+                - listitem [ref=e239]:
+                  - generic [ref=e240]:
+                    - text: Who is your
+                    - strong [ref=e241]: domain registrar
+                    - text: or DNS host?
+              - generic [ref=e243]:
+                - text: I can provide the
+                - strong [ref=e244]: exact steps and record values
+                - text: you need to enter.
+            - generic [ref=e249]:
+              - generic [ref=e251]:
+                - button "5 个网站" [ref=e252] [cursor=pointer]:
+                  - generic [ref=e261]: 5 个网站
+                - button "关于这条结果" [ref=e266] [cursor=pointer]:
+                  - img [ref=e268]
+              - list [ref=e271]:
+                - listitem [ref=e272]:
+                  - generic [ref=e273]:
+                    - link "DNS records | Learning Center - Cloudflare. 在新标签页中打开。" [ref=e274] [cursor=pointer]:
+                      - /url: https://www.cloudflare.com/learning/dns/dns-records/
+                    - generic [ref=e275]:
+                      - generic [ref=e277]:
+                        - generic [ref=e278]: DNS records | Learning Center - Cloudflare
+                        - generic [ref=e279]: DNS records (aka zone files) are instructions that live in a...
+                      - generic [ref=e280]:
+                        - generic [ref=e285]: Cloudflare
+                        - button "关于这条结果" [ref=e289] [cursor=pointer]:
+                          - img [ref=e291]
+                - listitem [ref=e295]:
+                  - generic [ref=e296]:
+                    - link "Common DNS Records - DNSimple Help. 在新标签页中打开。" [ref=e297] [cursor=pointer]:
+                      - /url: https://support.dnsimple.com/articles/common-dns-records/
+                    - generic [ref=e298]:
+                      - generic [ref=e300]:
+                        - generic [ref=e301]: Common DNS Records - DNSimple Help
+                        - generic [ref=e302]: The most common DNS record types are A, AAAA, CNAME, MX, and...
+                      - generic [ref=e304]:
+                        - generic [ref=e309]: DNSimple
+                        - button [ref=e313] [cursor=pointer]:
+                          - img [ref=e315]
+                - listitem [ref=e319]:
+                  - generic [ref=e320]:
+                    - link [ref=e321] [cursor=pointer]:
+                      - /url: https://qrator.net/library/learning-center/DNS/What-Are-DNS-Records/
+                    - generic [ref=e322]:
+                      - generic [ref=e324]:
+                        - generic [ref=e325]: "Different Types of DNS Records: A, AAAA, CNAME, MX, and more"
+                        - generic [ref=e326]: DNS CNAME records (short for Canonical Name) are used to map...
+                      - generic [ref=e327]:
+                        - generic [ref=e332]: Qrator
+                        - button [ref=e336] [cursor=pointer]:
+                          - img [ref=e338]
+        - button "显示更多 AI 概览" [ref=e344]:
+          - generic [ref=e346] [cursor=pointer]:
+            - generic [ref=e347]: 展开
+            - img [ref=e349]
+      - main [ref=e352]:
+        - generic [ref=e356]:
+          - generic [ref=e363]:
+            - generic [ref=e366]:
+              - link "Azure DNS Explained | Domain Name System Tutorial | AZ ... YouTube · Cybrainium 80+ 次观看 · 6个月前" [ref=e368] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=nZZMmofBjNI
+                - heading "Azure DNS Explained | Domain Name System Tutorial | AZ ..." [level=3] [ref=e369]
+                - generic [ref=e375]:
+                  - generic [ref=e377]: YouTube · Cybrainium
+                  - generic [ref=e379]: 80+ 次观看 · 6个月前
+              - button "关于这条结果的详细信息" [ref=e380] [cursor=pointer]:
+                - img [ref=e383]
+            - generic [ref=e385]:
+              - button "Azure DNS Explained | Domain Name System Tutorial | AZ ...，由Cybrainium上传到YouTube上. 在 Google 上播放. 5:41" [ref=e386] [cursor=pointer]:
+                - generic [ref=e388]:
+                  - img [ref=e391]
+                  - generic [ref=e394]:
+                    - generic [ref=e395]: 5:41
+                    - img [ref=e398]
+              - generic [ref=e401]: ... DNS record types explained (A, CNAME, MX, NS, SOA, TXT) ✓ Creating DNS zones in Azure Portal ✓ Managing DNS records ✓ Name resolution in ...
+            - button "在此视频中，有 13 个重要时刻" [ref=e406] [cursor=pointer]:
+              - generic [ref=e409]:
+                - generic [ref=e412]: 在此视频中，有 13 个重要时刻
+                - img [ref=e414]
+          - generic [ref=e420]:
+            - heading "相关问题" [level=2] [ref=e422]
+            - generic [ref=e423]:
+              - button "What are the 4 types of DNS?" [ref=e429] [cursor=pointer]:
+                - generic [ref=e431]: What are the 4 types of DNS?
+                - img [ref=e434]
+              - button "What does DNS 8.8 8.8 and 8.8 4.4 do?" [ref=e443] [cursor=pointer]:
+                - generic [ref=e445]: What does DNS 8.8 8.8 and 8.8 4.4 do?
+                - img [ref=e448]
+              - button "What are DNS records and its types?" [ref=e457] [cursor=pointer]:
+                - generic [ref=e459]: What are DNS records and its types?
+                - img [ref=e462]
+              - button "Should I use Cname or A?" [ref=e471] [cursor=pointer]:
+                - generic [ref=e473]: Should I use Cname or A?
+                - img [ref=e476]
+          - generic [ref=e481]:
+            - heading "Web results" [level=2] [ref=e482]
+            - generic [ref=e483]:
+              - generic [ref=e486]:
+                - 'link "LeoAxis DNS Series Part 2: DNS Resolution Process & Hosted ... LinkedIn https://www.linkedin.com › posts › leoaxis1..." [ref=e488] [cursor=pointer]':
+                  - /url: https://www.linkedin.com/posts/leoaxis1_dnsseries-networkingbasics-cloudcomputing-activity-7416826000908505088--eyV
+                  - 'heading "LeoAxis DNS Series Part 2: DNS Resolution Process & Hosted ..." [level=3] [ref=e489]'
+                  - generic [ref=e495]:
+                    - generic [ref=e497]: LinkedIn
+                    - generic [ref=e499]: https://www.linkedin.com › posts › leoaxis1...
+                - generic [ref=e500]:
+                  - generic [ref=e501]: ·
+                  - link "翻译此页" [ref=e502] [cursor=pointer]:
+                    - /url: https://translate.google.com/translate?u=https://www.linkedin.com/posts/leoaxis1_dnsseries-networkingbasics-cloudcomputing-activity-7416826000908505088--eyV&hl=zh-CN&sl=en&tl=zh-CN&client=search
+                - button "关于这条结果的详细信息" [ref=e503] [cursor=pointer]:
+                  - img [ref=e506]
+              - generic [ref=e510]:
+                - text: I've published a blog on
+                - emphasis [ref=e511]: DNS Record Types Explained
+                - text: "In this blog, I covered: • What DNS is and why records are needed • NS, A, AAAA, CNAME, MX, and TXT ..."
+          - generic [ref=e515]:
+            - generic [ref=e518]:
+              - link "Types of domain names 👉 Tech The World Facebook · Programming Group 3条评论 · 2年前" [ref=e520] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/programming1group/posts/2099966640337269/
+                - heading "Types of domain names 👉 Tech The World" [level=3] [ref=e521]
+                - generic [ref=e527]:
+                  - generic [ref=e529]: Facebook · Programming Group
+                  - generic [ref=e531]: 3条评论 · 2年前
+              - button "关于这条结果的详细信息" [ref=e532] [cursor=pointer]:
+                - img [ref=e535]
+            - generic [ref=e539]:
+              - emphasis [ref=e540]: DNS Record Types Explained
+              - text: "! 1. A Record : Maps domain to IPv4 address. 2. AAAA Record : Maps domain to IPv6 address. 3. CNAME Record ..."
+          - generic [ref=e544]:
+            - generic [ref=e547]:
+              - link "DNS Lookup Tool — Free DNS Record Checker Online best-tempmail.com https://best-tempmail.com › Tools" [ref=e549] [cursor=pointer]:
+                - /url: https://best-tempmail.com/tools/dns-lookup-tool
+                - heading "DNS Lookup Tool — Free DNS Record Checker Online" [level=3] [ref=e550]
+                - generic [ref=e556]:
+                  - generic [ref=e558]: best-tempmail.com
+                  - generic [ref=e560]: https://best-tempmail.com › Tools
+              - generic [ref=e561]:
+                - generic [ref=e562]: ·
+                - link "翻译此页" [ref=e563] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://best-tempmail.com/tools/dns-lookup-tool&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e564] [cursor=pointer]:
+                - img [ref=e567]
+            - generic [ref=e571]:
+              - text: All 10
+              - emphasis [ref=e572]: DNS record types explained
+              - text: . A. IPv4 Address. Maps a domain to a 32-bit IPv4 address. The most fundamental DNS record — every website serving IPv4 ...
+          - generic [ref=e576]:
+            - generic [ref=e579]:
+              - link "Top Dns Hosting Services in Sriramapura 2Nd Stage ... Justdial https://www.justdial.com › ... › 2+ Listings" [ref=e581] [cursor=pointer]:
+                - /url: https://www.justdial.com/Mysore/DNS-Hosting-Services-in-Sriramapura-2nd-Stage/nct-12122591
+                - heading "Top Dns Hosting Services in Sriramapura 2Nd Stage ..." [level=3] [ref=e582]
+                - generic [ref=e588]:
+                  - generic [ref=e590]: Justdial
+                  - generic [ref=e592]: https://www.justdial.com › ... › 2+ Listings
+              - generic [ref=e593]:
+                - generic [ref=e594]: ·
+                - link "翻译此页" [ref=e595] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.justdial.com/Mysore/DNS-Hosting-Services-in-Sriramapura-2nd-Stage/nct-12122591&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e596] [cursor=pointer]:
+                - img [ref=e599]
+            - generic [ref=e603]:
+              - emphasis [ref=e604]: DNS Record Types Explained
+              - text: . DNS records are essential components of the domain name system. They provide information about a domain and its associated ...
+            - img "评分为 4.7 星（最高 5 星）， (20) 条用户评价" [ref=e609]:
+              - text: "4.7"
+              - img [ref=e610]
+              - text: (20)
+          - generic [ref=e616]:
+            - generic [ref=e619]:
+              - link "What Is UptimeRobot? - UptimeRobot Knowledge Hub UptimeRobot https://uptimerobot.com › ... › Monitoring" [ref=e621] [cursor=pointer]:
+                - /url: https://uptimerobot.com/knowledge-hub/monitoring/what-is-uptimerobot/
+                - heading "What Is UptimeRobot? - UptimeRobot Knowledge Hub" [level=3] [ref=e622]
+                - generic [ref=e628]:
+                  - generic [ref=e630]: UptimeRobot
+                  - generic [ref=e632]: https://uptimerobot.com › ... › Monitoring
+              - generic [ref=e633]:
+                - generic [ref=e634]: ·
+                - link "翻译此页" [ref=e635] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://uptimerobot.com/knowledge-hub/monitoring/what-is-uptimerobot/&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e636] [cursor=pointer]:
+                - img [ref=e639]
+            - generic [ref=e642]:
+              - generic [ref=e643]: 2026年4月24日 —
+              - generic [ref=e644]:
+                - emphasis [ref=e645]: "DNS Record Types: Explained"
+                - text: "· A Comprehensive Guide to Status Pages in 2026 · IP Addresses: Explained · Top 15 Incident Management Tools For ..."
+          - generic [ref=e649]:
+            - generic [ref=e652]:
+              - link "DNS Lookup — Check DNS Records Online - MZift WebTools MZift WebTools https://webtools.mzift.com › dns-lookup-tool" [ref=e654] [cursor=pointer]:
+                - /url: https://webtools.mzift.com/dns-lookup-tool
+                - heading "DNS Lookup — Check DNS Records Online - MZift WebTools" [level=3] [ref=e655]
+                - generic [ref=e661]:
+                  - generic [ref=e663]: MZift WebTools
+                  - generic [ref=e665]: https://webtools.mzift.com › dns-lookup-tool
+              - generic [ref=e666]:
+                - generic [ref=e667]: ·
+                - link "翻译此页" [ref=e668] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://webtools.mzift.com/dns-lookup-tool&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e669] [cursor=pointer]:
+                - img [ref=e672]
+            - generic [ref=e676]:
+              - emphasis [ref=e677]: DNS Record Types Explained
+              - text: ". A Record: Maps a domain to an IPv4 address (e.g. example.com → 93.184.216.34). This is the most fundamental DNS record — it ..."
+          - generic [ref=e681]:
+            - generic [ref=e684]:
+              - link "Robtex.com for network and domain info Facebook · Linux Administrator 1 个评论 · 9个月前" [ref=e686] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/linuxjyot/posts/24231811329822531/
+                - heading "Robtex.com for network and domain info" [level=3] [ref=e687]
+                - generic [ref=e693]:
+                  - generic [ref=e695]: Facebook · Linux Administrator
+                  - generic [ref=e697]: 1 个评论 · 9个月前
+              - button "关于这条结果的详细信息" [ref=e698] [cursor=pointer]:
+                - img [ref=e701]
+            - generic [ref=e705]:
+              - emphasis [ref=e706]: DNS Record Types Explained
+              - text: "! 1. A Record : Maps domain to IPv4 address. 2. AAAA Record : Maps domain to IPv6 address. 3. CNAME Record ..."
+          - generic [ref=e710]:
+            - generic [ref=e713]:
+              - link "LearnAWS - Let's put you in the top 3%. Only 3% of ... LearnAWS https://learnaws.io" [ref=e715] [cursor=pointer]:
+                - /url: https://learnaws.io/
+                - heading "LearnAWS - Let's put you in the top 3%. Only 3% of ..." [level=3] [ref=e716]
+                - generic [ref=e722]:
+                  - generic [ref=e724]: LearnAWS
+                  - generic [ref=e726]: https://learnaws.io
+              - generic [ref=e727]:
+                - generic [ref=e728]: ·
+                - link "翻译此页" [ref=e729] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://learnaws.io/&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e730] [cursor=pointer]:
+                - img [ref=e733]
+            - generic [ref=e737]:
+              - emphasis [ref=e738]: DNS Record types Explained
+              - text: . Failover Routing Policy. Geolocation Routing Policy. Weighted Routing Policy. Latency Based Routing. Route53 Routing Policies.
+          - generic [ref=e742]:
+            - generic [ref=e745]:
+              - link "Notes - Raghavendra Pratap raghavendrapratap.com https://raghavendrapratap.com › blog" [ref=e747] [cursor=pointer]:
+                - /url: https://raghavendrapratap.com/front_page-3/blog/
+                - heading "Notes - Raghavendra Pratap" [level=3] [ref=e748]
+                - generic [ref=e754]:
+                  - generic [ref=e756]: raghavendrapratap.com
+                  - generic [ref=e758]: https://raghavendrapratap.com › blog
+              - generic [ref=e759]:
+                - generic [ref=e760]: ·
+                - link "翻译此页" [ref=e761] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://raghavendrapratap.com/front_page-3/blog/&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e762] [cursor=pointer]:
+                - img [ref=e765]
+            - generic [ref=e769]:
+              - text: Understanding Network Devices · ChaiNotes · How DNS Resolution Works · ChaiNotes · Getting Started with cURL · ChaiNotes ·
+              - emphasis [ref=e770]: DNS Record Types Explained
+              - text: .
+        - navigation [ref=e773]:
+          - heading "网页导航" [level=1] [ref=e774]
+          - text: "1"
+          - link "Page 2" [ref=e777] [cursor=pointer]:
+            - /url: /search?q=%22DNS+Record+Types+Explained%22+telegra.ph&sca_esv=f0c0becfdceeffee&ei=e7krarXvFtC7ruEPqo_noAk&start=10&sa=N&sstk=AU9db-ARyG8mkF0LcO24fyWzzGzOWY3attZDA7saB1yPmNYoolaC2psTbN0VNob--Z1aABmeQf26cMsAfkZH3OtlQ4cTxlMhPMB02g&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQ8tMDegQIPhAE
+            - text: "2"
+          - link "Page 3" [ref=e779] [cursor=pointer]:
+            - /url: /search?q=%22DNS+Record+Types+Explained%22+telegra.ph&sca_esv=f0c0becfdceeffee&ei=e7krarXvFtC7ruEPqo_noAk&start=20&sa=N&sstk=AU9db-ARyG8mkF0LcO24fyWzzGzOWY3attZDA7saB1yPmNYoolaC2psTbN0VNob--Z1aABmeQf26cMsAfkZH3OtlQ4cTxlMhPMB02g&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQ8tMDegQIPhAG
+            - text: "3"
+          - link "Page 4" [ref=e781] [cursor=pointer]:
+            - /url: /search?q=%22DNS+Record+Types+Explained%22+telegra.ph&sca_esv=f0c0becfdceeffee&ei=e7krarXvFtC7ruEPqo_noAk&start=30&sa=N&sstk=AU9db-ARyG8mkF0LcO24fyWzzGzOWY3attZDA7saB1yPmNYoolaC2psTbN0VNob--Z1aABmeQf26cMsAfkZH3OtlQ4cTxlMhPMB02g&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQ8tMDegQIPhAI
+            - text: "4"
+          - link "Page 5" [ref=e783] [cursor=pointer]:
+            - /url: /search?q=%22DNS+Record+Types+Explained%22+telegra.ph&sca_esv=f0c0becfdceeffee&ei=e7krarXvFtC7ruEPqo_noAk&start=40&sa=N&sstk=AU9db-ARyG8mkF0LcO24fyWzzGzOWY3attZDA7saB1yPmNYoolaC2psTbN0VNob--Z1aABmeQf26cMsAfkZH3OtlQ4cTxlMhPMB02g&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQ8tMDegQIPhAK
+            - text: "5"
+          - heading "下一页" [level=2] [ref=e785]:
+            - link "下一页" [ref=e786] [cursor=pointer]:
+              - /url: /search?q=%22DNS+Record+Types+Explained%22+telegra.ph&sca_esv=f0c0becfdceeffee&ei=e7krarXvFtC7ruEPqo_noAk&start=10&sa=N&sstk=AU9db-ARyG8mkF0LcO24fyWzzGzOWY3attZDA7saB1yPmNYoolaC2psTbN0VNob--Z1aABmeQf26cMsAfkZH3OtlQ4cTxlMhPMB02g&ved=2ahUKEwj1mOv3moGVAxXQnSsGHarHGZQQ8NMDegQIPhAM
+              - generic [ref=e788]: 下一页
+        - navigation
+    - contentinfo [ref=e789]:
+      - heading "页脚链接" [level=1] [ref=e790]
+      - generic [ref=e794]:
+        - generic [ref=e798]:
+          - button "美国 - 是根据您的 IP 地址推断出来的" [ref=e800] [cursor=pointer]:
+            - generic [ref=e801]: 美国
+            - generic [ref=e803]:
+              - text: "-"
+              - generic [ref=e804]: 是根据您的 IP 地址推断出来的
+          - text: "-"
+          - button "更新位置信息" [ref=e806] [cursor=pointer]: 更新位置信息
+        - generic [ref=e809]:
+          - link "帮助" [ref=e810] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e811] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e812] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e813] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

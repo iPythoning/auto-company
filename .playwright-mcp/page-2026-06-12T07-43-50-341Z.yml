@@ -1,0 +1,93 @@
+- main [ref=e4]:
+  - generic [ref=e5]:
+    - heading "What is DNS — A Beginner's Guide (2026)" [level=1] [ref=e6]
+    - time [ref=e8]: •June 12, 2026
+  - article [ref=e9]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]
+      - paragraph [ref=e12]:
+        - strong [ref=e13]: "DNS: The Internet's Phonebook"
+      - paragraph [ref=e14]
+      - paragraph [ref=e15]: Think of DNS as the internet's phonebook. When you type "google.com" into your browser, your computer doesn't know where to find Google. It needs an IP address — a string of numbers like 142.250.185.46. DNS translates the human-friendly domain name into the machine-friendly IP address. Without DNS, you'd have to memorize IP addresses for every website you visit.
+      - paragraph [ref=e16]
+      - paragraph [ref=e17]:
+        - strong [ref=e18]: How DNS Works — Step by Step
+      - paragraph [ref=e19]
+      - paragraph [ref=e20]: 1. Your browser asks the DNS Resolver (usually your ISP or Google's 8.8.8.8)2. The Resolver asks the Root Nameserver — "Where are .com domains?"3. The Root server points to the TLD Nameserver for .com4. The TLD server points to the Authoritative Nameserver for the domain5. The Authoritative server returns the A record (IP address)6. Your browser connects to that IP and loads the website
+      - paragraph [ref=e21]
+      - paragraph [ref=e22]: This entire DNS lookup chain completes in under 50 milliseconds.
+      - paragraph [ref=e23]
+      - paragraph [ref=e24]:
+        - strong [ref=e25]: Key DNS Record Types
+      - paragraph [ref=e26]
+      - paragraph [ref=e27]:
+        - text: •
+        - strong [ref=e28]: A Record
+        - text: — Maps a domain to an IPv4 address (the most basic record)
+      - paragraph [ref=e29]
+      - paragraph [ref=e30]:
+        - text: •
+        - strong [ref=e31]: AAAA Record
+        - text: — Maps a domain to an IPv6 address
+      - paragraph [ref=e32]
+      - paragraph [ref=e33]:
+        - text: •
+        - strong [ref=e34]: CNAME Record
+        - text: — Creates an alias (e.g., www → root domain)
+      - paragraph [ref=e35]
+      - paragraph [ref=e36]:
+        - text: •
+        - strong [ref=e37]: MX Record
+        - text: — Routes email to the correct mail server
+      - paragraph [ref=e38]
+      - paragraph [ref=e39]:
+        - text: •
+        - strong [ref=e40]: TXT Record
+        - text: — Stores text data (SPF, DKIM for email security)
+      - paragraph [ref=e41]
+      - paragraph [ref=e42]:
+        - text: •
+        - strong [ref=e43]: NS Record
+        - text: — Specifies authoritative name servers
+      - paragraph [ref=e44]
+      - paragraph [ref=e45]:
+        - text: •
+        - strong [ref=e46]: SOA Record
+        - text: — Contains zone admin information
+      - paragraph [ref=e47]
+      - paragraph [ref=e48]:
+        - strong [ref=e49]: Why DNS Matters
+      - paragraph [ref=e50]
+      - paragraph [ref=e51]: "DNS isn't just technical background — it affects your entire online presence: website availability, email deliverability, security (CAA records, DNSSEC), page load speed, and domain verification for Google/Microsoft services."
+      - paragraph [ref=e52]
+      - paragraph [ref=e53]:
+        - strong [ref=e54]: "DNS Security: DoH, DoT, and DNSSEC"
+      - paragraph [ref=e55]
+      - paragraph [ref=e56]: Traditional DNS queries are sent in plaintext. Modern solutions include DNS over HTTPS (DoH), DNS over TLS (DoT), and DNSSEC which cryptographically verifies DNS responses haven't been tampered with.
+      - paragraph [ref=e57]
+      - paragraph [ref=e58]:
+        - strong [ref=e59]: Check Your DNS Now
+      - paragraph [ref=e60]
+      - paragraph [ref=e61]:
+        - text: Use our
+        - link "free DNS lookup tools" [ref=e62] [cursor=pointer]:
+          - /url: https://ipythoning.github.io/dns-tools/
+        - text: to instantly check your DNS records. For a deeper dive, read our
+        - link "complete beginner's guide to DNS" [ref=e63] [cursor=pointer]:
+          - /url: https://ipythoning.github.io/dns-tools/what-is-dns.html
+        - text: with interactive examples.
+    - generic:
+      - generic:
+        - generic:
+          - button
+          - button
+          - button
+        - generic:
+          - button
+          - button
+          - button
+      - generic:
+        - generic: ×
+        - generic:
+          - textbox
+  - complementary [ref=e64]

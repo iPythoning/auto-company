@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - heading "DNS Tools" [level=1] [ref=e4]
+      - paragraph [ref=e5]: Free domain & DNS utilities. No ads. No tracking.
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - link "🔍 DNS Record Lookup Query A, AAAA, MX, TXT, CNAME, NS, SOA records for any domain Ready" [ref=e8] [cursor=pointer]:
+        - /url: dns-lookup.html
+        - generic [ref=e9]: 🔍
+        - heading "DNS Record Lookup" [level=2] [ref=e10]
+        - paragraph [ref=e11]: Query A, AAAA, MX, TXT, CNAME, NS, SOA records for any domain
+        - generic [ref=e12]: Ready
+      - link "📋 WHOIS Lookup Check domain registration details, registrar, and expiration Ready" [ref=e13] [cursor=pointer]:
+        - /url: whois.html
+        - generic [ref=e14]: 📋
+        - heading "WHOIS Lookup" [level=2] [ref=e15]
+        - paragraph [ref=e16]: Check domain registration details, registrar, and expiration
+        - generic [ref=e17]: Ready
+      - link "🔒 SSL Certificate Checker Verify SSL/TLS certificate validity, issuer, and expiry date Ready" [ref=e18] [cursor=pointer]:
+        - /url: ssl-checker.html
+        - generic [ref=e19]: 🔒
+        - heading "SSL Certificate Checker" [level=2] [ref=e20]
+        - paragraph [ref=e21]: Verify SSL/TLS certificate validity, issuer, and expiry date
+        - generic [ref=e22]: Ready
+      - link "📅 Domain Expiry Calculator Calculate days until domain expiration and renewal deadlines Ready" [ref=e23] [cursor=pointer]:
+        - /url: expiry-calculator.html
+        - generic [ref=e24]: 📅
+        - heading "Domain Expiry Calculator" [level=2] [ref=e25]
+        - paragraph [ref=e26]: Calculate days until domain expiration and renewal deadlines
+        - generic [ref=e27]: Ready
+      - link "📖 What is DNS? Learn how the Domain Name System works, DNS record types, and why DNS matters Guide" [ref=e28] [cursor=pointer]:
+        - /url: what-is-dns.html
+        - generic [ref=e29]: 📖
+        - heading "What is DNS?" [level=2] [ref=e30]
+        - paragraph [ref=e31]: Learn how the Domain Name System works, DNS record types, and why DNS matters
+        - generic [ref=e32]: Guide
+      - link "📋 How to Check DNS Records Check DNS with dig, nslookup, online tools & browser DevTools — step-by-step guide Guide" [ref=e33] [cursor=pointer]:
+        - /url: how-to-check-dns-records.html
+        - generic [ref=e34]: 📋
+        - heading "How to Check DNS Records" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Check DNS with dig, nslookup, online tools & browser DevTools — step-by-step guide
+        - generic [ref=e37]: Guide
+      - link "📚 DNS Record Types Explained Complete reference to A, AAAA, CNAME, MX, TXT, NS, SOA, PTR, SRV, CAA & more Guide" [ref=e38] [cursor=pointer]:
+        - /url: dns-record-types.html
+        - generic [ref=e39]: 📚
+        - heading "DNS Record Types Explained" [level=2] [ref=e40]
+        - paragraph [ref=e41]: Complete reference to A, AAAA, CNAME, MX, TXT, NS, SOA, PTR, SRV, CAA & more
+        - generic [ref=e42]: Guide
+      - link "🧹 How to Clear DNS Cache Flush DNS cache on macOS, Windows, Linux, Chrome, Firefox & routers — step-by-step Guide" [ref=e43] [cursor=pointer]:
+        - /url: clear-dns-cache.html
+        - generic [ref=e44]: 🧹
+        - heading "How to Clear DNS Cache" [level=2] [ref=e45]
+        - paragraph [ref=e46]: Flush DNS cache on macOS, Windows, Linux, Chrome, Firefox & routers — step-by-step
+        - generic [ref=e47]: Guide
+      - link "📡 How to Check DNS Propagation Verify DNS changes worldwide with multi-resolver checks, dig, and online tools Guide" [ref=e48] [cursor=pointer]:
+        - /url: check-dns-propagation.html
+        - generic [ref=e49]: 📡
+        - heading "How to Check DNS Propagation" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Verify DNS changes worldwide with multi-resolver checks, dig, and online tools
+        - generic [ref=e52]: Guide
+      - link "🔎 Free WHOIS Lookup Check domain registration, owner info, registrar, expiry & status codes Guide" [ref=e53] [cursor=pointer]:
+        - /url: free-whois-lookup.html
+        - generic [ref=e54]: 🔎
+        - heading "Free WHOIS Lookup" [level=2] [ref=e55]
+        - paragraph [ref=e56]: Check domain registration, owner info, registrar, expiry & status codes
+        - generic [ref=e57]: Guide
+      - link "🔄 Reverse DNS Lookup Find the hostname associated with an IP address (PTR record lookup) New" [ref=e58] [cursor=pointer]:
+        - /url: reverse-dns-lookup.html
+        - generic [ref=e59]: 🔄
+        - heading "Reverse DNS Lookup" [level=2] [ref=e60]
+        - paragraph [ref=e61]: Find the hostname associated with an IP address (PTR record lookup)
+        - generic [ref=e62]: New
+      - link "📧 Email DNS Checker Verify SPF, DKIM, DMARC, and MX records for email deliverability New" [ref=e63] [cursor=pointer]:
+        - /url: email-dns-checker.html
+        - generic [ref=e64]: 📧
+        - heading "Email DNS Checker" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Verify SPF, DKIM, DMARC, and MX records for email deliverability
+        - generic [ref=e67]: New
+      - link "🔐 DNSSEC Checker Verify DNSSEC configuration — check DNSKEY, DS, and RRSIG records New" [ref=e68] [cursor=pointer]:
+        - /url: dnssec-checker.html
+        - generic [ref=e69]: 🔐
+        - heading "DNSSEC Checker" [level=2] [ref=e70]
+        - paragraph [ref=e71]: Verify DNSSEC configuration — check DNSKEY, DS, and RRSIG records
+        - generic [ref=e72]: New
+      - link "🚫 DNS Blacklist Checker Check if a domain or IP is listed on spam blacklists (Spamhaus, Barracuda, etc.) New" [ref=e73] [cursor=pointer]:
+        - /url: dns-blacklist-checker.html
+        - generic [ref=e74]: 🚫
+        - heading "DNS Blacklist Checker" [level=2] [ref=e75]
+        - paragraph [ref=e76]: Check if a domain or IP is listed on spam blacklists (Spamhaus, Barracuda, etc.)
+        - generic [ref=e77]: New
+  - contentinfo [ref=e78]:
+    - generic [ref=e79]:
+      - paragraph [ref=e80]:
+        - text: Built by
+        - link "iPythoning" [ref=e81] [cursor=pointer]:
+          - /url: https://github.com/iPythoning
+        - text: . Data via Google DNS, Cloudflare, RDAP.
+      - navigation [ref=e82]:
+        - link "GitHub" [ref=e83] [cursor=pointer]:
+          - /url: https://github.com/iPythoning/dns-tools

@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "跳至内容" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: 跳至内容
+    - button "辅助功能反馈" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: 辅助功能反馈
+    - generic [ref=e9]:
+      - link "返回到必应搜索" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "返回到必应搜索" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "搜索" [ref=e15] [cursor=pointer]
+        - searchbox "在此处输入你的搜索 — 输入时会显示搜索建议" [ref=e16]: site:dns-tools.pages.dev
+        - button "使用图像搜索" [ref=e22] [cursor=pointer]
+    - complementary "帐户奖励和偏好设置" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "登录" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "登录" [ref=e43]
+    - navigation "主菜单" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "全部" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "搜索" [ref=e49] [cursor=pointer]:
+            - /url: /copilotsearch?q=site%3adns-tools.pages.dev&FORM=CSSCOP
+            - img [ref=e50]
+            - text: 搜索
+        - listitem [ref=e52]:
+          - link "图片" [ref=e53] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=78432aab122ddb14e21f0277d214986475b9fd776b8b6cf3b5aace6ca6ee84beJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1L2ltYWdlcy9zZWFyY2g_cT1zaXRlJTNhZG5zLXRvb2xzLnBhZ2VzLmRldiZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e54]:
+          - link "视频" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=388509fb930623c493a34a6da1c8c4ceb002c0071ae992f9406f9134ec01138cJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1L3ZpZGVvcy9zZWFyY2g_cT1zaXRlJTNhZG5zLXRvb2xzLnBhZ2VzLmRldiZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e56]:
+          - link "地图" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8567fac6c258a90d2e2e8f0aed12a059e777d777a1ae58a87a944ac57dde2d26JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1L21hcHM_cT1zaXRlJTNhZG5zLXRvb2xzLnBhZ2VzLmRldiZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e58]:
+          - link "资讯" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=941d781f9c3b727888b643e3e59aa5e78000c29b0340be5a27d76fba8e17541dJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1L25ld3Mvc2VhcmNoP3E9c2l0ZSUzYWRucy10b29scy5wYWdlcy5kZXYmRk9STT1IRFJTQzc&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4db86c73af7aa9fb9793a60bdbdf1e29193ea9c7eedd6d1ecf7988c68f83aa68JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1L2NoYXQ_cHJvbXB0PXNpdGUlM2FkbnMtdG9vbHMucGFnZXMuZGV2JnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=e62]:
+          - button "更多" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: 更多
+  - generic [ref=e67]:
+    - generic [ref=e68]:
+      - main "搜索结果" [ref=e69]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - 'heading "没有与此相关的结果: site:dns-tools.pages.dev" [level=1] [ref=e72]':
+              - text: "没有与此相关的结果:"
+              - strong [ref=e73]: site:dns-tools.pages.dev
+            - list [ref=e74]:
+              - listitem [ref=e75]: 检查拼写或尝试其他关键字
+          - listitem [ref=e76]:
+            - generic [ref=e77]:
+              - heading "你可能喜欢的搜索" [level=2] [ref=e78]
+              - list [ref=e79]:
+                - listitem [ref=e80]:
+                  - link "Chrome 浏览 器" [ref=e81] [cursor=pointer]:
+                    - /url: https://www.bing.com/ck/a?!&&p=1c02000a945c2a0a0f49652e2f4736aaab48c3e87b276cc0a0bfe9184e7e5324JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1L3NlYXJjaD9xPUNocm9tZSUyMCVFNiVCNSU4RiVFOCVBNyU4OCUyMCVFNSU5OSVBOCZGT1JNPVFSRFEwMQ&ntb=1
+                    - generic [ref=e83]: Chrome 浏览 器
+          - listitem [ref=e84]
+      - complementary "更多结果" [ref=e85]:
+        - list
+    - contentinfo [ref=e86]:
+      - generic [ref=e87]:
+        - list:
+          - listitem [ref=e88]:
+            - link "隐私" [ref=e89] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=3e928f540b800af6ca5022e02a8c3cf5db94e6c7de9689371016cd3c5da09005JmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+          - listitem [ref=e90]:
+            - link "条款" [ref=e91] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=608b285f41d92aa7157e616489c643b757b4f2e9ead5556441e59587065d067dJmltdHM9MTc4MTIyMjQwMA&ptn=3&ver=2&hsh=4&fclid=0c55b6c7-0162-6878-1e98-a1b10015697e&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

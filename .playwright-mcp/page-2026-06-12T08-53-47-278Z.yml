@@ -1,0 +1,124 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "2026 年世界杯开赛！" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&ictx=2&sa=X&ved=0ahUKEwiR9d3qqYGVAxU2iysGHXQ9HCcQPQgK
+          - img "2026 年世界杯开赛！" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "搜索" [ref=e19]: site:gist.github.com/iPythoning site:gist.github.com/iPythoning
+            - generic [ref=e20]:
+              - button "清除" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "按语音搜索" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "按图搜索" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "搜索" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "设置" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google 应用" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "登录" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:gist.github.com/iPythoning&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI 模式" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=site:gist.github.com/iPythoning&sca_esv=43dc7f1b03b348a4&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4Cde6LYlfs8tZRm8AKME_PGvzB6hKNovf6-E_NJUP_x7y0zZh5VU5F3f43cpXhRr5WtBJtijlEWzfdvpwy2A_faQSc1B1M558blh5KG3Dr7pjFlLmh5crx1c_rvmt6h8i8KxLz9Nqg&aep=1&ntc=1&sa=X&ved=2ahUKEwiR9d3qqYGVAxU2iysGHXQ9HCcQ2J8OegQIEBAD
+              - generic [ref=e76]: AI 模式
+          - listitem [ref=e77]:
+            - link "全部" [disabled] [ref=e78]:
+              - generic [ref=e80]: 全部
+          - listitem [ref=e81]:
+            - link "购物" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4Cde6LYlfs8tZRm8AKME_PGvzB6hKNovf6-E_NJUP_x7y0zZh5VU5F3f43cpXhRr5WtBJtijlEWzfdvpwy2A_faQSc1B1M558blh5KG3Dr7pjFlLmh5crx1c_rvmt6h8i8KxLz9Nqg&q=site:gist.github.com/iPythoning&ved=1t:220175&ictx=111
+              - generic [ref=e84]: 购物
+          - listitem [ref=e85]:
+            - link "图片" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4Cde6LYlfs8tZRm8AKME_PGvzB6hKNovf6-E_NJUP_x7y0zZh5VU5F3f43cpXhRr5WtBJtijlEWzfdvpwy2A_faQSc1B1M558blh5KG3Dr7pjFlLmh5crx1c_rvmt6h8i8KxLz9Nqg&q=site:gist.github.com/iPythoning&sa=X&ved=2ahUKEwiR9d3qqYGVAxU2iysGHXQ9HCcQtKgLegQIExAB
+              - generic [ref=e88]: 图片
+          - listitem [ref=e89]:
+            - link "视频" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4Cde6LYlfs8tZRm8AKME_PGvzB6hKNovf6-E_NJUP_x7y0zZh5VU5F3f43cpXhRr5WtBJtijlEWzfdvpwy2A_faQSc1B1M558blh5KG3Dr7pjFlLmh5crx1c_rvmt6h8i8KxLz9Nqg&q=site:gist.github.com/iPythoning&sa=X&ved=2ahUKEwiR9d3qqYGVAxU2iysGHXQ9HCcQtKgLegQIFhAB
+              - generic [ref=e92]: 视频
+          - listitem [ref=e93]:
+            - link "短视频" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4Cde6LYlfs8tZRm8AKME_PGvzB6hKNovf6-E_NJUP_x7y0zZh5VU5F3f43cpXhRr5WtBJtijlEWzfdvpwy2A_faQSc1B1M558blh5KG3Dr7pjFlLmh5crx1c_rvmt6h8i8KxLz9Nqg&q=site:gist.github.com/iPythoning&sa=X&ved=2ahUKEwiR9d3qqYGVAxU2iysGHXQ9HCcQs6gLegQIFBAB
+              - generic [ref=e96]: 短视频
+          - listitem [ref=e97]:
+            - link "图书" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&q=site:gist.github.com/iPythoning&udm=36&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdhyyyyYILncmWVWY-SA4Cde6LYlfs8tZRm8AKME_PGvzB6hKNovf6-E_NJUP_x7y0zZh5VU5F3f43cpXhRr5WtBJtijlEWzfdvpwy2A_faQSc1B1M558blh5KG3Dr7pjFlLmh5crx1c_rvmt6h8i8KxLz9Nqg&sa=X&ved=2ahUKEwiR9d3qqYGVAxU2iysGHXQ9HCcQ0pQJegQIEhAB
+              - generic [ref=e100]: 图书
+          - listitem [ref=e101]:
+            - button "更多过滤条件" [ref=e102] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: 更多
+                  - img [ref=e107]
+        - button "工具" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: 工具
+            - img [ref=e115]
+    - heading "搜索结果" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e127]:
+        - heading "Google 推广" [level=2] [ref=e128]
+        - list [ref=e129]:
+          - listitem [ref=e130]:
+            - heading "尝试使用 Google Search Console" [level=3] [ref=e131]:
+              - link "尝试使用 Google Search Console" [ref=e132] [cursor=pointer]:
+                - /url: https://www.google.com/webmasters/tools/home#utm_source=zh-CN-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0
+            - text: www.google.com/webmasters/
+            - text: 您对 gist.github.com/iPythoning 是否具有所有权？请从 Google 获取索引和排名数据。
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - heading "找不到和您查询的“site:gist.github.com/iPythoning”相符的内容或信息。" [level=3] [ref=e137]:
+            - text: 找不到和您查询的“
+            - emphasis [ref=e139]: site:gist.github.com/iPythoning
+            - text: ”相符的内容或信息。
+          - paragraph [ref=e140]: 建议：
+          - list [ref=e141]:
+            - listitem [ref=e142]: 请检查输入字词有无错误。
+            - listitem [ref=e143]: 请尝试其他查询词。
+            - listitem [ref=e144]: 请改用较常见的字词。
+          - img "雪人正在冰中钓鱼的图片" [ref=e148]:
+            - img [ref=e151]
+        - navigation
+      - navigation
+    - contentinfo [ref=e440]:
+      - heading "页脚链接" [level=1] [ref=e441]
+      - generic [ref=e445]:
+        - generic [ref=e449]:
+          - button "美国 - 是根据您的 IP 地址推断出来的" [ref=e451] [cursor=pointer]:
+            - generic [ref=e452]: 美国
+            - generic [ref=e454]:
+              - text: "-"
+              - generic [ref=e455]: 是根据您的 IP 地址推断出来的
+          - text: "-"
+          - button "更新位置信息" [ref=e457] [cursor=pointer]: 更新位置信息
+        - generic [ref=e460]:
+          - link "帮助" [ref=e461] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e462] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e463] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e464] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

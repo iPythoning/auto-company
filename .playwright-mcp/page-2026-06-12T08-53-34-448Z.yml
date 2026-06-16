@@ -1,0 +1,327 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "2026 年世界杯开赛！" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&ictx=2&sa=X&ved=0ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQPQgK
+          - img "2026 年世界杯开赛！" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "搜索" [ref=e19]: site:telegra.ph "DNS Tools Team" site:telegra.ph "DNS Tools Team"
+            - generic [ref=e20]:
+              - button "清除" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "按语音搜索" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "按图搜索" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "搜索" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "设置" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google 应用" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "登录" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:telegra.ph%2B%2522DNS%2BTools%2BTeam%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI 模式" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=site:telegra.ph+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOzI-ZCOwS-08nh2tyjXhIEc6EWBb807_F2mzbqFD6TLLRWlTTKPyvIgWNkP9mfOHZ5aQoAfgh202mzwZvHgxhoeAMQtUw&aep=1&ntc=1&sa=X&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ2J8OegQIEBAD
+              - generic [ref=e76]: AI 模式
+          - listitem [ref=e77]:
+            - link "全部" [disabled] [ref=e78]:
+              - generic [ref=e80]: 全部
+          - listitem [ref=e81]:
+            - link "购物" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOzI-ZCOwS-08nh2tyjXhIEc6EWBb807_F2mzbqFD6TLLRWlTTKPyvIgWNkP9mfOHZ5aQoAfgh202mzwZvHgxhoeAMQtUw&q=site:telegra.ph+DNS+Tools+Team&ved=1t:220175&ictx=111
+              - generic [ref=e84]: 购物
+          - listitem [ref=e85]:
+            - link "图片" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOzI-ZCOwS-08nh2tyjXhIEc6EWBb807_F2mzbqFD6TLLRWlTTKPyvIgWNkP9mfOHZ5aQoAfgh202mzwZvHgxhoeAMQtUw&q=site:telegra.ph+DNS+Tools+Team&sa=X&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQtKgLegQIFRAB
+              - generic [ref=e88]: 图片
+          - listitem [ref=e89]:
+            - link "视频" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOzI-ZCOwS-08nh2tyjXhIEc6EWBb807_F2mzbqFD6TLLRWlTTKPyvIgWNkP9mfOHZ5aQoAfgh202mzwZvHgxhoeAMQtUw&q=site:telegra.ph+DNS+Tools+Team&sa=X&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQtKgLegQIExAB
+              - generic [ref=e92]: 视频
+          - listitem [ref=e93]:
+            - link "新闻" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&q=site:telegra.ph+DNS+Tools+Team&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOzI-ZCOwS-08nh2tyjXhIEc6EWBb807_F2mzbqFD6TLLRWlTTKPyvIgWNkP9mfOHZ5aQoAfgh202mzwZvHgxhoeAMQtUw&sa=X&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ0pQJegQIEhAB
+              - generic [ref=e96]: 新闻
+          - listitem [ref=e97]:
+            - link "短视频" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVtSi6kM5ZjADb03gRVWnenfhJMtO4x41VfNir3SjdVdiEKNoNmFrbJhj2T4y2iUaDZX9JQlFHJeWbDYOQG7s7o0auNa7JSQKeBwZnXCkSuOzI-ZCOwS-08nh2tyjXhIEc6EWBb807_F2mzbqFD6TLLRWlTTKPyvIgWNkP9mfOHZ5aQoAfgh202mzwZvHgxhoeAMQtUw&q=site:telegra.ph+DNS+Tools+Team&sa=X&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQs6gLegQIFBAB
+              - generic [ref=e100]: 短视频
+          - listitem [ref=e101]:
+            - button "更多过滤条件" [ref=e102] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: 更多
+                  - img [ref=e107]
+        - button "工具" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: 工具
+            - img [ref=e115]
+    - heading "搜索结果" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e128]:
+          - heading "未找到符合site:telegra.ph \"DNS Tools Team\"的结果。" [level=2] [ref=e129]
+          - link "site:telegra.ph DNS Tools Team" [ref=e130] [cursor=pointer]:
+            - /url: /search?sca_esv=43dc7f1b03b348a4&q=site:telegra.ph+DNS+Tools+Team&sa=X&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQgwN6BAgPEAE
+          - text: （不含引号）的搜索结果：
+        - generic [ref=e133]:
+          - generic [ref=e136]:
+            - heading "Web results" [level=2] [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e141]:
+                - link "Uptime kuma – Telegraph telegra.ph https://telegra.ph › Uptime-kuma-06-05" [ref=e143] [cursor=pointer]:
+                  - /url: https://telegra.ph/Uptime-kuma-06-05
+                  - heading "Uptime kuma – Telegraph" [level=3] [ref=e144]
+                  - generic [ref=e150]:
+                    - generic [ref=e152]: telegra.ph
+                    - generic [ref=e154]: https://telegra.ph › Uptime-kuma-06-05
+                - generic [ref=e155]:
+                  - generic [ref=e156]: ·
+                  - link "翻译此页" [ref=e157] [cursor=pointer]:
+                    - /url: https://telegra.ph/Uptime-kuma-06-05
+                - button "关于这条结果的详细信息" [ref=e158] [cursor=pointer]:
+                  - img [ref=e161]
+              - generic [ref=e165]:
+                - text: An uptime monitoring tool like Kuma lets you
+                - emphasis [ref=e166]: add DNS record checks with custom resolvers
+                - text: . You'll catch the 0.4% of failures that live between the layers ...
+          - generic [ref=e170]:
+            - generic [ref=e173]:
+              - 'link "TON Core: Overview of 2024 – Telegraph telegra.ph https://telegra.ph › TON-Core-Overview-of..." [ref=e175] [cursor=pointer]':
+                - /url: https://telegra.ph/TON-Core-Overview-of-2024-01-22
+                - 'heading "TON Core: Overview of 2024 – Telegraph" [level=3] [ref=e176]'
+                - generic [ref=e182]:
+                  - generic [ref=e184]: telegra.ph
+                  - generic [ref=e186]: https://telegra.ph › TON-Core-Overview-of...
+              - generic [ref=e187]:
+                - generic [ref=e188]: ·
+                - link "翻译此页" [ref=e189] [cursor=pointer]:
+                  - /url: https://telegra.ph/TON-Core-Overview-of-2024-01-22
+              - button "关于这条结果的详细信息" [ref=e190] [cursor=pointer]:
+                - img [ref=e193]
+            - generic [ref=e196]:
+              - generic [ref=e197]: 2025年1月22日 —
+              - generic [ref=e198]:
+                - text: The TON Core
+                - emphasis [ref=e199]: team
+                - text: provided technical advice to most of the indicated game projects.
+                - emphasis [ref=e200]: Tools
+                - text: and guidelines for mass sending. During the year, best ...
+          - generic [ref=e204]:
+            - generic [ref=e207]:
+              - link "When Accounting Software Fails to Launch After an Update telegra.ph https://telegra.ph › When-Accounting-Soft..." [ref=e209] [cursor=pointer]:
+                - /url: https://telegra.ph/When-Accounting-Software-Fails-to-Launch-After-an-Update-Causes-Fixes-and-Preventive-Frameworks-12-01
+                - heading "When Accounting Software Fails to Launch After an Update" [level=3] [ref=e210]
+                - generic [ref=e216]:
+                  - generic [ref=e218]: telegra.ph
+                  - generic [ref=e220]: https://telegra.ph › When-Accounting-Soft...
+              - generic [ref=e221]:
+                - generic [ref=e222]: ·
+                - link "翻译此页" [ref=e223] [cursor=pointer]:
+                  - /url: https://telegra.ph/When-Accounting-Software-Fails-to-Launch-After-an-Update-Causes-Fixes-and-Preventive-Frameworks-12-01
+              - button "关于这条结果的详细信息" [ref=e224] [cursor=pointer]:
+                - img [ref=e227]
+            - generic [ref=e230]:
+              - generic [ref=e231]: 2025年12月1日 —
+              - generic [ref=e232]:
+                - text: IP addresses or
+                - emphasis [ref=e233]: DNS
+                - text: mappings change during system upgrades. Database services restart without proper dependency sequencing. These conditions ...
+          - generic [ref=e237]:
+            - generic [ref=e240]:
+              - link "想尝试个人博客之外的东西？它来了！discourse社区国内/国外 ... telegra.ph https://telegra.ph › 想尝试个人博客之外的东西它来了d..." [ref=e242] [cursor=pointer]:
+                - /url: https://telegra.ph/%E6%83%B3%E5%B0%9D%E8%AF%95%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E5%A4%96%E7%9A%84%E4%B8%9C%E8%A5%BF%E5%AE%83%E6%9D%A5%E4%BA%86discourse%E7%A4%BE%E5%8C%BA%E5%9B%BD%E5%86%85%E5%9B%BD%E5%A4%96%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA%E5%85%A8%E6%8C%87%E5%8D%97%E5%85%A8%E7%BD%91%E6%9C%80%E7%BB%86-01-15-12
+                - heading "想尝试个人博客之外的东西？它来了！discourse社区国内/国外 ..." [level=3] [ref=e243]
+                - generic [ref=e249]:
+                  - generic [ref=e251]: telegra.ph
+                  - generic [ref=e253]: https://telegra.ph › 想尝试个人博客之外的东西它来了d...
+              - button "关于这条结果的详细信息" [ref=e254] [cursor=pointer]:
+                - img [ref=e257]
+            - generic [ref=e260]:
+              - generic [ref=e261]: 2025年1月15日 —
+              - generic [ref=e262]:
+                - text: 配置
+                - emphasis [ref=e263]: DNS
+                - text: 记录：. 按照说明配置您域名的
+                - emphasis [ref=e264]: DNS
+                - text: 记录。 转到您的域名管理（例如，Cloudflare）。 添加飞书显示的必要
+                - emphasis [ref=e265]: DNS
+                - text: 记录。 验证
+                - emphasis [ref=e266]: DNS
+                - text: 记录：. 点击飞书 ...
+          - generic [ref=e270]:
+            - generic [ref=e273]:
+              - 'link "Namecheap Basic DNS vs Web Hosting DNS: Which is Right ... telegra.ph https://telegra.ph › Namecheap-Basic-DNS-..." [ref=e275] [cursor=pointer]':
+                - /url: https://telegra.ph/Namecheap-Basic-DNS-vs-Web-Hosting-DNS-Which-is-Right-for-You-07-18
+                - 'heading "Namecheap Basic DNS vs Web Hosting DNS: Which is Right ..." [level=3] [ref=e276]'
+                - generic [ref=e282]:
+                  - generic [ref=e284]: telegra.ph
+                  - generic [ref=e286]: https://telegra.ph › Namecheap-Basic-DNS-...
+              - generic [ref=e287]:
+                - generic [ref=e288]: ·
+                - link "翻译此页" [ref=e289] [cursor=pointer]:
+                  - /url: https://telegra.ph/Namecheap-Basic-DNS-vs-Web-Hosting-DNS-Which-is-Right-for-You-07-18
+              - button "关于这条结果的详细信息" [ref=e290] [cursor=pointer]:
+                - img [ref=e293]
+            - generic [ref=e296]:
+              - generic [ref=e297]: 2024年7月18日 —
+              - generic [ref=e298]:
+                - text: "Core Functionality:"
+                - emphasis [ref=e299]: Basic DNS allows you to manage essential DNS settings
+                - text: such as A records, MX records, CNAME records, and more. It provides ...
+          - generic [ref=e303]:
+            - generic [ref=e306]:
+              - link "15 Things You Didn't Know About Top Cybersecurity Firms telegra.ph https://telegra.ph › 15-Things-You-Didnt-K..." [ref=e308] [cursor=pointer]:
+                - /url: https://telegra.ph/15-Things-You-Didnt-Know-About-Top-Cybersecurity-Firms-08-14
+                - heading "15 Things You Didn't Know About Top Cybersecurity Firms" [level=3] [ref=e309]
+                - generic [ref=e315]:
+                  - generic [ref=e317]: telegra.ph
+                  - generic [ref=e319]: https://telegra.ph › 15-Things-You-Didnt-K...
+              - generic [ref=e320]:
+                - generic [ref=e321]: ·
+                - link "翻译此页" [ref=e322] [cursor=pointer]:
+                  - /url: https://telegra.ph/15-Things-You-Didnt-Know-About-Top-Cybersecurity-Firms-08-14
+              - button "关于这条结果的详细信息" [ref=e323] [cursor=pointer]:
+                - img [ref=e326]
+            - generic [ref=e329]:
+              - generic [ref=e330]: 2023年8月14日 —
+              - generic [ref=e331]:
+                - emphasis [ref=e332]: BlueCat offers DNS, DHCP and IPAM solutions
+                - text: to help businesses manage their network infrastructures. These enterprise DDI solutions combine ...
+          - generic [ref=e336]:
+            - generic [ref=e339]:
+              - link "Google 首次推出面向企业的NotebookLM - cnBeta - Telegraph telegra.ph https://telegra.ph › Google-首次推出面向企业的-Noteb..." [ref=e341] [cursor=pointer]:
+                - /url: https://telegra.ph/Google-%E9%A6%96%E6%AC%A1%E6%8E%A8%E5%87%BA%E9%9D%A2%E5%90%91%E4%BC%81%E4%B8%9A%E7%9A%84-NotebookLM---cnBeta-12-13
+                - heading "Google 首次推出面向企业的NotebookLM - cnBeta - Telegraph" [level=3] [ref=e342]
+                - generic [ref=e348]:
+                  - generic [ref=e350]: telegra.ph
+                  - generic [ref=e352]: https://telegra.ph › Google-首次推出面向企业的-Noteb...
+              - button "关于这条结果的详细信息" [ref=e353] [cursor=pointer]:
+                - img [ref=e356]
+            - generic [ref=e359]:
+              - generic [ref=e360]: 2024年12月13日 —
+              - text: 企业版NotebookLM（Google称之为NotebookLM Plus）提供与消费版相同的体验，但增加了对访问和数据管理的控制。 员工可以上传数据和文件，创建笔记本、播客 ...
+          - generic [ref=e364]:
+            - generic [ref=e367]:
+              - link "Automate security reviews with Claude Code – Telegraph telegra.ph https://telegra.ph › Automate-security-reviews-with-Cla..." [ref=e369] [cursor=pointer]:
+                - /url: https://telegra.ph/Automate-security-reviews-with-Claude-Code-08-06
+                - heading "Automate security reviews with Claude Code – Telegraph" [level=3] [ref=e370]
+                - generic [ref=e376]:
+                  - generic [ref=e378]: telegra.ph
+                  - generic [ref=e380]: https://telegra.ph › Automate-security-reviews-with-Cla...
+              - button "关于这条结果的详细信息" [ref=e381] [cursor=pointer]:
+                - img [ref=e384]
+            - generic [ref=e388]:
+              - text: This creates a consistent security review process across your entire
+              - emphasis [ref=e389]: team
+              - text: ", ensuring no code reaches production without a baseline security review. The ..."
+          - generic [ref=e393]:
+            - generic [ref=e396]:
+              - link "Troubleshooting for vanced - Telegraph telegra.ph https://telegra.ph › Troubleshooting-for-va..." [ref=e398] [cursor=pointer]:
+                - /url: https://telegra.ph/Troubleshooting-for-vanced-03-19
+                - heading "Troubleshooting for vanced - Telegraph" [level=3] [ref=e399]
+                - generic [ref=e405]:
+                  - generic [ref=e407]: telegra.ph
+                  - generic [ref=e409]: https://telegra.ph › Troubleshooting-for-va...
+              - generic [ref=e410]:
+                - generic [ref=e411]: ·
+                - link "翻译此页" [ref=e412] [cursor=pointer]:
+                  - /url: https://telegra.ph/Troubleshooting-for-vanced-03-19
+              - button "关于这条结果的详细信息" [ref=e413] [cursor=pointer]:
+                - img [ref=e416]
+            - generic [ref=e419]:
+              - generic [ref=e420]: 2020年3月19日 —
+              - text: "1. Basic troubleshooting A) Wipe data and cache of B) Reinstall Vanced/Vanced Music IMPORTANT NOTE: Reboot between processes 2. Login issues"
+          - generic [ref=e424]:
+            - generic [ref=e427]:
+              - link "5 Lessons You Can Learn From Top Cybersecurity Firms telegra.ph https://telegra.ph › 5-Lessons-You-Can-Lea..." [ref=e429] [cursor=pointer]:
+                - /url: https://telegra.ph/5-Lessons-You-Can-Learn-From-Top-Cybersecurity-Firms-08-14
+                - heading "5 Lessons You Can Learn From Top Cybersecurity Firms" [level=3] [ref=e430]
+                - generic [ref=e436]:
+                  - generic [ref=e438]: telegra.ph
+                  - generic [ref=e440]: https://telegra.ph › 5-Lessons-You-Can-Lea...
+              - generic [ref=e441]:
+                - generic [ref=e442]: ·
+                - link "翻译此页" [ref=e443] [cursor=pointer]:
+                  - /url: https://telegra.ph/5-Lessons-You-Can-Learn-From-Top-Cybersecurity-Firms-08-14
+              - button "关于这条结果的详细信息" [ref=e444] [cursor=pointer]:
+                - img [ref=e447]
+            - generic [ref=e450]:
+              - generic [ref=e451]: 2023年8月14日 —
+              - generic [ref=e452]:
+                - text: The BDDS
+                - emphasis [ref=e453]: software
+                - text: enables
+                - emphasis [ref=e454]: DNS
+                - text: automation and orchestration, removing manual DDI tasks. It gives an overview of the entire network structure ...
+      - generic [ref=e456]:
+        - generic [ref=e457]:
+          - heading "关于过滤结果的声明" [level=2] [ref=e458]
+          - generic [ref=e461]:
+            - text: 依照其他人根据美国的《数字千年版权法案》(DMCA) 向我们提交的投诉，我们从该页面中移除了 1 条搜索结果。如有需要，您可以前往 LumenDatabase.org，查看导致搜索结果遭到移除的
+            - link "DMCA 投诉" [ref=e462] [cursor=pointer]:
+              - /url: https://lumendatabase.org/notices/39032298
+            - text: 。
+        - navigation [ref=e463]:
+          - heading "网页导航" [level=1] [ref=e464]
+          - text: "1"
+          - link "Page 2" [ref=e467] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&ei=CskrapzZHYupmLQP_dOT0AY&start=10&sa=N&sstk=AU9db-AXv5J4kN0VoBja3ezk2ZRcV_Kgri4V8O_f3mVoDw79eWn5IJ-Sd9SZrwid-mY8mlS2xOomtYBwGhajOXL8IKTX7Np8C_e6CA&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ8tMDegQIIxAG
+            - text: "2"
+          - link "Page 3" [ref=e469] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&ei=CskrapzZHYupmLQP_dOT0AY&start=20&sa=N&sstk=AU9db-AXv5J4kN0VoBja3ezk2ZRcV_Kgri4V8O_f3mVoDw79eWn5IJ-Sd9SZrwid-mY8mlS2xOomtYBwGhajOXL8IKTX7Np8C_e6CA&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ8tMDegQIIxAI
+            - text: "3"
+          - link "Page 4" [ref=e471] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&ei=CskrapzZHYupmLQP_dOT0AY&start=30&sa=N&sstk=AU9db-AXv5J4kN0VoBja3ezk2ZRcV_Kgri4V8O_f3mVoDw79eWn5IJ-Sd9SZrwid-mY8mlS2xOomtYBwGhajOXL8IKTX7Np8C_e6CA&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ8tMDegQIIxAK
+            - text: "4"
+          - link "Page 5" [ref=e473] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&ei=CskrapzZHYupmLQP_dOT0AY&start=40&sa=N&sstk=AU9db-AXv5J4kN0VoBja3ezk2ZRcV_Kgri4V8O_f3mVoDw79eWn5IJ-Sd9SZrwid-mY8mlS2xOomtYBwGhajOXL8IKTX7Np8C_e6CA&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ8tMDegQIIxAM
+            - text: "5"
+          - link "Page 6" [ref=e475] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&ei=CskrapzZHYupmLQP_dOT0AY&start=50&sa=N&sstk=AU9db-AXv5J4kN0VoBja3ezk2ZRcV_Kgri4V8O_f3mVoDw79eWn5IJ-Sd9SZrwid-mY8mlS2xOomtYBwGhajOXL8IKTX7Np8C_e6CA&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ8tMDegQIIxAO
+            - text: "6"
+          - heading "下一页" [level=2] [ref=e477]:
+            - link "下一页" [ref=e478] [cursor=pointer]:
+              - /url: /search?q=site:telegra.ph+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&ei=CskrapzZHYupmLQP_dOT0AY&start=10&sa=N&sstk=AU9db-AXv5J4kN0VoBja3ezk2ZRcV_Kgri4V8O_f3mVoDw79eWn5IJ-Sd9SZrwid-mY8mlS2xOomtYBwGhajOXL8IKTX7Np8C_e6CA&ved=2ahUKEwichpHjqYGVAxWLFIYAHf3pBGoQ8NMDegQIIxAQ
+              - generic [ref=e480]: 下一页
+      - navigation
+    - contentinfo [ref=e481]:
+      - heading "页脚链接" [level=1] [ref=e482]
+      - generic [ref=e486]:
+        - generic [ref=e490]:
+          - button "美国 - 是根据您的 IP 地址推断出来的" [ref=e492] [cursor=pointer]:
+            - generic [ref=e493]: 美国
+            - generic [ref=e495]:
+              - text: "-"
+              - generic [ref=e496]: 是根据您的 IP 地址推断出来的
+          - text: "-"
+          - button "更新位置信息" [ref=e498] [cursor=pointer]: 更新位置信息
+        - generic [ref=e501]:
+          - link "帮助" [ref=e502] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e503] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e504] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e505] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

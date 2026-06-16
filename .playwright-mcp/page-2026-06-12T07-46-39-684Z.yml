@@ -1,0 +1,146 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "跳到主要内容" [ref=e2] [cursor=pointer]
+      - link "无障碍功能帮助" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=zh-CN
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "2026 年世界杯开赛！" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=zh-CN&ictx=2&sa=X&ved=0ahUKEwi9w8HnmoGVAxVaoysGHdCNLwwQPQgK
+          - img "2026 年世界杯开赛！" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "搜索" [ref=e19]: site:telegra.ph DNS Record Types Explained site:telegra.ph DNS Record Types Explained
+            - generic [ref=e20]:
+              - button "清除" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "按语音搜索" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "按图搜索" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "搜索" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "设置" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google 应用" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "登录" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:telegra.ph%2BDNS%2BRecord%2BTypes%2BExplained&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI 模式" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=site:telegra.ph+DNS+Record+Types+Explained&sca_esv=f0c0becfdceeffee&udm=50&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&aep=1&ntc=1&sa=X&ved=2ahUKEwi9w8HnmoGVAxVaoysGHdCNLwwQ2J8OegQIDxAD
+              - generic [ref=e76]: AI 模式
+          - listitem [ref=e77]:
+            - link "全部" [disabled] [ref=e78]:
+              - generic [ref=e80]: 全部
+          - listitem [ref=e81]:
+            - link "图片" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=2&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=site:telegra.ph+DNS+Record+Types+Explained&sa=X&ved=2ahUKEwi9w8HnmoGVAxVaoysGHdCNLwwQtKgLegQIFRAB
+              - generic [ref=e84]: 图片
+          - listitem [ref=e85]:
+            - link "视频" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=7&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=site:telegra.ph+DNS+Record+Types+Explained&sa=X&ved=2ahUKEwi9w8HnmoGVAxVaoysGHdCNLwwQtKgLegQIExAB
+              - generic [ref=e88]: 视频
+          - listitem [ref=e89]:
+            - link "购物" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=28&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=site:telegra.ph+DNS+Record+Types+Explained&ved=1t:220175&ictx=111
+              - generic [ref=e92]: 购物
+          - listitem [ref=e93]:
+            - link "短视频" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&udm=39&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&q=site:telegra.ph+DNS+Record+Types+Explained&sa=X&ved=2ahUKEwi9w8HnmoGVAxVaoysGHdCNLwwQs6gLegQIFBAB
+              - generic [ref=e96]: 短视频
+          - listitem [ref=e97]:
+            - link "新闻" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=f0c0becfdceeffee&q=site:telegra.ph+DNS+Record+Types+Explained&tbm=nws&source=lnms&fbs=ADc_l-Z6XGGbkKmpylZqg2J7ZOuVNvV7jKtLqzLZ63dd2zPtrsojpaijeJRLrp4clUvcwVJFwPc3SunfhAadIHhnTsFBVMAAXIZgDnZp5KTskh6spmEAN_m5c9Zl7QQ9S1AEoyH9D4lVpv_wnngMRGAxLVYtAQ0lv6yE5rdDK6YSHRfe9mjQavptxK4vEoFd-TzuKbzrFaNFsrKlv_gEfcxDRavrClfR-Q&sa=X&ved=2ahUKEwi9w8HnmoGVAxVaoysGHdCNLwwQ0pQJegQIEhAB
+              - generic [ref=e100]: 新闻
+          - listitem [ref=e101]:
+            - button "更多过滤条件" [ref=e102] [cursor=pointer]:
+              - generic "更多过滤条件" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: 更多
+                  - img [ref=e107]
+        - button "工具" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: 工具
+            - img [ref=e115]
+    - heading "搜索结果" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - heading "Web results" [level=2] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e135]:
+              - link "ExpressVPN vs NordVPN - Telegraph telegra.ph https://telegra.ph › ExpressVPN-vs-NordVP..." [ref=e137] [cursor=pointer]:
+                - /url: https://telegra.ph/ExpressVPN-vs-NordVPN-08-06
+                - heading "ExpressVPN vs NordVPN - Telegraph" [level=3] [ref=e138]
+                - generic [ref=e144]:
+                  - generic [ref=e146]: telegra.ph
+                  - generic [ref=e148]: https://telegra.ph › ExpressVPN-vs-NordVP...
+              - generic [ref=e149]:
+                - generic [ref=e150]: ·
+                - link "翻译此页" [ref=e151] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://telegra.ph/ExpressVPN-vs-NordVPN-08-06&hl=zh-CN&sl=en&tl=zh-CN&client=search
+              - button "关于这条结果的详细信息" [ref=e152] [cursor=pointer]:
+                - img [ref=e155]
+            - generic [ref=e158]:
+              - generic [ref=e159]: 2020年8月6日 —
+              - generic [ref=e160]:
+                - emphasis [ref=e161]: Secure, self-hosted DNS
+                - text: (protects you against DNS leaks and third-party DNS snooping); Obfuscation features (gets around network restrictions ...
+        - generic [ref=e165]:
+          - generic [ref=e168]:
+            - link "ExpressVPN and NordVPN are two of the biggest names ... telegra.ph https://telegra.ph › ExpressVPN-and-Nord..." [ref=e170] [cursor=pointer]:
+              - /url: https://telegra.ph/ExpressVPN-and-NordVPN-are-two-of-the-biggest-names-inside-the-VPN-market-Even-though-both-are-wonderful-choices-only-one-got-ou-06-08
+              - heading "ExpressVPN and NordVPN are two of the biggest names ..." [level=3] [ref=e171]
+              - generic [ref=e177]:
+                - generic [ref=e179]: telegra.ph
+                - generic [ref=e181]: https://telegra.ph › ExpressVPN-and-Nord...
+            - generic [ref=e182]:
+              - generic [ref=e183]: ·
+              - link "翻译此页" [ref=e184] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://telegra.ph/ExpressVPN-and-NordVPN-are-two-of-the-biggest-names-inside-the-VPN-market-Even-though-both-are-wonderful-choices-only-one-got-ou-06-08&hl=zh-CN&sl=en&tl=zh-CN&client=search
+            - button "关于这条结果的详细信息" [ref=e185] [cursor=pointer]:
+              - img [ref=e188]
+          - generic [ref=e191]:
+            - generic [ref=e192]: 2020年6月8日 —
+            - generic [ref=e193]:
+              - text: Secure,
+              - emphasis [ref=e194]: self-hosted DNS
+              - text: (protects you DNS leaks and thirdparty DNS snooping). Obfuscation capabilities (gets around network limits and VPN ...
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=e195]:
+      - heading "页脚链接" [level=1] [ref=e196]
+      - generic [ref=e200]:
+        - generic [ref=e204]:
+          - button "美国 - 是根据您的 IP 地址推断出来的" [ref=e206] [cursor=pointer]:
+            - generic [ref=e207]: 美国
+            - generic [ref=e209]:
+              - text: "-"
+              - generic [ref=e210]: 是根据您的 IP 地址推断出来的
+          - text: "-"
+          - button "更新位置信息" [ref=e212] [cursor=pointer]: 更新位置信息
+        - generic [ref=e215]:
+          - link "帮助" [ref=e216] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=zh-CN&fg=1
+          - link "发送反馈" [ref=e217] [cursor=pointer]:
+            - /url: "#"
+          - link "隐私权" [ref=e218] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=zh-CN&fg=1
+          - link "条款" [ref=e219] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=zh-CN&fg=1

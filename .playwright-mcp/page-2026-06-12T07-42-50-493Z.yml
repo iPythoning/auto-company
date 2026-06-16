@@ -1,0 +1,25 @@
+- main [ref=e4]:
+  - article [ref=e5]:
+    - generic [active] [ref=e6]:
+      - heading "Title" [level=1] [ref=e9]: Title
+      - generic [ref=e10]: Your name
+      - paragraph [ref=e7]: Your story...
+    - generic:
+      - generic:
+        - generic:
+          - button
+          - button
+          - button
+        - generic:
+          - button
+          - button
+          - button
+      - generic:
+        - generic: ×
+        - generic:
+          - textbox
+    - generic [ref=e11]:
+      - button [ref=e12] [cursor=pointer]
+      - button [ref=e13] [cursor=pointer]
+  - complementary [ref=e8]:
+    - button "Publish" [ref=e14] [cursor=pointer]

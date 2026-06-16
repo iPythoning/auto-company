@@ -1,0 +1,73 @@
+- generic [ref=e2]:
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - heading "How to Clear DNS Cache — Complete Guide for All Platforms (2026)" [level=1] [ref=e6]
+      - generic [ref=e7]:
+        - text: DNS Tools Team
+        - time [ref=e8]: •June 12, 2026
+    - article [ref=e9]:
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: DNS cache is a temporary database maintained by your operating system and browser that stores recently visited domain names and their corresponding IP addresses. While DNS caching speeds up your browsing experience, sometimes you need to clear it — especially after changing DNS records, migrating websites, or troubleshooting network issues.
+        - paragraph [ref=e12]
+        - paragraph [ref=e13]: Why Clear DNS Cache?When you change your domain's DNS records (like updating A records or MX records), the old entries may still be cached. This means you'll keep reaching the old server instead of the new one. Clearing your DNS cache forces your system to fetch fresh records from authoritative DNS servers.
+        - paragraph [ref=e14]: "Common scenarios where you need to flush DNS:"
+        - paragraph [ref=e15]: • After updating your website's hosting provider
+        - paragraph [ref=e16]: • After changing email servers (MX records)
+        - paragraph [ref=e17]: • When a website loads an old version after DNS changes
+        - paragraph [ref=e18]: • When experiencing ERR_CONNECTION_REFUSED or DNS_PROBE_FINISHED_NXDOMAIN errors
+        - paragraph [ref=e19]
+        - paragraph [ref=e20]: "How to Clear DNS Cache on WindowsOpen Command Prompt as Administrator and run:"
+        - generic [ref=e21]: ipconfig /flushdns
+        - paragraph [ref=e22]: "You should see: \"Successfully flushed the DNS Resolver Cache.\" For a deeper reset, restart the DNS Client service:"
+        - generic [ref=e23]: net stop dnscache net start dnscache
+        - paragraph [ref=e24]: "How to Clear DNS Cache on macOSmacOS Ventura, Sonoma, Sequoia & later:"
+        - generic [ref=e25]: sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+        - paragraph [ref=e26]: "macOS Monterey & Big Sur: same command as above. macOS Catalina & earlier:"
+        - generic [ref=e27]: sudo killall -HUP mDNSResponder
+        - paragraph [ref=e28]: "How to Clear DNS Cache on LinuxMost modern Linux distributions use systemd-resolved:"
+        - generic [ref=e29]: sudo systemd-resolve --flush-caches
+        - paragraph [ref=e30]: "Or restart the service:"
+        - generic [ref=e31]: sudo systemctl restart systemd-resolved
+        - paragraph [ref=e32]: "How to Clear Browser DNS CacheBrowsers maintain their own DNS cache separate from the operating system:"
+        - paragraph [ref=e33]: "Chrome: Type chrome://net-internals/#dns → click \"Clear host cache\""
+        - paragraph [ref=e34]: "Firefox: Type about:networking#dns → click \"Clear DNS Cache\""
+        - paragraph [ref=e35]: "Edge: Type edge://net-internals/#dns → click \"Clear host cache\""
+        - paragraph [ref=e36]: "Safari: Enable Develop menu (Preferences → Advanced) → Develop → Empty Caches"
+        - paragraph [ref=e37]
+        - paragraph [ref=e38]: "Verify and Learn MoreAfter clearing the cache, verify changes by performing a DNS lookup. For detailed instructions with screenshots for every platform, visit the complete guide:"
+        - paragraph [ref=e39]:
+          - link "How to Clear DNS Cache — Complete Platform Guide" [ref=e40] [cursor=pointer]:
+            - /url: https://ipythoning.github.io/dns-tools/clear-dns-cache.html
+        - paragraph [ref=e41]: "Use our free DNS tools to check your DNS records:"
+        - paragraph [ref=e42]:
+          - link "DNS Tools — Free Online DNS & Domain Utilities" [ref=e43] [cursor=pointer]:
+            - /url: https://ipythoning.github.io/dns-tools/
+        - paragraph [ref=e44]
+        - paragraph [ref=e45]:
+          - text: Related Guides
+          - link "What is DNS — A Beginner's Guide" [ref=e46] [cursor=pointer]:
+            - /url: /What-is-DNS--A-Beginners-Guide-2026-06-12
+        - paragraph [ref=e47]:
+          - link "DNS Record Types Explained" [ref=e48] [cursor=pointer]:
+            - /url: /DNS-Record-Types-Explained--A-Complete-Guide-2026-06-12
+        - paragraph [ref=e49]:
+          - link "How to Check DNS Records — A Complete Guide" [ref=e50] [cursor=pointer]:
+            - /url: /How-to-Check-DNS-Records--A-Complete-Guide-2026-06-12
+        - paragraph [ref=e51]
+        - paragraph [ref=e52]: ConclusionClearing your DNS cache is a simple but essential troubleshooting step every web professional should know. Whether you're on Windows, macOS, or Linux, the process takes seconds and can resolve many common connectivity issues.
+      - generic:
+        - generic:
+          - generic:
+            - button
+            - button
+            - button
+          - generic:
+            - button
+            - button
+            - button
+        - generic:
+          - generic: ×
+          - generic:
+            - textbox
+    - complementary [ref=e53]
+  - generic [ref=e55] [cursor=pointer]: Report content on this page

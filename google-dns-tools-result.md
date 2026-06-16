@@ -1,0 +1,124 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "World Cup 2026 Begins!" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwiu-aWvp4GVAxUbHIYAHQfJMI0QPQgK
+          - img "World Cup 2026 Begins!" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: site:dns-tools.pages.dev site:dns-tools.pages.dev
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e225]
+      - generic [ref=e42]:
+        - button "Google apps" [ref=e44] [cursor=pointer]:
+          - img [ref=e45]
+        - link "Sign in" [ref=e49] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:dns-tools.pages.dev%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e51]:
+    - navigation [ref=e57]:
+      - generic [ref=e59]:
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - link "AI Mode" [ref=e64] [cursor=pointer]:
+              - /url: /search?q=site:dns-tools.pages.dev&sca_esv=43dc7f1b03b348a4&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5q98oWhROuQ-K5m3adDgF9f5Rc2KSnNDjARKQOezKQIvorVGjxl8ldEywzyFnkudKerKMwa4-2HH2PHZbpDCWs-QOafkcKF-MQXe18JbDaK8uo-M3g&aep=1&ntc=1&sa=X&ved=2ahUKEwiu-aWvp4GVAxUbHIYAHQfJMI0Q2J8OegQIEBAD
+              - generic [ref=e67]: AI Mode
+          - listitem [ref=e68]:
+            - link "All" [disabled] [ref=e69]:
+              - generic [ref=e71]: All
+          - listitem [ref=e72]:
+            - link "Shopping" [ref=e73] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5q98oWhROuQ-K5m3adDgF9f5Rc2KSnNDjARKQOezKQIvorVGjxl8ldEywzyFnkudKerKMwa4-2HH2PHZbpDCWs-QOafkcKF-MQXe18JbDaK8uo-M3g&q=site:dns-tools.pages.dev&ved=1t:220175&ictx=111
+              - generic [ref=e75]: Shopping
+          - listitem [ref=e76]:
+            - link "Images" [ref=e77] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5q98oWhROuQ-K5m3adDgF9f5Rc2KSnNDjARKQOezKQIvorVGjxl8ldEywzyFnkudKerKMwa4-2HH2PHZbpDCWs-QOafkcKF-MQXe18JbDaK8uo-M3g&q=site:dns-tools.pages.dev&sa=X&ved=2ahUKEwiu-aWvp4GVAxUbHIYAHQfJMI0QtKgLegQIFhAB
+              - generic [ref=e79]: Images
+          - listitem [ref=e80]:
+            - link "Short videos" [ref=e81] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5q98oWhROuQ-K5m3adDgF9f5Rc2KSnNDjARKQOezKQIvorVGjxl8ldEywzyFnkudKerKMwa4-2HH2PHZbpDCWs-QOafkcKF-MQXe18JbDaK8uo-M3g&q=site:dns-tools.pages.dev&sa=X&ved=2ahUKEwiu-aWvp4GVAxUbHIYAHQfJMI0Qs6gLegQIFBAB
+              - generic [ref=e83]: Short videos
+          - listitem [ref=e84]:
+            - link "Forums" [ref=e85] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5q98oWhROuQ-K5m3adDgF9f5Rc2KSnNDjARKQOezKQIvorVGjxl8ldEywzyFnkudKerKMwa4-2HH2PHZbpDCWs-QOafkcKF-MQXe18JbDaK8uo-M3g&q=site:dns-tools.pages.dev&sa=X&ved=2ahUKEwiu-aWvp4GVAxUbHIYAHQfJMI0Qs6gLegQIFRAB
+              - generic [ref=e87]: Forums
+          - listitem [ref=e88]:
+            - link "Videos" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mMGVXS0bCMe2eDZOQ2MOTwnFUBJ2uyTXGY7FrnjAwa7NevhywVsZSgNHw7ZPWpcM5q98oWhROuQ-K5m3adDgF9f5Rc2KSnNDjARKQOezKQIvorVGjxl8ldEywzyFnkudKerKMwa4-2HH2PHZbpDCWs-QOafkcKF-MQXe18JbDaK8uo-M3g&q=site:dns-tools.pages.dev&sa=X&ved=2ahUKEwiu-aWvp4GVAxUbHIYAHQfJMI0QtKgLegQIExAB
+              - generic [ref=e91]: Videos
+          - listitem [ref=e92]:
+            - button "More filters" [ref=e93] [cursor=pointer]:
+              - generic "More filters" [ref=e94]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]: More
+                  - img [ref=e98]
+        - button "Tools" [ref=e233] [cursor=pointer]:
+          - generic [ref=e235]:
+            - generic [ref=e236]: Tools
+            - img [ref=e238]
+    - heading "Search Results" [level=1] [ref=e100]
+    - main [ref=e106]:
+      - generic [ref=e110]:
+        - heading "Google promotion" [level=2] [ref=e111]
+        - list [ref=e112]:
+          - listitem [ref=e113]:
+            - heading "Try Google Search Console" [level=3] [ref=e114]:
+              - link "Try Google Search Console" [ref=e115] [cursor=pointer]:
+                - /url: https://www.google.com/webmasters/tools/home#utm_source=en-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0
+            - text: www.google.com/webmasters/
+            - text: Do you own dns-tools.pages.dev? Get indexing and ranking data from Google.
+      - generic [ref=e117]:
+        - generic [ref=e119]:
+          - heading "Your search - site:dns-tools.pages.dev - did not match any documents." [level=3] [ref=e120]:
+            - text: Your search -
+            - emphasis [ref=e122]: site:dns-tools.pages.dev
+            - text: "- did not match any documents."
+          - paragraph [ref=e123]: "Suggestions:"
+          - list [ref=e124]:
+            - listitem [ref=e125]: Make sure all words are spelled correctly.
+            - listitem [ref=e126]: Try different keywords.
+            - listitem [ref=e127]: Try more general keywords.
+          - img "An image of a yeti fishing for something in the ice" [ref=e131]:
+            - img [ref=e241]
+        - navigation
+      - navigation
+    - contentinfo [ref=e218]:
+      - heading "Footer Links" [level=1] [ref=e219]
+      - generic [ref=e532]:
+        - generic [ref=e536]:
+          - button "United States - From your IP address" [ref=e538] [cursor=pointer]:
+            - generic [ref=e539]: United States
+            - generic [ref=e541]:
+              - text: "-"
+              - generic [ref=e542]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e544] [cursor=pointer]: Update location
+        - generic [ref=e547]:
+          - link "Help" [ref=e548] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e549] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e550] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e551] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

@@ -1,0 +1,23 @@
+- main [ref=e4]:
+  - article [ref=e5]:
+    - generic [active] [ref=e6]:
+      - heading "Title" [level=1] [ref=e7]: Title
+      - generic [ref=e8]: Your name
+      - paragraph [ref=e9]: Your story...
+    - generic:
+      - generic:
+        - generic:
+          - button
+          - button
+          - button
+        - generic:
+          - button
+          - button
+          - button
+      - generic:
+        - generic: ×
+        - generic:
+          - textbox
+  - complementary [ref=e10]:
+    - button "Publish" [ref=e11] [cursor=pointer]
+    - generic [ref=e12]: Title is too small

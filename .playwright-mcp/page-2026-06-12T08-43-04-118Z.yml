@@ -1,0 +1,367 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - link "World Cup 2026 Begins!" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQPQgK
+          - img "World Cup 2026 Begins!" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: site:telegra.ph "dns-tools" "DNS Tools Team" site:telegra.ph "dns-tools" "DNS Tools Team"
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - generic [ref=e47]:
+        - button "Google apps" [ref=e49] [cursor=pointer]:
+          - img [ref=e50]
+        - link "Sign in" [ref=e54] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:telegra.ph%2B%2522dns-tools%2522%2B%2522DNS%2BTools%2BTeam%2522%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e56]:
+    - navigation [ref=e62]:
+      - generic [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "AI Mode" [ref=e73] [cursor=pointer]:
+              - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB0sDPEZOyCrtf4QOGPg1PH0pEDMStp2Ndr3BsuAJ6NOY_kq1daiCFAKe-Ylr65VT2DujKxX1sPbP22aWV1CW_VoRKcFXqXO7uZfE61qIgRTCQOQBfQbDu5lmLHAn0eVqTmCrt03AVZla0ijIV8UeaoE_9uXLQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ2J8OegQIEBAD
+              - generic [ref=e76]: AI Mode
+          - listitem [ref=e77]:
+            - link "All" [disabled] [ref=e78]:
+              - generic [ref=e80]: All
+          - listitem [ref=e81]:
+            - link "Shopping" [ref=e82] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB0sDPEZOyCrtf4QOGPg1PH0pEDMStp2Ndr3BsuAJ6NOY_kq1daiCFAKe-Ylr65VT2DujKxX1sPbP22aWV1CW_VoRKcFXqXO7uZfE61qIgRTCQOQBfQbDu5lmLHAn0eVqTmCrt03AVZla0ijIV8UeaoE_9uXLQ&q=site:telegra.ph+dns-tools+DNS+Tools+Team&ved=1t:220175&ictx=111
+              - generic [ref=e84]: Shopping
+          - listitem [ref=e85]:
+            - link "Videos" [ref=e86] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB0sDPEZOyCrtf4QOGPg1PH0pEDMStp2Ndr3BsuAJ6NOY_kq1daiCFAKe-Ylr65VT2DujKxX1sPbP22aWV1CW_VoRKcFXqXO7uZfE61qIgRTCQOQBfQbDu5lmLHAn0eVqTmCrt03AVZla0ijIV8UeaoE_9uXLQ&q=site:telegra.ph+dns-tools+DNS+Tools+Team&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQtKgLegQIExAB
+              - generic [ref=e88]: Videos
+          - listitem [ref=e89]:
+            - link "Images" [ref=e90] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB0sDPEZOyCrtf4QOGPg1PH0pEDMStp2Ndr3BsuAJ6NOY_kq1daiCFAKe-Ylr65VT2DujKxX1sPbP22aWV1CW_VoRKcFXqXO7uZfE61qIgRTCQOQBfQbDu5lmLHAn0eVqTmCrt03AVZla0ijIV8UeaoE_9uXLQ&q=site:telegra.ph+dns-tools+DNS+Tools+Team&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQtKgLegQIFRAB
+              - generic [ref=e92]: Images
+          - listitem [ref=e93]:
+            - link "Forums" [ref=e94] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB0sDPEZOyCrtf4QOGPg1PH0pEDMStp2Ndr3BsuAJ6NOY_kq1daiCFAKe-Ylr65VT2DujKxX1sPbP22aWV1CW_VoRKcFXqXO7uZfE61qIgRTCQOQBfQbDu5lmLHAn0eVqTmCrt03AVZla0ijIV8UeaoE_9uXLQ&q=site:telegra.ph+dns-tools+DNS+Tools+Team&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQs6gLegQIFBAB
+              - generic [ref=e96]: Forums
+          - listitem [ref=e97]:
+            - link "Short videos" [ref=e98] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp9lEhFAN_4ain3HSNQWw-mI4C1ELY88XaJ57aZGHEMB0sDPEZOyCrtf4QOGPg1PH0pEDMStp2Ndr3BsuAJ6NOY_kq1daiCFAKe-Ylr65VT2DujKxX1sPbP22aWV1CW_VoRKcFXqXO7uZfE61qIgRTCQOQBfQbDu5lmLHAn0eVqTmCrt03AVZla0ijIV8UeaoE_9uXLQ&q=site:telegra.ph+dns-tools+DNS+Tools+Team&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQs6gLegQIEhAB
+              - generic [ref=e100]: Short videos
+          - listitem [ref=e101]:
+            - button "More filters" [ref=e102] [cursor=pointer]:
+              - generic "More filters" [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]: More
+                  - img [ref=e107]
+        - button "Tools" [ref=e110] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Tools
+            - img [ref=e115]
+    - heading "Search Results" [level=1] [ref=e117]
+    - main [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e128]:
+          - heading "No results found for site:telegra.ph \"dns-tools\" \"DNS Tools Team\"." [level=2] [ref=e129]
+          - text: Results for
+          - link "site:telegra.ph dns-tools DNS Tools Team" [ref=e130] [cursor=pointer]:
+            - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&q=site:telegra.ph+dns-tools+DNS+Tools+Team&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQgwN6BAgOEAE
+          - text: "(without quotes):"
+        - generic [ref=e133]:
+          - generic [ref=e136]:
+            - heading "Web results" [level=2] [ref=e137]
+            - generic [ref=e138]:
+              - generic [ref=e141]:
+                - link "Private Dns – Telegraph telegra.ph https://telegra.ph › Private-Dns-02-03" [ref=e143] [cursor=pointer]:
+                  - /url: https://telegra.ph/Private-Dns-02-03
+                  - heading "Private Dns – Telegraph" [level=3] [ref=e144]
+                  - generic [ref=e150]:
+                    - generic [ref=e152]: telegra.ph
+                    - generic [ref=e154]: https://telegra.ph › Private-Dns-02-03
+                - button "About this result" [ref=e155] [cursor=pointer]:
+                  - img [ref=e158]
+              - generic [ref=e162]:
+                - emphasis [ref=e163]: Azure DNS
+                - text: is a hosting service for DNS domains, providing name resolution using the Microsoft Azure infrastructure. In addition to supporting internet-facing ...
+          - generic [ref=e167]:
+            - generic [ref=e170]:
+              - link "Karing - Telegraph telegra.ph https://telegra.ph › Karing-07-15" [ref=e172] [cursor=pointer]:
+                - /url: https://telegra.ph/Karing-07-15
+                - heading "Karing - Telegraph" [level=3] [ref=e173]
+                - generic [ref=e179]:
+                  - generic [ref=e181]: telegra.ph
+                  - generic [ref=e183]: https://telegra.ph › Karing-07-15
+              - button "About this result" [ref=e184] [cursor=pointer]:
+                - img [ref=e187]
+            - generic [ref=e190]:
+              - generic [ref=e191]: Jul 15, 2024 —
+              - generic [ref=e192]:
+                - text: Karing is a free, open-source, multi-platform program that provides a powerful and simple set of proxy
+                - emphasis [ref=e193]: tools
+                - text: . ... In the case of
+                - emphasis [ref=e194]: DNS
+                - text: ", local means ..."
+              - link "Read more" [ref=e195] [cursor=pointer]:
+                - /url: https://telegra.ph/Karing-07-15#:~:text=Karing%20is%20a%20free%2C%20open%2Dsource%2C,simple%20set%20of%20proxy%20tools.&text=In%20the%20case%20of%20DNS%2C,local%20means
+          - generic [ref=e199]:
+            - generic [ref=e202]:
+              - link "When Accounting Software Fails to Launch After an Update telegra.ph https://telegra.ph › When-Accounting-Software-Fails-to..." [ref=e204] [cursor=pointer]:
+                - /url: https://telegra.ph/When-Accounting-Software-Fails-to-Launch-After-an-Update-Causes-Fixes-and-Preventive-Frameworks-12-01
+                - heading "When Accounting Software Fails to Launch After an Update" [level=3] [ref=e205]
+                - generic [ref=e211]:
+                  - generic [ref=e213]: telegra.ph
+                  - generic [ref=e215]: https://telegra.ph › When-Accounting-Software-Fails-to...
+              - button "About this result" [ref=e216] [cursor=pointer]:
+                - img [ref=e219]
+            - generic [ref=e222]:
+              - generic [ref=e223]: Dec 1, 2025 —
+              - generic [ref=e224]:
+                - text: IP addresses or
+                - emphasis [ref=e225]: DNS
+                - text: mappings change during system upgrades. Database services restart without proper dependency sequencing. These conditions ...
+              - link "Read more" [ref=e226] [cursor=pointer]:
+                - /url: https://telegra.ph/When-Accounting-Software-Fails-to-Launch-After-an-Update-Causes-Fixes-and-Preventive-Frameworks-12-01#:~:text=IP%20addresses%20or%20DNS%20mappings,mode%20could%20not%20be%20started.
+          - generic [ref=e230]:
+            - generic [ref=e233]:
+              - 'link "TON Core: Overview of 2024 – Telegraph telegra.ph https://telegra.ph › TON-Core-Overview-of-2024-01-22" [ref=e235] [cursor=pointer]':
+                - /url: https://telegra.ph/TON-Core-Overview-of-2024-01-22
+                - 'heading "TON Core: Overview of 2024 – Telegraph" [level=3] [ref=e236]'
+                - generic [ref=e242]:
+                  - generic [ref=e244]: telegra.ph
+                  - generic [ref=e246]: https://telegra.ph › TON-Core-Overview-of-2024-01-22
+              - button "About this result" [ref=e247] [cursor=pointer]:
+                - img [ref=e250]
+            - generic [ref=e253]:
+              - generic [ref=e254]: Jan 22, 2025 —
+              - generic [ref=e255]:
+                - text: We provided a number of new
+                - emphasis [ref=e256]: tools
+                - text: "to enable developers to optimize the network commissions of their decentralized products: A new technology \" ..."
+              - link "Read more" [ref=e257] [cursor=pointer]:
+                - /url: https://telegra.ph/TON-Core-Overview-of-2024-01-22#:~:text=We%20provided%20a%20number%20of,smart%20contracts%22%20has%20been%20launched.
+          - generic [ref=e261]:
+            - generic [ref=e264]:
+              - 'link "Namecheap Basic DNS vs Web Hosting DNS: Which is Right ... telegra.ph https://telegra.ph › Namecheap-Basic-DNS-vs-Web-Hos..." [ref=e266] [cursor=pointer]':
+                - /url: https://telegra.ph/Namecheap-Basic-DNS-vs-Web-Hosting-DNS-Which-is-Right-for-You-07-18
+                - 'heading "Namecheap Basic DNS vs Web Hosting DNS: Which is Right ..." [level=3] [ref=e267]'
+                - generic [ref=e273]:
+                  - generic [ref=e275]: telegra.ph
+                  - generic [ref=e277]: https://telegra.ph › Namecheap-Basic-DNS-vs-Web-Hos...
+              - button "About this result" [ref=e278] [cursor=pointer]:
+                - img [ref=e281]
+            - generic [ref=e284]:
+              - generic [ref=e285]: Jul 18, 2024 —
+              - generic [ref=e286]:
+                - text: "Core Functionality:"
+                - emphasis [ref=e287]: Basic DNS allows you to manage essential DNS settings
+                - text: "such as A records, MX records, CNAME records, and more. · Ease of Use: ..."
+              - link "Read more" [ref=e288] [cursor=pointer]:
+                - /url: https://telegra.ph/Namecheap-Basic-DNS-vs-Web-Hosting-DNS-Which-is-Right-for-You-07-18#:~:text=Core%20Functionality%3A%20Basic%20DNS%20allows,records%2C%20CNAME%20records%2C%20and%20more.&text=Ease%20of%20Use%3A%20The%20interface,subdomains%2C%20and%20configure%20domain%20forwarding.
+          - generic [ref=e292]:
+            - generic [ref=e295]:
+              - link "Поговорим об SDMS - Telegraph telegra.ph https://telegra.ph › SDMS-12-03" [ref=e297] [cursor=pointer]:
+                - /url: https://telegra.ph/SDMS-12-03
+                - heading "Поговорим об SDMS - Telegraph" [level=3] [ref=e298]
+                - generic [ref=e304]:
+                  - generic [ref=e306]: telegra.ph
+                  - generic [ref=e308]: https://telegra.ph › SDMS-12-03
+              - generic [ref=e309]:
+                - generic [ref=e310]: ·
+                - link "Translate this page" [ref=e311] [cursor=pointer]:
+                  - /url: https://telegra.ph/SDMS-12-03
+              - button "About this result" [ref=e312] [cursor=pointer]:
+                - img [ref=e315]
+            - generic [ref=e318]:
+              - generic [ref=e319]: Dec 3, 2021 —
+              - generic [ref=e320]:
+                - text: В
+                - emphasis [ref=e321]: DNS
+                - text: много отделов, которые непрерывно требуют разработки новых инструментов. Раньше в компании пользовались приложением Redmine, однако ...
+              - link "Read more" [ref=e322] [cursor=pointer]:
+                - /url: https://telegra.ph/SDMS-12-03#:~:text=%D0%92%20DNS%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2%2C%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5,%D0%BE%D0%B4%D0%B8%D0%BD%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%BD%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BE%D0%BA%20%E2%80%93%20%D0%BD%D0%B5%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D1%8C.
+          - generic [ref=e326]:
+            - generic [ref=e329]:
+              - link "DNS泄漏：2021年查找和修复身份泄漏的终极指南 - Telegraph telegra.ph https://telegra.ph › DNS泄漏2021..." [ref=e331] [cursor=pointer]:
+                - /url: https://telegra.ph/DNS%E6%B3%84%E6%BC%8F2021%E5%B9%B4%E6%9F%A5%E6%89%BE%E5%92%8C%E4%BF%AE%E5%A4%8D%E8%BA%AB%E4%BB%BD%E6%B3%84%E6%BC%8F%E7%9A%84%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97-01-31
+                - heading "DNS泄漏：2021年查找和修复身份泄漏的终极指南 - Telegraph" [level=3] [ref=e332]
+                - generic [ref=e338]:
+                  - generic [ref=e340]: telegra.ph
+                  - generic [ref=e342]: https://telegra.ph › DNS泄漏2021...
+              - generic [ref=e343]:
+                - generic [ref=e344]: ·
+                - link "Translate this page" [ref=e345] [cursor=pointer]:
+                  - /url: https://telegra.ph/DNS%E6%B3%84%E6%BC%8F2021%E5%B9%B4%E6%9F%A5%E6%89%BE%E5%92%8C%E4%BF%AE%E5%A4%8D%E8%BA%AB%E4%BB%BD%E6%B3%84%E6%BC%8F%E7%9A%84%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97-01-31
+              - button "About this result" [ref=e346] [cursor=pointer]:
+                - img [ref=e349]
+            - generic [ref=e352]:
+              - generic [ref=e353]: Jan 30, 2021 —
+              - generic [ref=e354]:
+                - emphasis [ref=e355]: DNS
+                - text: 泄漏是当前存在的主要隐私威胁，用户可能会感觉匿名网络是安全的，但其实隐私数据已经发生泄漏。如果发生
+                - emphasis [ref=e356]: DNS
+                - text: 泄漏，会出现未经授权的访问，像您的网络服务商 ...
+              - link "Read more" [ref=e357] [cursor=pointer]:
+                - /url: https://telegra.ph/DNS%E6%B3%84%E6%BC%8F2021%E5%B9%B4%E6%9F%A5%E6%89%BE%E5%92%8C%E4%BF%AE%E5%A4%8D%E8%BA%AB%E4%BB%BD%E6%B3%84%E6%BC%8F%E7%9A%84%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97-01-31#:~:text=DNS%E6%B3%84%E6%BC%8F%E6%98%AF%E5%BD%93%E5%89%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E4%B8%BB%E8%A6%81%E9%9A%90%E7%A7%81%E5%A8%81%E8%83%81%EF%BC%8C%E7%94%A8%E6%88%B7%E5%8F%AF%E8%83%BD%E4%BC%9A%E6%84%9F%E8%A7%89%E5%8C%BF%E5%90%8D%E7%BD%91%E7%BB%9C%E6%98%AF%E5%AE%89%E5%85%A8%E7%9A%84%EF%BC%8C%E4%BD%86%E5%85%B6%E5%AE%9E%E9%9A%90%E7%A7%81%E6%95%B0%E6%8D%AE%E5%B7%B2%E7%BB%8F%E5%8F%91%E7%94%9F%E6%B3%84%E6%BC%8F%E3%80%82%E5%A6%82%E6%9E%9C%E5%8F%91%E7%94%9FDNS%E6%B3%84%E6%BC%8F%EF%BC%8C%E4%BC%9A%E5%87%BA%E7%8E%B0%E6%9C%AA%E7%BB%8F%E6%8E%88%E6%9D%83%E7%9A%84%E8%AE%BF%E9%97%AE%EF%BC%8C%E5%83%8F%E6%82%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1%E5%95%86%E6%88%96DNS%E6%9C%8D%E5%8A%A1%E8%BF%90%E8%90%A5%E8%80%85%EF%BC%8C%E9%83%BD%E5%8F%AF%E8%83%BD%E4%BC%9A%E7%9C%8B%E5%88%B0%E6%82%A8%E6%9B%BE%E7%BB%8F%E8%AE%BF%E9%97%AE%E7%9A%84%E7%BD%91%E7%AB%99%E6%88%96%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E3%80%82
+          - generic [ref=e361]:
+            - generic [ref=e364]:
+              - link "SpotX FAQ - Telegraph telegra.ph https://telegra.ph › SpotX-FAQ-09-19" [ref=e366] [cursor=pointer]:
+                - /url: https://telegra.ph/SpotX-FAQ-09-19
+                - heading "SpotX FAQ - Telegraph" [level=3] [ref=e367]
+                - generic [ref=e373]:
+                  - generic [ref=e375]: telegra.ph
+                  - generic [ref=e377]: https://telegra.ph › SpotX-FAQ-09-19
+              - button "About this result" [ref=e378] [cursor=pointer]:
+                - img [ref=e381]
+            - generic [ref=e384]:
+              - generic [ref=e385]: Sep 18, 2022 —
+              - generic [ref=e386]:
+                - text: If you have problems with the patch after upgrading the client version, then use this
+                - emphasis [ref=e387]: tool
+                - text: to revert to a previously working version of Spotify.
+              - link "Read more" [ref=e388] [cursor=pointer]:
+                - /url: https://telegra.ph/SpotX-FAQ-09-19#:~:text=If%20you%20have%20problems%20with,previously%20working%20version%20of%20Spotify.
+            - list [ref=e390]:
+              - listitem [ref=e391]:
+                - link "Spotx Faq" [ref=e392] [cursor=pointer]:
+                  - /url: https://telegra.ph/SpotX-FAQ-09-19#:~:text=SpotX%20FAQ,-I%20have%20a%20bug%20%2F
+                  - generic [ref=e394]: Spotx Faq
+              - listitem [ref=e395]:
+                - link "I Have A Bug / Strange..." [ref=e396] [cursor=pointer]:
+                  - /url: https://telegra.ph/SpotX-FAQ-09-19#:~:text=I%20have%20a%20bug%20%2F%20strange%20client%20behavior%2C%20what%20can%20I%20do%20%3F,-If%20you%20notice%20an%20error
+                  - generic [ref=e398]: I Have A Bug / Strange...
+              - listitem [ref=e399]:
+                - link "2. Hosts File Check" [ref=e400] [cursor=pointer]:
+                  - /url: https://telegra.ph/SpotX-FAQ-09-19#:~:text=2.%20Hosts%20file%20check
+                  - generic [ref=e402]: 2. Hosts File Check
+          - generic [ref=e406]:
+            - generic [ref=e409]:
+              - link "Telegram, GNM, auth_key_id – Telegraph telegra.ph https://telegra.ph › Telegram-GNM-auth-key-id-05-04" [ref=e411] [cursor=pointer]:
+                - /url: https://telegra.ph/Telegram-GNM-auth-key-id-05-04?utm_source=chatgpt.com
+                - heading "Telegram, GNM, auth_key_id – Telegraph" [level=3] [ref=e412]
+                - generic [ref=e418]:
+                  - generic [ref=e420]: telegra.ph
+                  - generic [ref=e422]: https://telegra.ph › Telegram-GNM-auth-key-id-05-04
+              - button "About this result" [ref=e423] [cursor=pointer]:
+                - img [ref=e426]
+            - generic [ref=e429]:
+              - generic [ref=e430]: May 4, 2026 —
+              - generic [ref=e431]:
+                - text: Any observer who can see your auth_key_id can also see your IP address, the server names you connect to, your traffic patterns, your
+                - emphasis [ref=e432]: DNS
+                - text: queries ...
+              - link "Read more" [ref=e433] [cursor=pointer]:
+                - /url: https://telegra.ph/Telegram-GNM-auth-key-id-05-04?utm_source=chatgpt.com#:~:text=Any%20observer%20who%20can%20see,your%20DNS%20queries%2C%20and%20more.
+          - generic [ref=e437]:
+            - generic [ref=e440]:
+              - link "15 Things You Didn't Know About Top Cybersecurity Firms telegra.ph https://telegra.ph › 15-Things-You-Didnt-Know-About-..." [ref=e442] [cursor=pointer]:
+                - /url: https://telegra.ph/15-Things-You-Didnt-Know-About-Top-Cybersecurity-Firms-08-14
+                - heading "15 Things You Didn't Know About Top Cybersecurity Firms" [level=3] [ref=e443]
+                - generic [ref=e449]:
+                  - generic [ref=e451]: telegra.ph
+                  - generic [ref=e453]: https://telegra.ph › 15-Things-You-Didnt-Know-About-...
+              - button "About this result" [ref=e454] [cursor=pointer]:
+                - img [ref=e457]
+            - generic [ref=e460]:
+              - generic [ref=e461]: Aug 14, 2023 —
+              - generic [ref=e462]:
+                - emphasis [ref=e463]: BlueCat offers DNS, DHCP and IPAM solutions
+                - text: to help businesses manage their network infrastructures. These enterprise DDI solutions combine ...
+              - link "Read more" [ref=e464] [cursor=pointer]:
+                - /url: https://telegra.ph/15-Things-You-Didnt-Know-About-Top-Cybersecurity-Firms-08-14#:~:text=BlueCat%20offers%20DNS%2C%20DHCP%20and,and%20rapid%20development%20of%20apps.
+      - generic [ref=e466]:
+        - generic [ref=e471]:
+          - heading "People also search for" [level=2] [ref=e473]
+          - generic [ref=e475]:
+            - link "Dns tools dns tools team free" [ref=e480] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&q=Dns+tools+dns+tools+team+free&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ1QJ6BAg2EAE
+              - generic [ref=e481]:
+                - generic [ref=e486]: Dns tools dns tools team free
+                - img [ref=e490]
+            - link "Dns tools dns tools team 2021" [ref=e496] [cursor=pointer]:
+              - /url: /search?sca_esv=43dc7f1b03b348a4&hl=en&q=Dns+tools+dns+tools+team+2021&sa=X&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ1QJ6BAg3EAE
+              - generic [ref=e497]:
+                - generic [ref=e502]: Dns tools dns tools team 2021
+                - img [ref=e506]
+        - generic [ref=e508]:
+          - heading "Notices about Filtered Results" [level=2] [ref=e509]
+          - generic [ref=e512]:
+            - text: In response to a complaint we received under the
+            - link "US Digital Millennium Copyright Act" [ref=e513] [cursor=pointer]:
+              - /url: https://www.google.com/support/answer/1386831
+            - text: ", we have removed 1 result(s) from this page. If you wish, you may"
+            - link "read the DMCA complaint" [ref=e514] [cursor=pointer]:
+              - /url: https://lumendatabase.org/notices/39032298
+            - text: that caused the removal(s) at LumenDatabase.org.
+        - navigation [ref=e515]:
+          - heading "Page Navigation" [level=1] [ref=e516]
+          - text: "1"
+          - link "Page 2" [ref=e519] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=10&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAH
+            - text: "2"
+          - link "Page 3" [ref=e521] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=20&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAJ
+            - text: "3"
+          - link "Page 4" [ref=e523] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=30&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAL
+            - text: "4"
+          - link "Page 5" [ref=e525] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=40&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAN
+            - text: "5"
+          - link "Page 6" [ref=e527] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=50&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAP
+            - text: "6"
+          - link "Page 7" [ref=e529] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=60&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAR
+            - text: "7"
+          - link "Page 8" [ref=e531] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=70&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAT
+            - text: "8"
+          - link "Page 9" [ref=e533] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=80&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAV
+            - text: "9"
+          - link "Page 10" [ref=e535] [cursor=pointer]:
+            - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=90&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8tMDegQINBAX
+            - text: "10"
+          - heading "Next" [level=2] [ref=e537]:
+            - link "Next" [ref=e538] [cursor=pointer]:
+              - /url: /search?q=site:telegra.ph+dns-tools+DNS+Tools+Team&sca_esv=43dc7f1b03b348a4&hl=en&ei=lMYratbTMdvBruEPjfm6oQE&start=10&sa=N&sstk=AU9db-DwoB_GoVbOSsvKySRg-OZNJculO9EvfKEV5PFkobpzTMXGNh4Tjb5buoGQPhz6U_kQgFts4FRjN-9SnYSFLhm36b6ZWBg-MA&ved=2ahUKEwjW7fC2p4GVAxXboCsGHY28LhQQ8NMDegQINBAZ
+              - generic [ref=e540]: Next
+      - navigation
+    - contentinfo [ref=e541]:
+      - heading "Footer Links" [level=1] [ref=e542]
+      - generic [ref=e546]:
+        - generic [ref=e550]:
+          - button "United States - From your IP address" [ref=e552] [cursor=pointer]:
+            - generic [ref=e553]: United States
+            - generic [ref=e555]:
+              - text: "-"
+              - generic [ref=e556]: From your IP address
+          - text: "-"
+          - button "Update location" [ref=e558] [cursor=pointer]: Update location
+        - generic [ref=e561]:
+          - link "Help" [ref=e562] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1
+          - link "Send feedback" [ref=e563] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e564] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en&fg=1
+          - link "Terms" [ref=e565] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en&fg=1

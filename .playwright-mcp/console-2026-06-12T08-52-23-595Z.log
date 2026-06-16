@@ -1,0 +1,2 @@
+[    1607ms] [ERROR] Access to fetch at 'https://www.bing.com/search?q=site:dns-tools.pages.dev' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[    1609ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.bing.com/search?q=site:dns-tools.pages.dev:0

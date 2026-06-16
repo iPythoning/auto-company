@@ -1,0 +1,50 @@
+- generic [ref=e100]:
+  - generic [ref=e101]: Welcome! - DEV Community
+  - generic [ref=e103]:
+    - generic [ref=e104]:
+      - link "DEV Community" [ref=e105] [cursor=pointer]:
+        - /url: /
+        - img "DEV Community" [ref=e106]
+      - heading "Join the DEV Community" [level=1] [ref=e107]
+      - paragraph [ref=e108]: DEV Community is a community of 3,949,105 amazing developers
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - button "Sign up with Apple" [ref=e112] [cursor=pointer]:
+          - img [ref=e113]
+          - generic [ref=e115]: Sign up with Apple
+        - button "Sign up with Facebook" [ref=e117] [cursor=pointer]:
+          - img [ref=e118]
+          - generic [ref=e121]: Sign up with Facebook
+        - button "Sign up with GitHub" [ref=e123] [cursor=pointer]:
+          - img [ref=e124]
+          - generic [ref=e126]: Sign up with GitHub
+        - button "Sign up with Google" [ref=e128] [cursor=pointer]:
+          - img [ref=e129]
+          - generic [ref=e134]: Sign up with Google
+        - button "Sign up with MyMLH" [ref=e136] [cursor=pointer]:
+          - img [ref=e137]
+          - generic [ref=e166]: Sign up with MyMLH
+        - button "Sign up with Twitter (X)" [ref=e168] [cursor=pointer]:
+          - img [ref=e169]
+          - generic [ref=e171]: Sign up with Twitter (X)
+        - link "Sign up with Email" [ref=e172] [cursor=pointer]:
+          - /url: /users/sign_up?state=email_signup
+          - img [ref=e173]
+          - generic [ref=e175]: Sign up with Email
+      - generic [ref=e176]:
+        - text: By signing up, you are agreeing to our
+        - link "privacy policy" [ref=e177] [cursor=pointer]:
+          - /url: /privacy
+        - text: ","
+        - link "terms of use" [ref=e178] [cursor=pointer]:
+          - /url: /terms
+        - text: and
+        - link "code of conduct" [ref=e179] [cursor=pointer]:
+          - /url: /code-of-conduct
+        - text: .
+      - separator [ref=e180]
+      - generic [ref=e181]:
+        - text: Already have an account?
+        - link "Log in" [ref=e182] [cursor=pointer]:
+          - /url: https://dev.to/enter?signup_subforem=1
+        - text: .

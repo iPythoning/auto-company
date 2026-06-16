@@ -1,0 +1,4 @@
+[    5470ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:telegra.ph+%22DNS+Tools+Team%22:41
+[    5470ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:telegra.ph+%22DNS+Tools+Team%22:41
+[    5673ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=site:telegra.ph+%22DNS+Tools+Team%22:41
+[    5673ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=site:telegra.ph+%22DNS+Tools+Team%22:41
