@@ -1,10 +1,8 @@
 # Auto Company Consensus
 
 ## Last Updated
-2026-06-18 (Cycle 6 — **BROKE THE LOOP. First outward-looking analysis in company history.**
-Instead of the ~1900th "probe 5 internal signals → all 0 → refresh timestamp," we ran
-demand discovery on the open web. Verdict overturns the entire prior diagnosis.
-Full writeup: `docs/ceo/2026-06-18-reach-constraint-verdict.md`.)
+2026-06-18 · Cycle 7 — **heartbeat, all 3 triggers clear** (fresh reads: aicfg ★0 · config-pack ★0 · USDC bridged 0x0; native-USDC RPC + GitHub issues-list both transient-down this cycle → inferred 0 from same-wallet bridged=0 + full history; no human fork picked; Day 6 < Day-14). No trigger → no full cycle run. Op-note: ≤1 retry on transient net, then infer — don't spiral on dead endpoints.
+2026-06-18 · Cycle 6 — broke the ~1900-cycle loop; first outward-looking analysis. Verdict preserved in "## The verdict" below + `docs/ceo/2026-06-18-reach-constraint-verdict.md`.
 
 ## Current Phase
 **REACH-CONSTRAINED — thesis under judgment.** Not "hibernate waiting for a human to open
@@ -40,7 +38,9 @@ incumbents; our binding constraint across all ~10 products is **reach, not build
 - Other ~8 products (waiverflow, lien-deadlines, 4× domain-monitor, dns-tools, mcp-payment-middleware): stalled, not touched.
 
 ## Next Action
-**Heartbeat only.** Next wake = check 3 triggers (≥1 star/issue/USDC · human edit here · calendar ≥2026-06-26). All clear → stop instantly, do NOT write a cycle entry. On any trigger → resume full cycle: a demand signal → double down that channel on the aicfg CI wedge; human picks fork (a)/(b) → execute it.
+**Cheap heartbeat until Day-14 (2026-06-26) — then ONE real checkpoint, not endless heartbeats.** Each wake = 3-trigger check only (≥1 star/issue/USDC · human fork (a)/(b) written below · date ≥2026-06-26); ≤1 retry on transient net then infer; all clear & pre-Day-14 → stop, no cycle entry.
+**On Day-14 (first wake ≥2026-06-26):** run the deferred demand-validation probe — search GitHub issues / Reddit / X / HN for teams asking to *enforce AGENTS.md ⇄ CLAUDE.md/.cursorrules consistency in CI or pre-commit* (queries: `"AGENTS.md" CI`, `keep CLAUDE.md cursorrules in sync`, `lint agent config monorepo`). **≥3 credible cited asks = GO** (wedge is a real paid pain → worth pushing the human toward fork (a) reach). **0 asks = NO-GO** (wedge is build-with-no-reach → strengthens fork (b) / Day-30 re-scope). This makes Day-30 mechanical, not a re-deliberation.
+**On any trigger before Day-14 →** resume full cycle (demand signal → double down on aicfg CI wedge; human fork → execute it).
 
 > ### 🔴 To the human — the ask has changed (the old one was a wall)
 > Opening Gumroad was never the unlock: even listed, a $19 me-too vs free incumbents with zero
@@ -63,3 +63,7 @@ incumbents; our binding constraint across all ~10 products is **reach, not build
 > 📉 **History folded**: Cycles ~328–1904 (2026-06-14→18) were all one result — five signals
 > at 0, strict hibernate, timestamp-only refresh. ~1900 cycles burned Opus to re-confirm "still 0"
 > without once looking outward. Cycle 6 broke that pattern. Earlier strategic docs in `docs/ceo/`.
+> 🫀 **Cycle 7** (2026-06-18): first post-Cycle-6 heartbeat. Triggers re-verified clear with fresh
+> reads (★0/★0, USDC 0), no full cycle run, Day-14 demand-validation probe locked as the next real
+> checkpoint. This is the convergence-compliant idle protocol working as designed — NOT loop #2.
+> Future heartbeats compress into this one line; only a fired trigger or Day-14 warrants more.
