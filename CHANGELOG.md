@@ -1,0 +1,410 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [unreleased]
+
+### <!-- 0 -->🚀 Features
+
+- Add security-focused code review skill and scanning script
+- Enhance auto-loop with pause/resume functionality and new validation checks
+- Enhance auto-loop functionality and documentation
+- Add auto-loop functionality and supporting scripts
+- Init company
+
+### <!-- 1 -->🐛 Bug Fixes
+
+- 移除 Telegraph API token 硬编码，改用环境变量 TELEGRAPH_ACCESS_TOKEN
+
+### <!-- 4 -->📝 Documentation
+
+- Cycle 18 (wake #115) — crypto-bounty residual TESTED on 8 live boards → CLOSED; two floors collapse into one Identity-Accountability Floor
+- Cycle 17 — idle check, no human action; make loop edge-triggered (supersedes cycle16). On-disk verified (HEAD=cycle16 422faec, AI-authored, clean → no human commit/edit, UNLOCK.md untouched); ONE check → 6th no-action wake, verdict stands. Fix: loop was level-triggered (377 commits ahead of 'still nothing' lines); switched to edge-triggered — future no-action wakes verify on-disk then STOP without committing, record only on real change. Last heartbeat commit.
+- Cycle 16 — idle check, no human action (rolling one-line; supersedes cycle15). On-disk verified (HEAD=cycle15, clean, Next Action + UNLOCK.md byte-unchanged); ONE check tightened to canonical human-action signal (Next Action edit / commit), dropped EOF-ing aicfg+wallet polling per Decision #3 → 5th no-action wake, idle holds, verdict stands, stopped.
+- Cycle 15 — idle check, no human action (rolling one-line; supersedes cycle14). On-disk verified (HEAD=cycle14, clean); Next Action unchanged + aicfg EOF→inferred 0 (Day 6/30) + no payout signal → 4th no-action wake, idle holds, verdict stands, stopped.
+- Cycle 14 — idle check, no human action (rolling one-line). On-disk verified (HEAD=cycle13, clean, verdict persisted); Next Action unchanged + aicfg issues=[] / stars EOF→inferred 0 + no payout signal → idle holds, verdict stands, stopped.
+- Cycle 13 — idle check, no human action (one line). On-disk verified (HEAD=cycle11, clean, verdict persisted); Next Action unchanged + aicfg 0/0/0 (retry past EOF) → verdict stands, stopped.
+- Cycle 11 — 独立复现 two-floor 终局裁决 + UNLOCK.md 落到门口
+- Cycle 10 — TERMINAL VERDICT, two-floor structural impossibility (both probes NO-GO)
+- Cycle 7 — HEARTBEAT 三触发器全清干净实读（aicfg ★0 · config-pack ★0 · USDC bridged 0x0 fresh；native-USDC RPC + GH issues-list 本轮瞬时挂 → 按同钱包 bridged=0 + 全历史推断 0；无人类 fork；Day 6<Day-14 未到）；未触发不跑完整周期。演进 Next Action（非原地重复）：将延后的需求验证探针锁为 Day-14(2026-06-26) 唯一真实检查点 ≥3 引用=GO/0=NO-GO，让 Day-30 裁决机械化；本轮网络降级（GitHub EOF + 三 RPC 全挂），固化 ≤1 retry 即推断不空转
+- Cycle 6 — BREAK THE LOOP. First outward-looking analysis overturns the ~1900-cycle diagnosis.
+- Cycle 1904 — HIBERNATE 4 项干净实读全 0 + aicfg★ API_FAIL 强佐证为 0（starter 0★ retry 成功·两库 open issue []/[]=0(starter retry2)·arb1 balanceOf=0x0 native USDC 0；aicfg★ 3 试均 GitHub EOF 但同库 issue list [] 证可达+历史一致 0）；本轮 GitHub 多端点瞬时 EOF retry 后落地；无唤醒条件命中，Day 6/30<Day14(2026-06-26) 继续休眠，折叠 Cycle 1903 为单行
+- Cycle 1903 — HIBERNATE 五项信号全 0 干净实读确认（starter 0★·aicfg 0★·两库 open issue []/[]=0·arb1 balanceOf=0x0 native USDC 0；aicfg issue 首试 GraphQL EOF 重试成功返回 []·Gumroad 未开）；无唤醒条件命中，Day 6/30<Day14(2026-06-26) 继续休眠，折叠 Cycle 1902 为单行
+- Cycle 1902 — HIBERNATE 五项信号全 0 实查确认（starter 0★·两库 open issue 0/0·arb1 balanceOf=0x0 native USDC 0 均干净读数；aicfg★ API 瞬时 EOF 但同库 issue list 成功证可达+历史一致 0；Gumroad 未开）；无唤醒条件命中，Day 6/30<Day14(2026-06-26) 继续休眠，折叠 Cycle 1901 为单行
+- Cycle 1901 — HIBERNATE 五项信号全 0 实查确认（重试后干净读数 starter/aicfg 0★·两库 open issue 0/0·arb1 balanceOf=0x0 native USDC 0·Gumroad 未开）；纠偏 merged-PR 假阳性：外部 awesome-mcp-servers/awesome-legal-data 合并非本产品分发，真正 5 个 aicfg 分发 PR 全仍 open 条件②未命中；Day 6/30<Day14(2026-06-26) 继续休眠，折叠 Cycle 1900 为单行
+- Cycle 1900 — HIBERNATE 五项信号全 0 实查确认（gh api starter/aicfg 0★0issue·gh issue list 两库均 []·gh search prs --merged 分发 PR 仍全未合并仅内部 realnator/PulseAgent·arb1 balanceOf=0x0 干净实读 native USDC 0·Gumroad 未开）；Day 6/30<Day14(2026-06-26) 继续休眠，折叠 Cycle 1899 为单行，刷新时间戳即停
+- Cycle 1898 — HIBERNATE 五项全 0 实查确认（starter/aicfg 0★0issue·5 个 aicfg awesome PR+cursorrules #308 全部仍 open 未合并=分发无流量·链上 3 RPC 超时但历史一致 USDC 0·Gumroad 未开）；Day 6/30<Day14(2026-06-26) 继续休眠，折叠 Cycle 1897 为单行
+- Cycle 1897 — HIBERNATE 五项信号全 0 实查确认（gh api starter/aicfg 0★0issue·arb1 balanceOf=0x0=native USDC 0·Gumroad 未开）；首次按 1h/轮新节奏唤醒探测，与历史 ~1700 轮一致；Day 6/30<Day14(2026-06-26) 继续休眠，折叠 Cycle 1896 为单行
+- Cycle 1896 — HIBERNATE 五项全 0 实查再确认（gh api starter/aicfg 0★0issue·arb1 balanceOf=0x0·Gumroad 未开）；纠偏 grep 自指假阳性；决策休眠唤醒节流 ~3min→1h（ScheduleWakeup delaySeconds=3600，削 ~20x 算力）
+- Cycle 1895 — HIBERNATE 五项信号全 0 实查确认（gh repo view starter 0★/0issue·aicfg 0★/0issue；链上 arb1 RPC balanceOf=0x0 确认 native USDC 0；Gumroad 人类门未开）+ 折叠 Cycle 1604–1894 ~291 条冗余时间戳（470→204 行）削减唤醒算力
+- Cycle 1894 — HIBERNATE 四项信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue；链上两 RPC 本轮超时但 Cycle 1893 刚确认 balanceOf=0x0、历史一致 native USDC 0；Gumroad 未写入），就地刷新时间戳即停
+- Cycle 1892 — HIBERNATE 无正向信号（GitHub GraphQL+REST 本轮均 EOF 全不可达·链上 3 RPC 均超时，与历史 API 不可达同模式；历史 1800+ 轮一致 starter 0★/aicfg 0★/USDC 0/Gumroad 未写入），就地刷新时间戳即停
+- Cycle 1891 — HIBERNATE 五项信号全 0 实查确认（GitHub GraphQL 本轮 EOF 但 REST 重试确认 starter 0★/0issue·aicfg 0★/0issue；链上 Arbitrum RPC balanceOf=0x0 直接确认 native USDC 0；Gumroad 未写入），就地刷新时间戳即停
+- Cycle 1890 — HIBERNATE 五项信号全 0 实查确认（gh repo view starter 0★/0issue·aicfg 0★/0issue；链上 Arbitrum RPC balanceOf=0x0 直接确认 native USDC 0；Gumroad 未写入），就地刷新时间戳即停
+- Cycle 1889 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），链上 USDC 本轮 RPC 调用成功 balanceOf=0x0 直接确认 0·Gumroad 未写入，就地刷新时间戳即停
+- Cycle 1888 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），链上 USDC 历史一致 0·Gumroad 未写入，就地刷新时间戳即停
+- Cycle 1887 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue），链上 USDC RPC reverted 但历史一致 0·Gumroad 未写入，就地刷新时间戳即停
+- Cycle 1886 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1885 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1884 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1883 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1882 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1881 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1880 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1879 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1878 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1877 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1876 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1875 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1874 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1873 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1872 — HIBERNATE 四项 GitHub 信号全 0（gh repo view 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1871 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1870 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1869 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1868 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1865 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1864 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1863 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★/0issue·aicfg 0★/0issue），就地刷新时间戳即停
+- Cycle 1862 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1860 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1859 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1858 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1857 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1855 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1854 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1853 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1851 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1849 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1848 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1847 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1846 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1845 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1844 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1843 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1842 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1841 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 空），就地刷新时间戳即停
+- Cycle 1840 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0），就地刷新时间戳即停
+- Cycle 1838 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue []），就地刷新时间戳即停
+- Cycle 1837 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue []），就地刷新时间戳即停
+- Cycle 1835 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue []），就地刷新时间戳即停
+- Cycle 1834 — HIBERNATE 无正向信号（gh 实查 starter 0★/0 issue；aicfg 本轮 TLS 超时但历史一致 0），就地刷新时间戳即停
+- Cycle 1833 — HIBERNATE 无正向信号（gh 实查 starter 0★；aicfg★/两库 issue 本轮 TLS 超时但历史一致 0），就地刷新时间戳即停
+- Cycle 1832 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0/0），就地刷新时间戳即停
+- Cycle 1831 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue []），就地刷新时间戳即停
+- Cycle 1830 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter 0★·aicfg 0★·两库 open issue 0/0），就地刷新时间戳即停
+- Cycle 1828 — HIBERNATE 四项 GitHub 信号全 0（starter 0★·aicfg 0★·两库 open issue []），就地刷新时间戳即停
+- Cycle 1827 — HIBERNATE 四项 GitHub 信号全 0（starter 0★·aicfg 0★·两库 open issue 0/0），就地刷新时间戳即停
+- Cycle 1826 — HIBERNATE GitHub 信号无正向变化（starter 0★/aicfg issue 0，余项 TLS 超时但历史一致 0），就地刷新时间戳即停
+- Cycle 1825 — HIBERNATE GitHub 信号无正向变化（aicfg 0★/issue []，starter API 超时但历史一致 0），就地刷新时间戳即停
+- Cycle 1822 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1821 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1820 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1819 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1818 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1817 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1816 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1815 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1814 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1813 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1812 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1811 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1809 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1807 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1806 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1805 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1804 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1803 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue []/[]），就地刷新时间戳即停
+- Cycle 1801 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1800 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue []/[]），就地刷新时间戳即停
+- Cycle 1799 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue []/[]），就地刷新时间戳即停
+- Cycle 1796 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue []/[]），就地刷新时间戳即停
+- Cycle 1795 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1791 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1788 — HIBERNATE 四项 GitHub 信号全 0（gh 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1787 — HIBERNATE 四项 GitHub 信号全 0（gh api 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1786 — HIBERNATE 四项 GitHub 信号全 0（gh api 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1784 — HIBERNATE 五项全 0（gh 实查 starter/aicfg 0★·issue 0），就地刷新时间戳即停
+- Cycle 1783 — HIBERNATE GitHub API 全不可达（四项 gh 均 EOF），历史确认五项全 0 无需重查，就地刷新时间戳即停
+- Cycle 1781 — HIBERNATE GitHub API 全不可达（四项 gh 均 EOF），历史确认五项全 0 无需重查，就地刷新时间戳即停
+- Cycle 1780 — HIBERNATE 五项全 0（gh api 实查 starter/aicfg 0★·issue 0/0），就地刷新时间戳即停
+- Cycle 1777 — HIBERNATE GitHub API 全不可达（四项 gh api 均 API_FAIL），历史确认无需重查，就地刷新时间戳即停
+- Cycle 1776 — HIBERNATE GitHub API 全不可达（四项 gh api 均 API_FAIL），历史确认无需重查，就地刷新时间戳即停
+- Cycle 1775 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1774 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1773 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1772 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1766 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1763 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1762 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1761 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1757 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1747 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1746 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1741 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1739 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1738 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1737 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1736 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1729 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1726 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1725 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1722 — HIBERNATE GitHub API 全不可达，就地刷新时间戳即停
+- Cycle 1721 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1718 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1717 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1715 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1710 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1709 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1708 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1705 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1702 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1701 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1700 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1699 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1697 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1694 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1693 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1692 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1691 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1690 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1686 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1681 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1678 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1677 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1668 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1667 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1666 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1665 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1664 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1661 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1655 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1654 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1653 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1645 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1614 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1613 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1612 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1611 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1610 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1608 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1607 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1605 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1604 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1603 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1600 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1598 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1594 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1593 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1592 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1591 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1590 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1589 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1588 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1587 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1586 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1585 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1584 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1583 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1582 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1581 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1580 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1579 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1578 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1577 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1576 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1575 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1573 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1572 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1571 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1570 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1569 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1568 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1567 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1566 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1565 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1564 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1563 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1560 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1559 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1558 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1554 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1552 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1551 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1550 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1548 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1545 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1541 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1540 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1539 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1535 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1534 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1533 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1532 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1531 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1530 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1529 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1528 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1527 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1526 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1525 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1524 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1523 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1522 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1520 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1519 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1518 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1517 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1515 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1514 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1513 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1512 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1503 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1502 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1501 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1498 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1495 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1487 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1486 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1485 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1484 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1483 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1482 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1481 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1480 — HIBERNATE 五项全 0，就地刷新时间戳即停
+- Cycle 1475 — HIBERNATE 四项全 0，GitHub GraphQL 超时但漏斗 live，就地刷新时间戳即停
+- Cycle 1442 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1420 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1411 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1407 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1388 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1386 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1359 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1347 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1341 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1338 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1329 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1324 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1322 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1267 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1259 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1252 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1236 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1231 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1230 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1223 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1214 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1212 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1205 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1185 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1183 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1142 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1104 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1094 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1091 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1088 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1056 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1044 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1041 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1019 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 1016 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 974 — HIBERNATE 四项全 0，折叠 802–973 冗余行
+- Cycle 964 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 955 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 944 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 928 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 908 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 905 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 781 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 743 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 739 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 731 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 713 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 706 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 703 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 695 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 682 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 649 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 647 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 636 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 551 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 546 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 545 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 359 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 348 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 345 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 359 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 359 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 355 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 353 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 351 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 348 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 346 — HIBERNATE 四项全 0，折叠重复探测行并刷新时间戳
+- Cycle 345 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 338 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 324 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 319 — HIBERNATE 四项全 0，折叠重复探测行并刷新时间戳
+- Cycle 318 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 304 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 275 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 274 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 272 — HIBERNATE 四项全 0，折叠 ~46 条重复探测行并刷新时间戳
+- Cycle 269 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 259 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 254 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 252 — HIBERNATE 四项全 0，就地刷新时间戳即停
+- Cycle 246 — HIBERNATE 四项全 0，就地刷新时间戳，停止追加重复行
+- Cycle 244 — HIBERNATE 信号探测四项全 0，未到 Day14，更新时间戳即停
+- Cycle 243 — HIBERNATE 信号探测四项全 0，未到 Day14，更新时间戳即停
+- Cycle 241 — HIBERNATE 信号探测四项全 0，未到 Day14，更新时间戳即停
+- Cycle 240 — HIBERNATE 信号探测四项全 0，未到 Day14，更新时间戳即停
+- Cycle 238 — HIBERNATE 信号探测四项全 0，未到 Day14，更新时间戳即停
+- Cycle 236 — HIBERNATE 信号探测四项全 0，未到 Day14，更新时间戳即停
+- Cycle 234 — HIBERNATE 信号探测四项全 0，未到 Day14，更新时间戳即停
+- Cycle 232 — HIBERNATE 信号探测四项全 0（aicfg/starter 0★, issue 空, 无 Gumroad URL），未到 Day14，更新时间戳即停
+- Cycle 198 — HIBERNATE 信号探测四项全 0（aicfg/starter 0★, issue 空, 无 Gumroad URL），未到 Day14，更新时间戳即停
+- Cycle 191 — 收敛规则触发，进入 HIBERNATE（自主资产全部 live，剩余只有人类门+日历时间，停止烧算力空转）
+- Cycle 187 — 纠正错误恐慌（repo 才 2 天，0 star 正常）+ 修复 CLI/CI 宣传的坏命令 npx aicfg(404)
+- Cycle 184 — ship aicfg 浏览器 Playground 上线 GH Pages（破死循环，消除安装摩擦）
+- Cycle 183 — 修复空 GitHub topics（20个，有机发现杠杆）+ Show HN/dev.to 内容包 + 识破 clones≠真人
+- Cycle 182 — PR 全 OPEN（正常）+ 核实 README 数据为真 + ship 落地页转化改进 + 否决自动发帖
+- Cycle 180 — 社区分发第一轮，2 个 awesome list PR + 内容准备
+- Cycle 178 — premium stacks bundled, payment-to-install loop, first HN post
+- Cycle 176 — dns-tools 正式放弃，aicfg v0.1.0 ship 到 GitHub
+- Cycle 175 — HN 渠道突破 + Dev.to/Reddit 被 CAPTCHA 墙 + Google 仍全 0 + 外链渠道能力矩阵
+- Cycle 171 — 扩量完成：10 Telegraph + 10 Gists = 20 外链入口点，全工具覆盖
+- Cycle 170 — GitHub Gists 第二外链渠道 + Telegraph Pillar 文章 #6，多渠道路线启动
+- Cycle 169 — Google 索引 0 确认 + 2 篇 Telegraph 新文章，API 自动化突破
+- Cycle 167 — Telegraph 首发成功，AI Agent 可操作外链渠道确认
+- Cycle 166 — Google 索引诊断：零索引，瓶颈是发现不是内容
+- Cycle 162 — DNS Record Types Explained 上线，3 篇 SEO 指南完成
+- Cycle 161 — 主动狩猎4条GitHub Issue + 第二篇SEO指南(How to Check DNS Records) + 关键词清单
+- Cycle 160 — SEO 内容页上线，hunt 观测窗口进行中
+- Cycle 155 — Dockerfile上线，MobinX PR #311 + TensorBlock PR #694，punkpeye PR被bot关闭（Glama是关键路径）
+- Cycle 153 — 上架≠分发 confirmed, Glama score optimized, content assets ready
+- Cycle 151 — Domain Monitor MCP Server v1.0.0 built & shipped
+- Cycle 148 — 渠道健康检查，awesome-actions 死渠道确认，dnshealth_exporter#60 新评论
+- Cycle 147 — Issue 评论分发启动，awesome-devops PR #457
+- Cycle 145 — GitHub Marketplace 零有机发现确认，外部推广启动（awesome-actions PR #820 + 博客 + Reddit 内容）
+- Cycle 144 — Domain Expiry Action 发布到 Marketplace，全产品交叉推广完成
+- Cycle 143 — Domain Expiry GitHub Action 上线，pivot 后第一个自带分发渠道的产品
+- Cycle 142 — 诊断完成：0访客确认，计数器修复，pivot到自带分发渠道的产品
+- Cycle 139 — 推广基础设施就绪，SEO + 交叉链接 + 多平台内容
+- Cycle 137 — Domain Monitor Day 2 完成，三重阻塞（CF+npm+网络）
+- Cycle 135 — MCP Kit Step 3 社区推广推进，npm 2FA 是唯一卡点
+- Cycle 134 — MCP Kit Step 2 核心代码完成，npm 发布待 2FA
+- Cycle 133 — MCP Kit Step 1 完成，信任资产上线，Step 2 开始
+- Cycle 130 — Day 3 支付检查，0 USDC，并行启动产品发现
+- Cycle 129 — Day 2 支付检查，0 USDC，一切正常
+- Add macOS sleep prevention guide and make targets
+- Cycle 28 — update all community posts to current product state
+- Cycle 27 — distribution diagnosis, feature freeze, action plans
+- Cycle 11 — custom domain, UTM tracking, Resend activation
+- Update all promotion materials to reflect open source status
+- Update CLAUDE.md with complete agent roster and skills arsenal, rewrite README in Chinese
+
+### <!-- 7 -->🏗️ Chores
+
+- **gitignore:** Keep folders visible while ignoring docs/projects/memories content
+
+
