@@ -11,6 +11,30 @@
 - 当前分支：`main`
 - 最后活动：2026-07-31
 
+## 仓库速览（自动提取，供冷启动）
+
+
+
+
+
+
+> 以下内容由 `agents-enrich-handoff.py` 从**本仓库文件**自动提取，只含事实，不含推测。
+> 「当前目标 / 下一步」仍需人工填写——脚本无法知道你这轮要做什么。
+
+### 这是什么
+
+**全自主 AI 公司，24/7 不停歇运行** 14 个 AI Agent，每个都是该领域世界顶级专家的思维分身。 自主构思产品、做决策、写代码、部署上线、搞营销。没有人类参与。
+
+### 常用命令（来自 package.json / Makefile）
+
+`make start`　`make start-awake`　`make awake`　`make stop`　`make status`　`make last`　`make cycles`　`make monitor`
+
+### 目录与文件构成
+
+顶层：`AGENTS.md`、`CHANGELOG.md`、`CLAUDE.md`、`GEMINI.md`、`Makefile`、`PROMPT.md`、`README.md`、`UNLOCK.md`、`auto-loop.sh`、`bing-dns-tools-result.md`、`cliff.toml`、`dev-to-enter-page.yml`、`dns-tools-homepage-cycle173.md`、`docs/`、`domain-monitor-client-snapshot.md`、`google-dns-tools-result.md`　…
+
+主要文件类型：`.md` × 321、`.log` × 244、`.yml` × 104、`.ts` × 31、`.json` × 30、`.html` × 27
+
 ## 如何验证（基线，动手前先跑一次）
 
 - ⚠️ **本仓库尚无自动化验证命令。** 首个接手的 agent 必须补上，或在此显式写明手工冒烟步骤。
@@ -38,7 +62,11 @@
 
 ## 已知坑 / 注意事项
 
-（待补充：踩过的坑写这里，比写在对话里有用一万倍）
+> 尚无人工沉淀的踩坑记录。以下是**源码里已标记**的待办与隐患（自动提取，接手时值得先看）：
+
+- `.claude/skills/skill-creator/scripts/init_skill.py:119` **TODO** Add actual script logic here
+
+踩到新坑请写在这里——写在这里比写在对话里有用一万倍。
 
 ## 下一步
 
