@@ -232,3 +232,7 @@ Terminal 里能用的工具**都可以用**。放手去干，唯一底线是安�
 - 具体可执行，不说废话
 - 分歧摆论据，CEO 拍板
 - 每次讨论必有 Next Action
+
+
+---
+> 🤝 跨 agent 交接协议：本仓库权威守则为 **AGENTS.md**，任务状态见 **docs/HANDOFF.md**。本文件与 AGENTS.md 冲突时以 AGENTS.md 为准。
