@@ -5,7 +5,7 @@
 
 ## 项目速览
 
-- 路径：`./04-tools-experiments/auto-company`
+- 路径：`~/_projects_by_logic/04-tools-experiments/auto-company`
 - 技术栈：Node.js
 - 远程：https://github.com/nicepkg/auto-company.git
 - 当前分支：`main`
